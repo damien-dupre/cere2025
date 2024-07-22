@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CERE 2025: Consortium of European Research on Emotion"
+  navbar:
+    title: false
+  page-footer:
+    background: "#575657"
+    center:
+      - href: https://www.isre.org/mpage/cere
+        icon: globe
+      - href: https://x.com/CERE_Emotion
+        icon: twitter-x
+      
+format:
+  html:
+    theme: [cerulean, assets/custom.scss]
+    mainfont: Montserrat
+    css: assets/styles.css
+    smooth-scroll: true
+    toc: false
+#https://ellakaye.co.uk/posts/2023-04-11_animated-logo/
+#https://github.com/quarto-dev/quarto-cli/issues/8900 https://blenback.github.io/
+#https://nrennie.rbind.io
+#https://www.andrewheiss.com/

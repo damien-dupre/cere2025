@@ -4,11 +4,49 @@
 @import 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Oswald:wght@300;400;500&display=swap';
 
 // Headings
-$headings-color: #E30613 !default;
+$headings-color: #E84E0F !default;
 
 // Text colour
-$body-color: #575657 !default;
+$body-color: #2A2E46 !default;
+$body-bg: #eeeeee !default;
 
 // Navbar
-$navbar-bg: #575657 !default;
+$navbar-bg: #2A2E46  !default;
+$navbar-fg: #eeeeee !default;
 
+// hover on navbar
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #E84E0F;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #eeeeee;
+}
+
+// animated underline on hover, when navbar shows as row
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #E84E0F;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.3s;
+  }
+
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 90%;
+  }
+
+}

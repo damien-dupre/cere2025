@@ -1,6 +1,12 @@
 ---
-title: 2025 Consortium of European Research on Emotion 
+format: html
 ---
+
+::: {.column-screen style="text-align: center;"}
+# 10th Consortium of European Research on Emotion <br> #CERE2025
+
+![](images/grenobleCERE2025.png)
+:::
 
 ## About the Conference
 

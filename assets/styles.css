@@ -12,3 +12,8 @@ max-height: 75px !important;
 width: 150px !important;
 padding-right: 4px;
 }
+
+.navbar-title:hover > .icon-line {
+  animation-duration: 600ms;
+  animation-name: line-expand;
+}

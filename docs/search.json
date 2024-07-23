@@ -1,16 +1,37 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "2025 Consortium of European Research on Emotion",
-    "section": "",
-    "text": "We are thrilled to announce that the 2025 Consortium of European Research on Emotion (CERE) will be held in-person from July 16 to 18 in the beautiful city of Grenoble, France!\nJoin us at the main campus of Université Grenoble Alpes for CERE2025, an unparalleled opportunity to connect with international colleagues, showcase your research, and engage with cutting-edge developments in emotion research. Explore a diverse array of disciplines, including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology, and sociology.\nDon’t miss this chance to immerse yourself in the vibrant academic community and stunning surroundings of Grenoble. Mark your calendars and prepare for an inspiring conference experience!"
-  },
-  {
     "objectID": "index.html#about-the-conference",
     "href": "index.html#about-the-conference",
-    "title": "2025 Consortium of European Research on Emotion",
+    "title": "10th Consortium of European Research on Emotion  #CERE2025",
+    "section": "About the Conference",
+    "text": "About the Conference\nWe are thrilled to announce that the 2025 Consortium of European Research on Emotion (CERE) will be held in-person from July 16 to 18 in the beautiful city of Grenoble, France!\nJoin us at the main campus of Université Grenoble Alpes for CERE2025, an unparalleled opportunity to connect with international colleagues, showcase your research, and engage with cutting-edge developments in emotion research. Explore a diverse array of disciplines, including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology, and sociology.\nDon’t miss this chance to immerse yourself in the vibrant academic community and stunning surroundings of Grenoble. Mark your calendars and prepare for an inspiring conference experience!"
+  },
+  {
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": "Organisation",
     "section": "",
-    "text": "We are thrilled to announce that the 2025 Consortium of European Research on Emotion (CERE) will be held in-person from July 16 to 18 in the beautiful city of Grenoble, France!\nJoin us at the main campus of Université Grenoble Alpes for CERE2025, an unparalleled opportunity to connect with international colleagues, showcase your research, and engage with cutting-edge developments in emotion research. Explore a diverse array of disciplines, including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology, and sociology.\nDon’t miss this chance to immerse yourself in the vibrant academic community and stunning surroundings of Grenoble. Mark your calendars and prepare for an inspiring conference experience!"
+    "text": "Anna Tcherkassof, Université Grenoble Alpes\nMartin Krippl, Otto-von-Guericke-Universität Magdeburg"
+  },
+  {
+    "objectID": "people/index.html#conference-chairs",
+    "href": "people/index.html#conference-chairs",
+    "title": "Organisation",
+    "section": "",
+    "text": "Anna Tcherkassof, Université Grenoble Alpes\nMartin Krippl, Otto-von-Guericke-Universität Magdeburg"
+  },
+  {
+    "objectID": "people/index.html#local-chair",
+    "href": "people/index.html#local-chair",
+    "title": "Organisation",
+    "section": "Local Chair",
+    "text": "Local Chair\n\nElora Perret-Depiaz, Université Grenoble Alpes"
+  },
+  {
+    "objectID": "people/index.html#website",
+    "href": "people/index.html#website",
+    "title": "Organisation",
+    "section": "Website",
+    "text": "Website\n\nDamien Dupré, Dublin City University"
   }
 ]

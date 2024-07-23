@@ -6,8 +6,15 @@ website:
   title: "CERE 2025: Consortium of European Research on Emotion"
   navbar:
     title: false
+    logo: "images/logoCERE2025.png"
+    left:
+      - text: "Organisation"
+        href: people/index.qmd
+      - text: "Program"
+        href: program/index.qmd
   page-footer:
-    background: "#575657"
+    background: "#2A2E46"
+    left: "![](https://www.univ-grenoble-alpes.fr/uas/SITEUI/UGA_LOGO_PAGE_INTERIEURE/logo_epe_blanc_sans_marges.svg){width=150px}"
     center:
       - href: https://www.isre.org/mpage/cere
         icon: globe
@@ -21,7 +28,3 @@ format:
     css: assets/styles.css
     smooth-scroll: true
     toc: false
-#https://ellakaye.co.uk/posts/2023-04-11_animated-logo/
-#https://github.com/quarto-dev/quarto-cli/issues/8900 https://blenback.github.io/
-#https://nrennie.rbind.io
-#https://www.andrewheiss.com/

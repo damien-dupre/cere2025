@@ -14,11 +14,18 @@ website:
   navbar:
     title: false
     logo: "images/logoCERE2025.png"
-    left:
+    right:
       - text: "Organisation"
         href: people/index.qmd
       - text: "Program"
         href: program/index.qmd
+      - text: "Keynotes"
+      - text: "Submission"
+      - text: "Attend"
+        menu: 
+          - text: "Registration"
+          - text: "Venue"
+          - text: "Accommodation"
   page-footer:
     background: "#2A2E46"
     left: "![](https://www.univ-grenoble-alpes.fr/uas/SITEUI/UGA_LOGO_PAGE_INTERIEURE/logo_epe_blanc_sans_marges.svg){width=150px}"

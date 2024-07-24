@@ -1,16 +1,105 @@
 ---
-title: Organisation
+pagetitle: CERE2025 - Organisation
+engine: knitr
 ---
 
-## Conference Chairs
+```{css, echo=FALSE}
+.center h2 {
+  text-align: center;
+}
 
-- Anna Tcherkassof, Université Grenoble Alpes
-- Martin Krippl, Otto-von-Guericke-Universität Magdeburg
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 230px);
+  justify-content: center;
+  grid-gap: 1rem;
+  grid-auto-rows: 230px;
+}
 
-## Local Chair
+.hover_esp_team {
+  color: white;
+  bottom: 0; 
+  position: fixed;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #E84E0F;
+}
 
-- Elora Perret-Depiaz, Université Grenoble Alpes
+.inline-photo {
+  box-shadow: .5em .5em 1em .1em #2A2E46;
+  transform: translateY(4em); //rotateZ(-5deg);
+}
 
-## Website
+.user-container #generic.card_team {
+  background: url("../images/generic.png") no-repeat;
+  background-size: 230px 230px; /* 480 × 480 */
+  background-position: center;
+}
 
-- Damien Dupré, Dublin City University
+.user-container #anna_tcherkassof.card_team {
+  background: url("../images/anna_tcherkassof.jpg") no-repeat;
+  background-size: 230px 230px; /* 238 × 238 */
+  background-position: center;
+}
+
+.user-container #martin_krippl.card_team {
+  background: url("../images/martin_krippl.jpg") no-repeat;
+  background-size: 230px 230px; /* 203 × 203 */
+  background-position: center;
+}
+
+.user-container #damien_dupre.card_team {
+  background: url("../images/damien_dupre.png") no-repeat;
+  background-size: 230px 230px; /* 300 × 300 */
+  background-position: center;
+}
+
+#container {
+  margin-top: -80px;
+}	
+   
+```
+
+## Conference Chairs {.center}
+
+```{=HTML}
+<section id="container">
+    <div class="user-container">
+        <div id="anna_tcherkassof" class="card_team inline-photo" onclick="window.open('https://www.lippc2s.fr/archives/person/anna-tcherkassof/','mywindow');" style="cursor: pointer;">
+        <div class="hover_esp_team">Anna Tcherkassof</div>
+        </div>
+        <div id="martin_krippl" class="card_team inline-photo" onclick="window.open('https://www.ipsy.ovgu.de/ipsy/en/Departments/Methods+II_+Evaluation+and+Diagnostics/Team+Members/Krippl.html','mywindow');" style="cursor: pointer;">
+        <div class="hover_esp_team">Martin<br>Krippl</div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+```
+
+## Local Chair {.center}
+
+```{=HTML}
+<section id="container">
+    <div class="user-container">
+        <div id="generic" class="card_team inline-photo">
+        <div class="hover_esp_team">Elora Perret-Depiaz</div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+```
+
+## Website {.center}
+
+```{=HTML}
+<section id="container">
+    <div class="user-container">
+        <div id="damien_dupre" class="card_team inline-photo" onclick="window.open('https://business.dcu.ie/staff/dr-damien-dupre/','mywindow');" style="cursor: pointer;">
+        <div class="hover_esp_team">Damien Dupré</div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+```

@@ -3,7 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "CERE 2025: Consortium of European Research on Emotion"
+  title: "CERE2025 - Consortium of European Research on Emotion"
+  search: false
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Important** - Submission system opens on December 1, 2024"
+    type: info
+    position: below-navbar
   navbar:
     title: false
     logo: "images/logoCERE2025.png"

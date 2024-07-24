@@ -1,9 +1,9 @@
 ---
-format: html
+pagetitle: CERE2025 - 10th Consortium of European Research on Emotion
 ---
 
 ::: {.column-screen style="text-align: center;"}
-# 10th Consortium of European Research on Emotion <br> #CERE2025
+# #CERE2025<br>10th Consortium of European Research on Emotion
 
 ![](images/grenobleCERE2025.png)
 :::
@@ -20,7 +20,7 @@ Don't miss this chance to immerse yourself in the vibrant academic community and
 
 - Submission system opens: December 1, 2024
 - Submission deadline: February 1, 2025
-- Main conference: July 16 - 18, 2025
+- Main conference: July 16-18, 2025
 
 ## Contact Us
 

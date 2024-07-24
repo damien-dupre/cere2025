@@ -15,7 +15,11 @@ website:
   page-footer:
     background: "#2A2E46"
     left: "![](https://www.univ-grenoble-alpes.fr/uas/SITEUI/UGA_LOGO_PAGE_INTERIEURE/logo_epe_blanc_sans_marges.svg){width=150px}"
-    center:
+    center: |
+      #CERE2025<br>
+      10th Consortium of European Research on Emotion<br>
+      Université Grenoble Alpes, July 16-18, 2025
+    right:
       - href: https://www.isre.org/mpage/cere
         icon: globe
       - href: https://x.com/CERE_Emotion

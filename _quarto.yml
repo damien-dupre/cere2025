@@ -46,3 +46,6 @@ format:
     css: assets/styles.css
     smooth-scroll: true
     toc: false
+    
+resources:
+  - CNAME

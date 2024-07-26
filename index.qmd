@@ -1,5 +1,5 @@
 ---
-pagetitle: CERE2025 - 10th Consortium of European Research on Emotion
+pagetitle: Home
 ---
 
 ::: {.column-screen style="text-align: center;"}

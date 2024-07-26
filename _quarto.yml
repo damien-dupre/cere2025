@@ -42,7 +42,6 @@ website:
     center: |
       #CERE2025<br>
       Université Grenoble Alpes, July 16-18, 2025<br>
-      *Last Modified: {{< meta date >}}*
     right:
       - href: https://www.isre.org/mpage/cere
         icon: globe
@@ -58,5 +57,3 @@ format:
     toc: false
     
 resources: CNAME
-
-date: last-modified

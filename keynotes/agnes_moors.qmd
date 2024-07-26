@@ -1,6 +1,8 @@
 ---
-title: "Prof. Agnes Moors"
+pagetitle: Keynotes
 ---
+
+# Prof. Agnes Moors
 
 ## Bio
 

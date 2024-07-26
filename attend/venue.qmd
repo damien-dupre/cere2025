@@ -1,5 +1,5 @@
 ---
-pagetitle: CERE2025 - Venue
+pagetitle: Venue
 ---
 
 ## Université Grenoble Alpes

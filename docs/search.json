@@ -1,66 +1,52 @@
 [
   {
-    "objectID": "attend/venue.html",
-    "href": "attend/venue.html",
+    "objectID": "submission/index.html",
+    "href": "submission/index.html",
+    "title": "Submission Guidelines",
+    "section": "",
+    "text": "If you would like to present your research at #CERE2025, submissions will be accepted for two categories:\nThe program committee will make the final determination on the presentation format of abstracts for oral or poster presentation. If your submission for a symposium is accepted, you will give an oral presentation."
+  },
+  {
+    "objectID": "submission/index.html#abstract-submission-guidelines",
+    "href": "submission/index.html#abstract-submission-guidelines",
+    "title": "Submission Guidelines",
+    "section": "Abstract submission guidelines",
+    "text": "Abstract submission guidelines\nThe first author should submit abstracts. Abstracts must include the name, email address, and affiliation of all co-authors. They must also have a title no longer than 15 words, and an abstract no longer than 250 words. The abstract should be anonymized in order to avoid revealing either the authors’ identities or institutions.\nAccepted abstracts will be published in the conference program. Abstracts that are accepted for oral presentation will be allocated 15 minutes for presentation plus three minutes for questions. Posters will be assigned to dedicated sessions and will stay up for one day."
+  },
+  {
+    "objectID": "submission/index.html#symposium-submission-guidelines",
+    "href": "submission/index.html#symposium-submission-guidelines",
+    "title": "Submission Guidelines",
+    "section": "Symposium submission guidelines",
+    "text": "Symposium submission guidelines\nSymposium sessions consist of a number of presenters discussing a common topic or theme in a manner that brings new insights to the subject. Submissions are welcome from scholars in all relevant disciplines for symposia of up to four talks and one discussant or five talks without a discussant. Submissions that include multiple disciplines are particularly encouraged in order to facilitate cross-disciplinary exchange. Each presenter in a symposium will be allocated 15 minutes plus three minutes for questions. Symposia presentations can involve co-authors, who will be listed in the printed program.\nIn order to propose a symposium, the lead proposer will need the name and affiliation of the symposium presenters, co-authors, and discussant, if one is used. They will also need a symposium abstract no longer than 250 words explaining why the talks should be linked, and each presenter’s abstract, which should be a maximum of 250 words. An individual can present only once at the conference as first-author but can be a co-author or discussant on multiple submissions.\nIf you have any questions, please contact us at CERE2025@univ-grenoble-alpes.fr."
+  },
+  {
+    "objectID": "submission/index.html#SubmissionKeywords",
+    "href": "submission/index.html#SubmissionKeywords",
+    "title": "Submission Guidelines",
+    "section": "Submission Keywords",
+    "text": "Submission Keywords\nIn order to facilitate the review process, please indicate the topic of your submission using one or more of the keywords below. They will be used to match your submission to potential reviewers.\n\nList of Keywords\n\n\nKeywords\n\n\n\n\nAffective computing\n\n\nAffective dynamics\n\n\nAging\n\n\nAnimal/Comparative\n\n\nAnthropology\n\n\nCognition\n\n\nChild and adolescent development\n\n\nClinical/Psychopathology\n\n\nCommunication/Mass media\n\n\nCulture\n\n\nDecision-making/Consumer choice\n\n\nEmbodiment\n\n\nEmotion Regulation\n\n\nEmotion theory\n\n\nEmpathy (interpersonal)\n\n\nEvolutionary\n\n\nHistory\n\n\nLaw\n\n\nLearning/Education\n\n\nMorality\n\n\nNeuroscience\n\n\nNonverbal expression/communication\n\n\nPersonality/Individual differences\n\n\nPhilosophy\n\n\nPositive emotion\n\n\nPsychophysiology\n\n\nQuestionnaire Development\n\n\nResearch Methods\n\n\nSociology\n\n\nSocial Networks\n\n\nSpecific Emotions\n\n\nWork"
+  },
+  {
+    "objectID": "people/index.html#conference-chairs",
+    "href": "people/index.html#conference-chairs",
     "title": "CERE2025 - Consortium of European Research on Emotion",
-    "section": "",
-    "text": "Located in the heart of a remarkable environment with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d’Hères, is recognized as one of the most beautiful in France, with its 3,000 trees, cultural and sports facilities and unique architecture."
+    "section": "Conference Chairs",
+    "text": "Conference Chairs\n\n    \n        \n        Anna Tcherkassof\n        \n        \n        MartinKrippl"
   },
   {
-    "objectID": "attend/venue.html#université-grenoble-alpes",
-    "href": "attend/venue.html#université-grenoble-alpes",
+    "objectID": "people/index.html#local-chair",
+    "href": "people/index.html#local-chair",
     "title": "CERE2025 - Consortium of European Research on Emotion",
-    "section": "",
-    "text": "Located in the heart of a remarkable environment with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d’Hères, is recognized as one of the most beautiful in France, with its 3,000 trees, cultural and sports facilities and unique architecture."
+    "section": "Local Chair",
+    "text": "Local Chair\n\n    \n        \n        Elora Perret-Depiaz"
   },
   {
-    "objectID": "attend/venue.html#getting-there",
-    "href": "attend/venue.html#getting-there",
+    "objectID": "people/index.html#website",
+    "href": "people/index.html#website",
     "title": "CERE2025 - Consortium of European Research on Emotion",
-    "section": "Getting there",
-    "text": "Getting there\nThree international airports are located less than 90 minutes from Grenoble: Lyon Saint-Exupéry, Grenoble Alpes Isère and Geneva. In total, more than 200 direct destinations are accessible.\nWith up to 10 direct Grenoble-Paris round trips by high-speed TGV train, and with the Lyon Part-Dieu hub 1hr15mins away, the rail offer from Grenoble is also very attractive. Ideally located in the city centre, Grenoble railway station is perfectly connected to the city’s bus and tram network.\nFinally, the Auvergne-Rhône-Alpes motorway network is the most densely populated area after Île-de-France. Thanks to the A41, A48, A49 and A51 motorways, Grenoble is easily connected to Lyon, the Rhone Valley, Switzerland and Italy."
-  },
-  {
-    "objectID": "keynotes/speaker_two.html",
-    "href": "keynotes/speaker_two.html",
-    "title": "Speaker Two",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
-  },
-  {
-    "objectID": "keynotes/speaker_two.html#bio",
-    "href": "keynotes/speaker_two.html#bio",
-    "title": "Speaker Two",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
-  },
-  {
-    "objectID": "keynotes/agnes_moors.html",
-    "href": "keynotes/agnes_moors.html",
-    "title": "Prof. Agnes Moors",
-    "section": "",
-    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods.\nSource: https://ppw.kuleuven.be/cscp/people/00012693"
-  },
-  {
-    "objectID": "keynotes/agnes_moors.html#bio",
-    "href": "keynotes/agnes_moors.html#bio",
-    "title": "Prof. Agnes Moors",
-    "section": "",
-    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods.\nSource: https://ppw.kuleuven.be/cscp/people/00012693"
-  },
-  {
-    "objectID": "keynotes/speaker_three.html",
-    "href": "keynotes/speaker_three.html",
-    "title": "Speaker Three",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
-  },
-  {
-    "objectID": "keynotes/speaker_three.html#bio",
-    "href": "keynotes/speaker_three.html#bio",
-    "title": "Speaker Three",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
+    "section": "Website",
+    "text": "Website\n\n    \n        \n        Damien Dupré"
   },
   {
     "objectID": "index.html#about-the-conference",
@@ -84,24 +70,66 @@
     "text": "Contact Us\nIf you have any questions about CERE2025, please contact the Conference Chairs at CERE2025@univ-grenoble-alpes.fr."
   },
   {
-    "objectID": "people/index.html#conference-chairs",
-    "href": "people/index.html#conference-chairs",
-    "title": "CERE2025 - Consortium of European Research on Emotion",
-    "section": "Conference Chairs",
-    "text": "Conference Chairs\n\n    \n        \n        Anna Tcherkassof\n        \n        \n        MartinKrippl"
+    "objectID": "keynotes/speaker_three.html",
+    "href": "keynotes/speaker_three.html",
+    "title": "Speaker Three",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
   },
   {
-    "objectID": "people/index.html#local-chair",
-    "href": "people/index.html#local-chair",
-    "title": "CERE2025 - Consortium of European Research on Emotion",
-    "section": "Local Chair",
-    "text": "Local Chair\n\n    \n        \n        Elora Perret-Depiaz"
+    "objectID": "keynotes/speaker_three.html#bio",
+    "href": "keynotes/speaker_three.html#bio",
+    "title": "Speaker Three",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
   },
   {
-    "objectID": "people/index.html#website",
-    "href": "people/index.html#website",
+    "objectID": "keynotes/agnes_moors.html",
+    "href": "keynotes/agnes_moors.html",
+    "title": "Prof. Agnes Moors",
+    "section": "",
+    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods.\nSource: https://ppw.kuleuven.be/cscp/people/00012693"
+  },
+  {
+    "objectID": "keynotes/agnes_moors.html#bio",
+    "href": "keynotes/agnes_moors.html#bio",
+    "title": "Prof. Agnes Moors",
+    "section": "",
+    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods.\nSource: https://ppw.kuleuven.be/cscp/people/00012693"
+  },
+  {
+    "objectID": "keynotes/speaker_two.html",
+    "href": "keynotes/speaker_two.html",
+    "title": "Speaker Two",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
+  },
+  {
+    "objectID": "keynotes/speaker_two.html#bio",
+    "href": "keynotes/speaker_two.html#bio",
+    "title": "Speaker Two",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a enim nec nisi vehicula dictum. Vestibulum tristique orci neque, at tincidunt leo ultrices eget. Suspendisse eleifend, mauris a mollis porttitor, ex nunc consequat eros, vitae volutpat lacus dolor ut tortor. Sed eget dui fringilla, ullamcorper nibh sed, tristique nibh. Sed sed pulvinar justo, fringilla viverra felis. Sed pretium in urna eu euismod. Nunc interdum mi vel metus mattis sollicitudin. Fusce nec convallis orci. Morbi a tempor odio, sed dictum mi."
+  },
+  {
+    "objectID": "attend/venue.html",
+    "href": "attend/venue.html",
     "title": "CERE2025 - Consortium of European Research on Emotion",
-    "section": "Website",
-    "text": "Website\n\n    \n        \n        Damien Dupré"
+    "section": "",
+    "text": "Located in the heart of a remarkable environment with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d’Hères, is recognized as one of the most beautiful in France, with its 3,000 trees, cultural and sports facilities and unique architecture."
+  },
+  {
+    "objectID": "attend/venue.html#université-grenoble-alpes",
+    "href": "attend/venue.html#université-grenoble-alpes",
+    "title": "CERE2025 - Consortium of European Research on Emotion",
+    "section": "",
+    "text": "Located in the heart of a remarkable environment with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d’Hères, is recognized as one of the most beautiful in France, with its 3,000 trees, cultural and sports facilities and unique architecture."
+  },
+  {
+    "objectID": "attend/venue.html#getting-there",
+    "href": "attend/venue.html#getting-there",
+    "title": "CERE2025 - Consortium of European Research on Emotion",
+    "section": "Getting there",
+    "text": "Getting there\nThree international airports are located less than 90 minutes from Grenoble: Lyon Saint-Exupéry, Grenoble Alpes Isère and Geneva. In total, more than 200 direct destinations are accessible.\nWith up to 10 direct Grenoble-Paris round trips by high-speed TGV train, and with the Lyon Part-Dieu hub 1hr15mins away, the rail offer from Grenoble is also very attractive. Ideally located in the city centre, Grenoble railway station is perfectly connected to the city’s bus and tram network.\nFinally, the Auvergne-Rhône-Alpes motorway network is the most densely populated area after Île-de-France. Thanks to the A41, A48, A49 and A51 motorways, Grenoble is easily connected to Lyon, the Rhone Valley, Switzerland and Italy."
   }
 ]

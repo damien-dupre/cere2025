@@ -1,5 +1,5 @@
 ---
-pagetitle: CERE2025 - Organisation
+pagetitle: Organisation
 engine: knitr
 ---
 

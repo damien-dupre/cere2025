@@ -1,0 +1,74 @@
+---
+title: "Submission Guidelines"
+---
+
+If you would like to present your research at #CERE2025, submissions will be accepted for two categories: 
+
+- **abstracts,** which may be accepted as an oral or poster presentation, that describe an individual research project; 
+
+- abstracts for **symposia** that consist of four to five oral presentations on a single research theme. 
+
+The program committee will make the final determination on the presentation format of abstracts for oral or poster presentation. If your submission for a symposium is accepted, you will give an oral presentation.
+
+::: {.callout-warning title="Submission Warning"}
+As #CERE2025 is an in-person conference, we expect all presenters to attend the conference to present in person.
+
+**LIMIT ON NUMBER OF SUBMISSIONS:** In order to encourage a diversity of speakers and research perspectives, #CERE2025 limits participants to one oral presentation per first author. Attendees can be listed as a co-author on multiple presentations, and speakers can also participate separately in symposia as a discussant.
+
+**All submissions must be written in English** and will be subject to **double-blind** peer review by an international scientific committee. In order to facilitate the review process, submissions should indicate one or more keywords that describe the work. A list of keywords can be found [here](#SubmissionKeywords).
+:::
+
+## Abstract submission guidelines
+
+The first author should submit abstracts. Abstracts must include the name, email address, and affiliation of all co-authors. They must also have a title no longer than 15 words, and an abstract no longer than 250 words. The abstract should be anonymized in order to avoid revealing either the authors' identities or institutions.
+
+Accepted abstracts will be published in the conference program. Abstracts that are accepted for oral presentation will be allocated 15 minutes for presentation plus three minutes for questions. Posters will be assigned to dedicated sessions and will stay up for one day.
+
+## Symposium submission guidelines
+
+Symposium sessions consist of a number of presenters discussing a common topic or theme in a manner that brings new insights to the subject. Submissions are welcome from scholars in all relevant disciplines for symposia of up to four talks and one discussant or five talks without a discussant. Submissions that include multiple disciplines are particularly encouraged in order to facilitate cross-disciplinary exchange. Each presenter in a symposium will be allocated 15 minutes plus three minutes for questions. Symposia presentations can involve co-authors, who will be listed in the printed program.
+
+In order to propose a symposium, the lead proposer will need the name and affiliation of the symposium presenters, co-authors, and discussant, if one is used. They will also need a symposium abstract no longer than 250 words explaining why the talks should be linked, and each presenter's abstract, which should be a maximum of 250 words. An individual can present only once at the conference as first-author but can be a co-author or discussant on multiple submissions.
+
+If you have any questions, please contact us at [CERE2025@univ-grenoble-alpes.fr](mailto:cere2025@univ-grenoble-alpes.fr).
+
+## Submission Keywords {#SubmissionKeywords}
+
+In order to facilitate the review process, please indicate the topic of your submission using one or more of the keywords below. They will be used to match your submission to potential reviewers.
+
+| Keywords                           |
+|------------------------------------|
+| Affective computing                |
+| Affective dynamics                 |
+| Aging                              |
+| Animal/Comparative                 |
+| Anthropology                       |
+| Cognition                          |
+| Child and adolescent development   |
+| Clinical/Psychopathology           |
+| Communication/Mass media           |
+| Culture                            |
+| Decision-making/Consumer choice    |
+| Embodiment                         |
+| Emotion Regulation                 |
+| Emotion theory                     |
+| Empathy (interpersonal)            |
+| Evolutionary                       |
+| History                            |
+| Law                                |
+| Learning/Education                 |
+| Morality                           |
+| Neuroscience                       |
+| Nonverbal expression/communication |
+| Personality/Individual differences |
+| Philosophy                         |
+| Positive emotion                   |
+| Psychophysiology                   |
+| Questionnaire Development          |
+| Research Methods                   |
+| Sociology                          |
+| Social Networks                    |
+| Specific Emotions                  |
+| Work                               |
+
+: List of Keywords

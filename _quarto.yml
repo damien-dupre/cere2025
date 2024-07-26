@@ -23,7 +23,10 @@ website:
             href: keynotes/agnes_moors.qmd
           - text: "Speaker Two TBC"
           - text: "Speaker Three TBC"
-      # - text: "Submission"
+      - text: "Submission"
+        menu: 
+          - text: "Submission Guidelines"
+            href: submission/index.qmd
       - text: "Attend"
         menu: 
           - text: "Venue"

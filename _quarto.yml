@@ -4,6 +4,7 @@ project:
 
 website:
   title: "CERE2025 - Consortium of European Research on Emotion"
+  favicon: images/favicon.png
   search: false
   announcement: 
     icon: info-circle

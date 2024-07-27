@@ -6,6 +6,10 @@ pagetitle: Venue
 
 Located in the heart of a **remarkable environment** with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d'Hères, is recognized as **one of the most beautiful in France**, with its 3,000 trees, cultural and sports facilities and unique architecture. 
 
+::: {.column-screen style="text-align: center;"}
+![](../images/uga_montage.png)
+:::
+
 ## Getting there
 
 **Three international airports are located less than 90 minutes from Grenoble**: Lyon Saint-Exupéry, Grenoble Alpes Isère and Geneva. In total, more than 200 direct destinations are accessible.

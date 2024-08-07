@@ -28,7 +28,7 @@ website:
       - text: "Submission"
         menu: 
           - text: "Submission Guidelines"
-            href: submission/index.qmd
+            # href: submission/index.qmd
       - text: "Attend"
         menu: 
           - text: "Venue"

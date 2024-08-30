@@ -65,7 +65,7 @@ engine: knitr
    
 ```
 
-## Conference Chairs {.center}
+## Conference Chair and Co-Chair {.center}
 
 ```{=HTML}
 <section id="container">

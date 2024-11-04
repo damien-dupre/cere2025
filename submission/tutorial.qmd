@@ -8,7 +8,12 @@ To submit your abstract for #CERE205, [click here to access the submission porta
 
 ::: columns
 ::: {.column width="60%"}
-If you already have an account on [sciencesconf.org](https://www.sciencesconf.org/), simply click **Login**. If not, click on the drop-down arrow and select **Create account**.
+If you already have an account on [sciencesconf.org](https://cere2025.sciencesconf.org/), simply click **Login**. If not, click on the drop-down arrow and select **Create account**.
+
+::: {.callout-warning title="Email Verification"}
+After creating your account, you will receive an email to verify it. If this email does not arrive, it may be due to a typo in the email address provided.
+:::
+
 :::
 ::: {.column width="5%"}
 :::
@@ -35,6 +40,11 @@ On the left-hand menu, under MY SPACE, click on **My submissions**. Then, begin 
 ::: columns
 ::: {.column width="60%"}
 **Provide all the required details for your submission**, including the title, abstract, submission type (oral presentation, symposium, poster, or data workshop), and the topic. **Add any co-authors if applicable, then review and submit your contribution**.
+
+::: {.callout-warning title="Symposium Submission"}
+If you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names.
+:::
+
 :::
 ::: {.column width="5%"}
 :::

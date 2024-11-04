@@ -2,11 +2,11 @@
 pagetitle: Social Events
 ---
 
-## Bastille Day in Grenoble
+## French National Day in Grenoble
 
 ::: columns
 ::: {.column width="60%"}
-Every year, Bastille Day resounds with music and fireworks across the nation. In Grenoble, **the sky will light up on 14 July**, bringing smiles to both young and old. Arrive a day early to enjoy the celebrations happening not only in Grenoble but throughout cities across France.
+Every year, the French National Day resounds with music and fireworks across the nation. In Grenoble, **the sky will light up on 14 July**, bringing smiles to both young and old. Arrive a day early to enjoy the celebrations happening not only in Grenoble but throughout cities across France.
 :::
 ::: {.column width="5%"}
 :::

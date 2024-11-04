@@ -1,0 +1,50 @@
+---
+title: Submission Tutorial
+---
+
+To submit your abstract for #CERE205, [click here to access the submission portal](https://cere2025.sciencesconf.org/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="CERE2025 Submission Portal"}.
+
+## Step 1: Log In or Register
+
+::: columns
+::: {.column width="60%"}
+If you already have an account on [sciencesconf.org](https://www.sciencesconf.org/), simply click **Login**. If not, click on the drop-down arrow and select **Create account**.
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/step_1.png)
+:::
+:::
+
+## Step 2: Start a New Submission
+
+::: columns
+::: {.column width="60%"}
+On the left-hand menu, under MY SPACE, click on **My submissions**. Then, begin the process by selecting **Submit an abstract**.
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/step_2.png)
+:::
+:::
+
+## Step 3: Complete the Submission Form
+
+::: columns
+::: {.column width="60%"}
+**Provide all the required details for your submission**, including the title, abstract, submission type (oral presentation, symposium, poster, or data workshop), and the topic. **Add any co-authors if applicable, then review and submit your contribution**.
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/step_3.png)
+:::
+:::
+
+You will be able to **edit your submission up until the review process starts**. Once the review process started, you can track the status of the submission: **Initial, Note, Accepted, Refused and Awaiting update**.
+
+![](../images/step_4.png)
+
+Click [here](https://doc.sciencesconf.org/en/deposer/soumettre.html) for more information.

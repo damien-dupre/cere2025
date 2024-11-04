@@ -1,0 +1,131 @@
+---
+title: Accomodation
+---
+
+While the campus of Université Grenoble Alpes, and therefore the conference location, is outside the city center, we recommend staying in the city center and to go to the conference venue by Tram (15-20min journey, see [Venue](venue.qmd)).
+
+## ⭐⭐⭐ Hotels in Grenoble City Center
+
+#### Hôtel de l'Europe
+::: columns
+::: {.column width="60%"}
+- Take **TRAM B** at *Hubert Dubedout - Maison du Tourisme* to *Bibliothèques Universitaires*
+- Website: [https://www.hoteleurope.fr](https://www.hoteleurope.fr)
+- Phone: +33 4 76 46 16 94
+- Email: [contact@hoteleurope.fr](mailto:contact@hoteleurope.fr)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/europe_hotel.png)
+:::
+:::
+
+#### Ibis Grenoble Centre Bastille
+::: columns
+::: {.column width="60%"}
+- Take **TRAM B** at *Victor Hugo* to *Bibliothèques Universitaires*
+- Website: [https://all.accor.com/hotel/0612/index.en.shtml](https://all.accor.com/hotel/0612/index.en.shtml)
+- Phone: +33 4 76 47 48 49 
+- Email: [H0612@accor.com](mailto:H0612@accor.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/ibis_hotel.png)
+:::
+:::
+
+#### Hôtel d'Angleterre Grenoble Hyper-Centre
+::: columns
+::: {.column width="60%"}
+- Take **TRAM B** at *Victor Hugo* to *Bibliothèques Universitaires*
+- Website: [https://www.hotel-angleterre-grenoble.com](https://www.hotel-angleterre-grenoble.com)
+- Phone: +33 4 38 88 40 40
+- Email: [reservations@hotel-angleterre-grenoble.com](mailto:reservations@hotel-angleterre-grenoble.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/angleterre_hotel.jpg)
+:::
+:::
+
+#### Residhotel Grenette
+::: columns
+::: {.column width="60%"}
+- Take **TRAM B** at *Victor Hugo* to *Bibliothèques Universitaires*
+- Website: [https://www.residhotel.com/residence/residhotel-grenoble-grenette/](https://www.residhotel.com/residence/residhotel-grenoble-grenette/)
+- Phone: +33 4 76 94 45 45
+- Email: [reservation@residhotel.com](mailto:reservation@residhotel.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/resid_hotel.jpg)
+:::
+:::
+
+## ⭐⭐⭐⭐ Hotels in Grenoble City Center
+
+#### Le Grand Hôtel de Grenoble, BW Premier Collection
+::: columns
+::: {.column width="60%"}
+- Take **TRAM B** at *Hubert Dubedout - Maison du Tourisme* to *Bibliothèques Universitaires*
+- Website: [https://www.grand-hotel-grenoble.com/](https://www.grand-hotel-grenoble.com/)
+- Phone: +33 4 76 51 22 59
+- Email: [contact@grand-hotel-grenoble.fr](mailto:contact@grand-hotel-grenoble.fr)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/grand_hotel.jpg)
+:::
+:::
+
+#### Rocky Pop
+::: columns
+::: {.column width="60%"}
+- Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
+- Website: [https://www.rockypop.com/en/grenoble/grenoble-hotel/](https://www.rockypop.com/en/grenoble/grenoble-hotel/)
+- Phone: +33 4 58 00 82 28
+- Email: [grenoble@rockypop.com](mailto:grenoble@rockypop.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/rocky_hotel.jpg)
+:::
+:::
+
+#### Park Hôtel Grenoble - MGallery
+::: columns
+::: {.column width="60%"}
+- Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
+- Website: [https://all.accor.com/hotel/9350/index.fr.shtml](https://all.accor.com/hotel/9350/index.fr.shtml)
+- Phone: +33 4 76 85 81 23
+- Email: [H9350@accor.com](mailto:H9350@accor.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/park_hotel.png)
+:::
+:::
+
+#### Hôtel Mercure Grenoble Centre Alpotel
+::: columns
+::: {.column width="60%"}
+- Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
+- Website: [https://all.accor.com/hotel/0652/index.en.shtml](https://all.accor.com/hotel/0652/index.en.shtml)
+- Phone: +33 4 76 87 88 41
+- Email: [H0652@accor.com](mailto:H0652@accor.com)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/mercure_hotel.jpg)
+:::
+:::
+
+Grenoble has a large range of hotels, hostels, and other accommodation, here is a website listing all opportunities. [Click here to access the website grenoble-tourisme.com](https://www.grenoble-tourisme.com/en/where-to-sleep/all-accommodations/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="grenoble-tourisme.com"}

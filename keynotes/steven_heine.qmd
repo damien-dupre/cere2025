@@ -1,0 +1,16 @@
+---
+title: "Steve Heine"
+image: ../images/steven_heine.png
+about:
+  template: trestles
+  links:
+    - icon: globe
+      text: Website
+      href: https://psych.ubc.ca/profile/steven-heine/
+---
+
+## Bio
+
+Steven J. Heine is Professor of Social and Cultural Psychology and Distinguished University Scholar at the University of British Columbia. After receiving his PhD from the University of British Columbia in 1996, he had visiting positions at Kyoto University and Tokyo University, and was on the faculty at the University of Pennsylvania before returning to British Columbia. He has authored the best-selling textbook in its field, entitled “Cultural Psychology,” and has written two trade book called “Start Making Sense” (2025) and “DNA is not Destiny” (2017). Heine has received numerous international awards and is a fellow of the Royal Society of Canada. 
+
+Heine’s research focuses on a few topics that converge on how people come to understand themselves and their worlds. In particular, he is most known for his work in cultural psychology where he has explored the key role that culture plays in shaping people’s psychological worlds. More recently he has explored the concept of cultural fit and how people tend to have greater well-being and health when their behaviors and self-concept are more aligned with the surrounding culture. He has also conducted research exploring how people make meaning in the face of meaninglessness, and how people rely on essentialist biases when they make sense of genetic concepts.

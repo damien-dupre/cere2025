@@ -1,0 +1,14 @@
+---
+title: "José-Miguel Fernández-Dols"
+image: ../images/jose-miguel_fernandez-dols.jpg
+about:
+  template: trestles
+  links:
+    - icon: globe
+      text: Website
+      href: http://fernandez-dols.com/
+---
+
+## Bio
+
+José-Miguel Fernández-Dols is an Emeritus Professor of Psychology at the Autonoma University of Madrid. His research focuses on facial expression and everyday conceptions of emotion. In the case of facial expression he is interested in the role of context and the observational description of non-posed expressions of emotion. In the case of everyday knowledge of emotions he is interested in the concepts of emotion in different cultures, as well as their interaction with social norms, social justice, and moral behavior in general.

@@ -59,6 +59,12 @@ engine: knitr
   background-position: center;
 }
 
+.user-container #anne_chabaud.card_team {
+  background: url("../images/anne_chabaud.png") no-repeat;
+  background-size: 273px 307px; /* 546 × 614*/
+  background-position: center;
+}
+
 #container {
   margin-top: -80px;
 }	
@@ -103,6 +109,20 @@ engine: knitr
     <div class="user-container">
         <div id="damien_dupre" class="card_team inline-photo" onclick="window.open('https://business.dcu.ie/staff/dr-damien-dupre/','mywindow');" style="cursor: pointer;">
         <div class="hover_esp_team">Damien Dupré</div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+```
+
+## Administrative Manager {.center}
+
+```{=HTML}
+<section id="container">
+    <div class="user-container">
+        <div id="anne_chabaud" class="card_team inline-photo">
+        <div class="hover_esp_team">Anne Chabaud</div>
         </div>
     </div>
 </section>

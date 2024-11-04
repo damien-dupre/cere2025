@@ -1,6 +1,16 @@
 ---
 pagetitle: Venue
+engine: knitr
 ---
+
+```{css, echo=FALSE}
+.center h2 {
+  text-align: center;
+}
+
+.tiny{font-size: 50%}
+   
+```
 
 ## Université Grenoble Alpes
 
@@ -8,7 +18,18 @@ Located in the heart of a **remarkable environment** with 3 mountain ranges (Bel
 
 ::: {.column-screen style="text-align: center;"}
 ![](../images/uga_montage.png)
+<center>
+[Credit: Université Grenoble Alpes [`r emo::ji("link")`](https://www.univ-grenoble-alpes.fr/)]{style="font-size: 50%"}
+</center>
 :::
+
+All talks and keynotes will take place in the building **Pierre Mendès France**, located **near the TRAM Station “Bibliothèques Universitaires”**. This area, designed for teaching large groups, features several recently renovated auditoriums.
+
+Exact address: [**77 Rue des Universités, 38400 Saint-Martin-d'Hères, France**](https://maps.app.goo.gl/eKEgayCZ77hwmmjW7)
+
+<!-- ![](../images/campus_location.png) -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d721.4765656055997!2d5.770447924710981!3d45.18994630258095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af5001fd00b7b%3A0x58a659bb50ef3079!2sPierre%20Mend%C3%A8s%20France%20(pmf)!5e0!3m2!1sen!2sie!4v1729696863469!5m2!1sen!2sie" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Getting there
 
@@ -17,3 +38,17 @@ Located in the heart of a **remarkable environment** with 3 mountain ranges (Bel
 With up to 10 direct Grenoble-Paris round trips by high-speed TGV train, and with the Lyon Part-Dieu hub 1hr15mins away, **the rail offer from Grenoble is also very attractive**. Ideally located in the city centre, Grenoble railway station is perfectly connected to the city's bus and tram network. 
 
 Finally, the Auvergne-Rhône-Alpes motorway network is the most densely populated area after Île-de-France. Thanks to the A41, A48, A49 and A51 motorways, **Grenoble is easily connected to Lyon, the Rhone Valley, Switzerland and Italy**.  
+
+![](../images/grenoble_access.png)
+<center>
+[Credit: Grenoble Alpes Tourisme [`r emo::ji("link")`](https://www.grenoble-tourisme.com)]{style="font-size: 50%"}
+</center>
+
+Upon arrival in Grenoble, we recommend that attendees stay in the city centre (see [Accommodation](accommodation.qmd)) and use the tram to travel to and from the conference venue on campus.
+
+**The venue is directly accessible from the city centre via tram lines B and C**. Attendees will be provided with a tram ticket valid for the duration of the conference.
+
+![](../images/tram_lines.png)
+<center>
+[Credit: Chris Neuherz, transitdiagrams [`r emo::ji("link")`](https://www.instagram.com/transitdiagrams/)]{style="font-size: 50%"}
+</center>

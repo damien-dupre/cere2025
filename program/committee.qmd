@@ -1,0 +1,59 @@
+---
+title: Organisation Committee
+execute: 
+  echo: false
+  message: false
+---
+
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(DT)
+library(googlesheets4)
+library(tidyverse)
+
+# functions --------------------------------------------------------------------
+overview_table <- function(x) {
+  x |> 
+    datatable(
+      colnames = NULL,
+      rownames = FALSE,
+      extensions = 'Responsive',
+      options = list(
+        dom = 't', 
+        pageLength = -1, 
+        ordering = FALSE,
+        columnDefs = list(list(className = 'dt-center', targets = 0))
+      ),
+      escape = FALSE
+    )
+}
+
+# data -------------------------------------------------------------------------
+list_committee <- 
+  paste0(
+    "https://docs.google.com/spreadsheets/d/",
+    "1VTQWtB8YbSOf_0J9_3no7mV7RspkbAulskxRPJNK-k0"
+  ) |> 
+  read_sheet()
+```
+ 
+## Scientific Committee
+
+```{r}
+list_committee |> 
+  filter(role == "Scientific Committee") |> 
+  select(-role) |> 
+  overview_table()
+```
+
+## Abstract Review Committee
+
+```{r}
+list_committee |> 
+  filter(role == "Abstract Review Committee") |> 
+  select(-role) |> 
+  overview_table()
+```
+

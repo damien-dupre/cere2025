@@ -17,8 +17,10 @@ website:
     title: false
     logo: "images/logoCERE2025.png"
     right:
-      # - text: "Program"
-      #   href: program/index.qmd
+      - text: "Program"
+        menu: 
+          - text: "Committee"
+            href: program/committee.qmd
       - text: "Keynotes"
         menu: 
           - text: "Prof. Agnes Moors"

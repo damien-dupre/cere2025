@@ -14,18 +14,26 @@ library(googlesheets4)
 library(tidyverse)
 
 # functions --------------------------------------------------------------------
+headerCallback <- c(
+  "function(thead, data, start, end, display){",
+  "  $('th', thead).css('border-bottom', '5px solid black');",
+  "}"
+)
+
 overview_table <- function(x) {
   x |> 
     datatable(
-      colnames = NULL,
+      colnames = "",
       rownames = FALSE,
       extensions = 'Responsive',
       options = list(
+        headerCallback = JS(headerCallback),
         dom = 't', 
         pageLength = -1, 
         ordering = FALSE,
         columnDefs = list(list(className = 'dt-center', targets = 0))
-      ),
+      ), 
+      # class = 'cell-border stripe',
       escape = FALSE
     )
 }

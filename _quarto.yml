@@ -10,7 +10,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Important** - Submission system opens on **December 1, 2024**"
+    content: "**Important** - The submission system is **open** until February 1, 2025"
     type: info
     position: below-navbar
   navbar:

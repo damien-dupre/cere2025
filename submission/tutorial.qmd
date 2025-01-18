@@ -2,7 +2,7 @@
 title: Submission Tutorial
 ---
 
-To submit your abstract for #CERE205, [click here to access the submission portal](https://cere2025.sciencesconf.org/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="CERE2025 Submission Portal"}.
+To submit your abstract for **#CERE205**: [click here to access the submission portal](https://cere2025.sciencesconf.org/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="CERE2025 Submission Portal"}.
 
 ## Step 1: Log In or Register
 
@@ -27,6 +27,10 @@ After creating your account, you will receive an email to verify it. If this ema
 ::: columns
 ::: {.column width="60%"}
 On the left-hand menu, under MY SPACE, click on **My submissions**. Then, begin the process by selecting **Submit an abstract**.
+
+::: {.callout-warning title='Click "Submit an abstract" for any submission'}
+Click on "Submit an abstract" if you are submitting for an oral presentation**, for a poster presentation, for a data workshop, or if you are submitting multiple abstracts for a symposium.
+:::
 :::
 ::: {.column width="5%"}
 :::
@@ -37,24 +41,58 @@ On the left-hand menu, under MY SPACE, click on **My submissions**. Then, begin 
 
 ## Step 3: Complete the Submission Form
 
-::: columns
-::: {.column width="60%"}
-**Provide all the required details for your submission**, including the title, abstract, submission type (oral presentation, symposium, poster, or data workshop), and the topic. **Add any co-authors if applicable, then review and submit your contribution**.
+<!-- ::: columns -->
+<!-- ::: {.column width="60%"} -->
+**Provide all the required details for your submission**, including the title, abstract(s), submission type (i.e., oral presentation, symposium, poster, or data workshop), and the topic. Then click "Next Step".
 
 ::: {.callout-warning title="Symposium Submission"}
-If you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names.
+If you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names, see Symposium tab below for example.
 :::
 
+<!-- ::: -->
+<!-- ::: {.column width="5%"} -->
+<!-- ::: -->
+<!-- ::: {.column width="35%"} -->
+<!-- ![](../images/step_3.png) -->
+<!-- ::: -->
+<!-- ::: -->
+
+::: {.panel-tabset .nav-pills}
+
+## Oral Presentation
+
+![](../images/submit_oral.png)
+
+## Poster Presentation
+
+![](../images/submit_poster.png)
+
+## Symposium
+
+![](../images/submit_symposium.png)
+
+## Data Workshop
+
+![](../images/submit_data.png)
+
 :::
-::: {.column width="5%"}
+
+## Step 4: Add your Co-Authors
+
+**Add any co-authors if applicable, then review and submit your contribution**. Then click "Next Step".
+
+## Step 5: Review and Submit
+
+A pdf document will be generated with all information provided. Review the details of this document and click "Submit". A email will be sent to you to confirm your submission.
+
+::: {.callout-warning title="Abstracts not submitted are not saved"}
+Abstracts that are not submitted are not kept on the platform. You will have to start again if you close the sciencesconf web browser tab.
 :::
-::: {.column width="35%"}
-![](../images/step_3.png)
-:::
-:::
+
+## Modify and Track your Submission
 
 You will be able to **edit your submission up until the review process starts**. Once the review process started, you can track the status of the submission: **Initial, Note, Accepted, Refused and Awaiting update**.
 
 ![](../images/step_4.png)
 
-Click [here](https://doc.sciencesconf.org/en/deposer/soumettre.html) for more information.
+Click [here](https://doc.sciencesconf.org/en/deposer/soumettre.html) for more information about the sciencesconf platform.

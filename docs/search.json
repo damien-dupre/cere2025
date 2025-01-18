@@ -214,7 +214,7 @@
     "href": "submission/tutorial.html",
     "title": "Submission Tutorial",
     "section": "",
-    "text": "To submit your abstract for #CERE205, click here to access the submission portal."
+    "text": "To submit your abstract for #CERE205: click here to access the submission portal."
   },
   {
     "objectID": "submission/tutorial.html#step-1-log-in-or-register",
@@ -228,13 +228,34 @@
     "href": "submission/tutorial.html#step-2-start-a-new-submission",
     "title": "Submission Tutorial",
     "section": "Step 2: Start a New Submission",
-    "text": "Step 2: Start a New Submission\n\n\nOn the left-hand menu, under MY SPACE, click on My submissions. Then, begin the process by selecting Submit an abstract."
+    "text": "Step 2: Start a New Submission\n\n\nOn the left-hand menu, under MY SPACE, click on My submissions. Then, begin the process by selecting Submit an abstract.\n\n\n\n\n\n\nClick “Submit an abstract” for any submission\n\n\n\nClick on “Submit an abstract” if you are submitting for an oral presentation**, for a poster presentation, for a data workshop, or if you are submitting multiple abstracts for a symposium."
   },
   {
     "objectID": "submission/tutorial.html#step-3-complete-the-submission-form",
     "href": "submission/tutorial.html#step-3-complete-the-submission-form",
     "title": "Submission Tutorial",
     "section": "Step 3: Complete the Submission Form",
-    "text": "Step 3: Complete the Submission Form\n\n\nProvide all the required details for your submission, including the title, abstract, submission type (oral presentation, symposium, poster, or data workshop), and the topic. Add any co-authors if applicable, then review and submit your contribution.\n\n\n\n\n\n\nSymposium Submission\n\n\n\nIf you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names.\n\n\n\n\n\n\n\n\nYou will be able to edit your submission up until the review process starts. Once the review process started, you can track the status of the submission: Initial, Note, Accepted, Refused and Awaiting update.\n\nClick here for more information."
+    "text": "Step 3: Complete the Submission Form\n\n\nProvide all the required details for your submission, including the title, abstract(s), submission type (i.e., oral presentation, symposium, poster, or data workshop), and the topic. Then click “Next Step”.\n\n\n\n\n\n\nSymposium Submission\n\n\n\nIf you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names, see Symposium tab below for example.\n\n\n\n\n\n\n\n\n\n\nOral PresentationPoster PresentationSymposiumData Workshop"
+  },
+  {
+    "objectID": "submission/tutorial.html#step-4-add-your-co-authors",
+    "href": "submission/tutorial.html#step-4-add-your-co-authors",
+    "title": "Submission Tutorial",
+    "section": "Step 4: Add your Co-Authors",
+    "text": "Step 4: Add your Co-Authors\nAdd any co-authors if applicable, then review and submit your contribution. Then click “Next Step”."
+  },
+  {
+    "objectID": "submission/tutorial.html#step-5-review-and-submit",
+    "href": "submission/tutorial.html#step-5-review-and-submit",
+    "title": "Submission Tutorial",
+    "section": "Step 5: Review and Submit",
+    "text": "Step 5: Review and Submit\nA pdf document will be generated with all information provided. Review the details of this document and click “Submit”. A email will be sent to you to confirm your submission.\n\n\n\n\n\n\nAbstracts not submitted are not saved\n\n\n\nAbstracts that are not submitted are not kept on the platform. You will have to start again if you close the sciencesconf web browser tab."
+  },
+  {
+    "objectID": "submission/tutorial.html#modify-and-track-your-submission",
+    "href": "submission/tutorial.html#modify-and-track-your-submission",
+    "title": "Submission Tutorial",
+    "section": "Modify and Track your Submission",
+    "text": "Modify and Track your Submission\nYou will be able to edit your submission up until the review process starts. Once the review process started, you can track the status of the submission: Initial, Note, Accepted, Refused and Awaiting update.\n\nClick here for more information about the sciencesconf platform."
   }
 ]

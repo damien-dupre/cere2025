@@ -4,10 +4,10 @@ title: Submission Guidelines
 
 If you would like to present your research at #CERE2025, submissions will be accepted for the following categories:
 
-- **Abstract for an oral presentation** that describes an individual research project;
-- **Abstract for a poster presentation** that describes an individual research project;
-- **Abstracts for a symposium** that consist of four to five oral presentations on a single research theme;
-- **Abstract for a data workshop** that consists in the presentation of the transformations and statistical analysis of emotion-related data which should last between 45 and 60 minutes.
+- [Abstract for an oral presentation](#oral_poster) that describes an individual research project;
+- [Abstract for a poster presentation](#oral_poster) that describes an individual research project;
+- [Abstracts for a symposium](#symposium) that consist of four to five oral presentations on a single research theme;
+- [Abstract for a data workshop](#data_workshop) that consists in the presentation of the transformations and statistical analysis of emotion-related data which should last between 45 and 60 minutes.
 
 As #CERE2025 is an in-person conference, we expect **all presenters to attend the conference to present in person**.
 
@@ -15,27 +15,27 @@ In order to encourage a diversity of speakers and research perspectives, #CERE20
 
 All submissions must be **written in English and will be subject to double-blind peer review** by an international scientific committee. In order to facilitate the review process, submissions should indicate one or more keywords that describe the work. A list of keywords can be found below.
 
-The congress will be an opportunity to promote unpublished scientific research on emotions. These will therefore be preferred to proposals for papers on data and/or theoretical reflections that have already been published (this does not apply to proposals for data workshops). Proposals for papers on scientific research that does not deal with emotions, or that promote political or commercial issues with the aim of influencing scientific research, will be rejected by the Scientific Committee.
+The conference will be an opportunity to promote unpublished scientific research on emotions. These will therefore be preferred to proposals for papers on data and/or theoretical reflections that have already been published (this does not apply to proposals for data workshops). Proposals for papers on scientific research that does not deal with emotions, or that promote political or commercial issues with the aim of influencing scientific research, will be rejected by the Scientific Committee.
 
 The scientific committee will attach particular importance to the scientific quality of the work, the presentation of original data and, in the case of symposia, the homogeneity of the various papers. All abstracts must clearly articulate the aim of the study or theoretical work and outline the outcomes. For empirical research, it is essential to detail the sample, experimental conditions (if applicable), types of stimuli, and results.
 
-## Abstract for an Oral or a Poster Presentation
+## Abstract for an Oral or a Poster Presentation {#oral_poster}
 
-The first author should submit abstracts. Abstracts must include the name, email address, and affiliation of all co-authors. They must also have a **title no longer than 15 words, and an abstract no longer than 300 words**. The abstract should be anonymized in order to avoid revealing either the authors' identities or institutions.
+The first author should submit abstracts. Abstracts must include the name and affiliation of all co-authors. They must also have a **title no longer than 15 words, and an abstract no longer than 300 words**. The abstract should be anonymized in order to avoid revealing either the authors' identities or institutions.
 
 Accepted abstracts will be included in the conference program. Those selected for oral presentations will be given **12 minutes for the presentation, followed by two minutes for questions**. Posters will be displayed during designated sessions and will remain up for one day. If multiple posters from the same team or on related topics are submitted, a request can be made to the organisers to have them displayed on the same day.
 
-## Abstracts for a Symposium
+## Abstracts for a Symposium {#symposium}
 
 A Symposium consists of a number of presenters discussing a common topic or theme in a manner that brings new insights to the subject. Submissions are welcome from scholars in all relevant disciplines for symposia of up to four talks and one discussant or five talks without a discussant. Submissions that include multiple disciplines are particularly encouraged in order to facilitate cross-disciplinary exchange. **Each presenter in a symposium will be allocated 12 minutes plus two minutes for questions**. Symposia presentations can involve co-authors, who will be listed in the printed program.
 
-In order to propose a symposium, the lead proposer will need the name, affiliation, and contact of the symposium presenters, co-authors, and discussant, if one is used. They will also need **a symposium abstract no longer than 300 words explaining why the talks should be linked, and each presenter's abstract, which should be a maximum of 300 words**. An individual can present only once at the conference as first-author but can be a co-author or discussant on multiple submissions.
+In order to propose a symposium, the lead proposer will need the name and affiliation of the symposium presenters, co-authors, and discussant, if one is used. They will also need **a symposium abstract no longer than 300 words explaining why the talks should be linked, and each presenter's abstract, which should be a maximum of 300 words**. An individual can present only once at the conference as first-author but can be a co-author or discussant on multiple submissions.
 
-## Abstract for a Data Workshop
+## Abstract for a Data Workshop {#data_workshop}
 
 A data workshop aims to provide a detailed presentation on the transformation and statistical analysis of emotion-related data. This workshop should last **between 45 and 60 minutes**, allowing for in-depth exploration of methodologies, data handling, and analyses. Preference will be given to analyses using an open-source programming language, and data already accessible in public repositories.
 
-A data workshop abstract must include the name, email address, and affiliation of all co-authors. They must also have a **title no longer than 15 words, and an abstract no longer than 300 words**. The abstract should be anonymised in order to avoid revealing either the authors' identities or institutions.
+A data workshop abstract must include the name and affiliation of all co-authors. They must also have a **title no longer than 15 words, and an abstract no longer than 300 words**. The abstract should be anonymised in order to avoid revealing either the authors' identities or institutions.
 
 If you have any questions, please contact us at [CERE2025@univ-grenoble-alpes.fr](mailto:cere2025@univ-grenoble-alpes.fr).
 

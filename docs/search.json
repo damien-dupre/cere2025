@@ -235,7 +235,7 @@
     "href": "submission/tutorial.html#step-3-complete-the-submission-form",
     "title": "Submission Tutorial",
     "section": "Step 3: Complete the Submission Form",
-    "text": "Step 3: Complete the Submission Form\n\n\nProvide all the required details for your submission, including the title, abstract(s), submission type (i.e., oral presentation, symposium, poster, or data workshop), and the topic. Then click “Next Step”.\n\n\n\n\n\n\nSymposium Submission\n\n\n\nIf you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names, see Symposium tab below for example.\n\n\n\n\n\n\n\n\n\n\nOral PresentationPoster PresentationSymposiumData Workshop"
+    "text": "Step 3: Complete the Submission Form\nProvide all the required details for your submission, including the title, abstract(s), submission type (i.e., oral presentation, symposium, poster, or data workshop), and the topic. Then click “Next Step”.\n\n\n\n\n\n\nSymposium Submission\n\n\n\nIf you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names, see Symposium tab below for example.\n\n\n\nOral PresentationPoster PresentationSymposiumData Workshop"
   },
   {
     "objectID": "submission/tutorial.html#step-4-add-your-co-authors",
@@ -249,7 +249,7 @@
     "href": "submission/tutorial.html#step-5-review-and-submit",
     "title": "Submission Tutorial",
     "section": "Step 5: Review and Submit",
-    "text": "Step 5: Review and Submit\nA pdf document will be generated with all information provided. Review the details of this document and click “Submit”. A email will be sent to you to confirm your submission.\n\n\n\n\n\n\nAbstracts not submitted are not saved\n\n\n\nAbstracts that are not submitted are not kept on the platform. You will have to start again if you close the sciencesconf web browser tab."
+    "text": "Step 5: Review and Submit\nReview the details of your submission and click “Submit”. A email will be sent to you to confirm your submission was sent.\n\n\n\n\n\n\nAbstracts not submitted are not saved\n\n\n\nAbstracts that are not submitted are not kept on the platform. You will have to start again if you close the sciencesconf web browser tab."
   },
   {
     "objectID": "submission/tutorial.html#modify-and-track-your-submission",

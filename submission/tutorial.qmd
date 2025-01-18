@@ -41,21 +41,11 @@ Click on "Submit an abstract" if you are submitting for an oral presentation**, 
 
 ## Step 3: Complete the Submission Form
 
-<!-- ::: columns -->
-<!-- ::: {.column width="60%"} -->
 **Provide all the required details for your submission**, including the title, abstract(s), submission type (i.e., oral presentation, symposium, poster, or data workshop), and the topic. Then click "Next Step".
 
 ::: {.callout-warning title="Symposium Submission"}
 If you are submitting a symposium, please do not submit each talk individually. Instead, enter the symposium abstract in the text box, followed by each presenter’s abstract along with the authors’ names, see Symposium tab below for example.
 :::
-
-<!-- ::: -->
-<!-- ::: {.column width="5%"} -->
-<!-- ::: -->
-<!-- ::: {.column width="35%"} -->
-<!-- ![](../images/step_3.png) -->
-<!-- ::: -->
-<!-- ::: -->
 
 ::: {.panel-tabset .nav-pills}
 
@@ -83,11 +73,13 @@ If you are submitting a symposium, please do not submit each talk individually. 
 
 ## Step 5: Review and Submit
 
-A pdf document will be generated with all information provided. Review the details of this document and click "Submit". A email will be sent to you to confirm your submission.
+Review the details of your submission and click "Submit". A email will be sent to you to confirm your submission was sent.
 
 ::: {.callout-warning title="Abstracts not submitted are not saved"}
 Abstracts that are not submitted are not kept on the platform. You will have to start again if you close the sciencesconf web browser tab.
 :::
+
+![](../images/step_3.png)
 
 ## Modify and Track your Submission
 

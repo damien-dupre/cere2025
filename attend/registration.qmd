@@ -1,5 +1,40 @@
 ---
-pagetitle: Registration
+title: Registration Information
+
+execute: 
+  echo: false
+  message: false
 ---
 
-The Registration Portal will open early 2025. More details TBC.
+To register for **#CERE2025**, [access the registration portal here](https://uga.azur-colloque.fr/inscription/en/232/inscription){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="CERE2025 Registration Portal"}.
+
+## Conference Registration Fees (in EURO)
+
+```{r}
+
+library(DT)
+tibble::tribble(
+          ~type, ~early, ~full, ~on_site,
+      "Economy", "€280", "€360",  "€460",
+     "Standard", "€160", "€200",  "€300",
+  "Gala Dinner",  "€60", "€100",    "NA"
+  ) |> 
+  datatable(
+      colnames = c("Type", "Early Bird", "Full", "On-Site"),
+      rownames = FALSE,
+      extensions = 'Responsive',
+      options = list(
+        dom = 't', 
+        pageLength = -1, 
+        ordering = FALSE
+      ),
+      escape = FALSE
+    )
+
+```
+
+<br>
+
+- Discounted Economy rates are available for students and postdoctoral researchers.
+- Early Bird rates are valid until 31 May, followed by Full rates until 14 July. On-Site rates will apply from 15 July onwards.
+- Please note that the Gala Dinner is not included in either Economy or Standard conference registrations and must be purchased separately. Due to organisational constraints, Gala Dinner tickets will not be available for purchase after 1 July.

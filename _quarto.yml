@@ -10,7 +10,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Important** - The submission system is **open** until February 1, 2025"
+    content: "**Important** - The submission deadline has been **extended** until February 16!"
     type: info
     position: below-navbar
   navbar:
@@ -38,7 +38,11 @@ website:
           - text: "Log In the Submission Portal"
             href: https://cere2025.sciencesconf.org/
       - text: "Registration"
-        href: attend/registration.qmd
+        menu:
+          - text: "Registration Information"
+            href: attend/registration.qmd
+          - text: "Log In the Registration Portal"
+            href: https://uga.azur-colloque.fr/inscription/en/232/inscription
       - text: "Attend"
         menu: 
           - text: "Venue"

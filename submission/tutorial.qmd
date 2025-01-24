@@ -2,7 +2,7 @@
 title: Submission Tutorial
 ---
 
-To submit your abstract for **#CERE205**, [access the submission portal here](https://cere2025.sciencesconf.org/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="CERE2025 Submission Portal"}.
+To submit your abstract for **#CERE2025**, [access the submission portal here](https://cere2025.sciencesconf.org/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="CERE2025 Submission Portal"}.
 
 ## Step 1: Log In or Create an Account
 

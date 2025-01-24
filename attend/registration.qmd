@@ -38,3 +38,4 @@ tibble::tribble(
 - Discounted Economy rates are available for students and postdoctoral researchers.
 - Early Bird rates are valid until 31 May, followed by Full rates until 14 July. On-Site rates will apply from 15 July onwards.
 - Please note that the Gala Dinner is not included in either Economy or Standard conference registrations and must be purchased separately. Due to organisational constraints, Gala Dinner tickets will not be available for purchase after 1 July.
+- Unfortunately, no funding opportunity is available for #CERE2025

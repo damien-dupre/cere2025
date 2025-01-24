@@ -5,7 +5,7 @@ title: Submission Guidelines
 If you would like to present your research at #CERE2025, submissions will be accepted for the following categories:
 
 - [Abstract for an oral presentation](#oral_poster) that describes an individual research project;
-- [Abstract for a poster presentation](#oral_poster) that describes an individual research project;
+- [Abstract for a poster presentation](#oral_poster) that describes an individual research project. Scientific research ideas and designs, without yet having data, could be submitted as poster presentations;
 - [Abstracts for a symposium](#symposium) that consist of four to five oral presentations on a single research theme;
 - [Abstract for a data workshop](#data_workshop) that consists in the presentation of the transformations and statistical analysis of emotion-related data which should last between 45 and 60 minutes.
 
@@ -18,6 +18,11 @@ All submissions must be **written in English and will be subject to double-blind
 The conference will be an opportunity to promote unpublished scientific research on emotions. These will therefore be preferred to proposals for papers on data and/or theoretical reflections that have already been published (this does not apply to proposals for data workshops). Proposals for papers on scientific research that does not deal with emotions, or that promote political or commercial issues with the aim of influencing scientific research, will be rejected by the Scientific Committee.
 
 The scientific committee will attach particular importance to the scientific quality of the work, the presentation of original data and, in the case of symposia, the homogeneity of the various papers. All abstracts must clearly articulate the aim of the study or theoretical work and outline the outcomes. For empirical research, it is essential to detail the sample, experimental conditions (if applicable), types of stimuli, and results.
+
+::: {.callout-note title="FAQ"}
+- References are not included in the word count for any type of submission but they can be added after the abstract.
+- All submissions, including Symposia, should be anonymous to ensure fairness in the review process.
+:::
 
 ## Abstract for an Oral or a Poster Presentation {#oral_poster}
 

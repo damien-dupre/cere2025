@@ -15,8 +15,8 @@ To register for **#CERE2025**, [access the registration portal here](https://uga
 library(DT)
 tibble::tribble(
           ~type, ~early, ~full, ~on_site,
-      "Economy", "€280", "€360",  "€460",
-     "Standard", "€160", "€200",  "€300",
+     "Standard", "€280", "€360",  "€460",
+      "Economy", "€160", "€200",  "€300",
   "Gala Dinner",  "€60", "€100",    "NA"
   ) |> 
   datatable(

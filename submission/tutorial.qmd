@@ -44,7 +44,7 @@ Click <kbd>Submit an abstract</kbd> to submit an oral presentation, poster prese
 Complete the submission form by providing the title, abstract(s), submission type (oral presentation, symposium, poster, or data workshop), and topic. Click <kbd>Next step</kbd> to proceed (refer to the tabs below for guidance on specific submission types).
 
 ::: {.callout-warning title="Submitting a Symposium"}
-For symposium submissions, do not submit each talk individually. Instead, include the symposium abstract in the text box, followed by the titles and abstracts of the individual talks. Refer to the Symposium tab below for an example.
+For symposium submissions, do not submit each talk individually. Instead, include the symposium abstract in the text box, followed by the titles and abstracts of the individual talks. Add co-author and presenters (if any) in the next step. Refer to the Symposium tab below for an example.
 :::
 
 ::: {.panel-tabset .nav-pills}

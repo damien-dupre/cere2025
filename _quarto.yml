@@ -3,16 +3,16 @@ project:
   output-dir: docs
 
 website:
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Important** - The submission portal is now **closed**, decisions will be sent by **April 30**!"
+    type: info
+    position: below-navbar
   site-url: https://www.cere2025.com/
   title: "CERE2025 - 10th Conference of the Consortium of European Research on Emotion"
   favicon: images/favicon.png
   search: false
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Important** - The submission deadline has been **extended** until February 16!"
-    type: info
-    position: below-navbar
   navbar:
     title: false
     logo: "images/logoCERE2025.png"
@@ -29,14 +29,14 @@ website:
             href: keynotes/jose-miguel_fernandez-dols.qmd
           - text: "Prof. Steve Heine"
             href: keynotes/steven_heine.qmd
-      - text: "Submission"
-        menu: 
-          - text: "Submission Guidelines"
-            href: submission/index.qmd
-          - text: "Submission Tutorial"
-            href: submission/tutorial.qmd
-          - text: "Log In the Submission Portal"
-            href: https://cere2025.sciencesconf.org/
+      # - text: "Submission"
+      #   menu: 
+      #     - text: "Submission Guidelines"
+      #       href: submission/index.qmd
+      #     - text: "Submission Tutorial"
+      #       href: submission/tutorial.qmd
+      #     - text: "Log In the Submission Portal"
+      #       href: https://cere2025.sciencesconf.org/
       - text: "Registration"
         menu:
           - text: "Registration Information"

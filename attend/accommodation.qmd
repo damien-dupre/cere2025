@@ -13,6 +13,7 @@ While the campus of Université Grenoble Alpes, and therefore the conference loc
 - Website: [https://www.hoteleurope.fr](https://www.hoteleurope.fr)
 - Phone: +33 4 76 46 16 94
 - Email: [contact@hoteleurope.fr](mailto:contact@hoteleurope.fr)
+
 :::
 ::: {.column width="5%"}
 :::
@@ -20,6 +21,7 @@ While the campus of Université Grenoble Alpes, and therefore the conference loc
 ![](../images/europe_hotel.png)
 :::
 :::
+
 
 #### Ibis Grenoble Centre Bastille
 ::: columns

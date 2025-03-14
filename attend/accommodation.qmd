@@ -12,11 +12,11 @@ Some of these hotels are offering a special rate for attendees. Please check the
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM B** at *Hubert Dubedout - Maison du Tourisme* to *Bibliothèques Universitaires*
-- Website: [https://www.hoteleurope.fr](https://www.hoteleurope.fr)
+- Website: <https://www.hoteleurope.fr>
 - Phone: +33 4 76 46 16 94
 - Email: [contact@hoteleurope.fr](mailto:contact@hoteleurope.fr)
 
-::: {.callout-note title="Details to use the code *CERE25*" collapse="true"}
+::: {.callout-important title="Details to use the code *CERE25*" collapse="true"}
 Single Rooms are available for booking at a rate of €107 per night. Reservations must be made directly with the hotel via phone or email. Cancellation conditions vary depending on the selected option.
 :::
 :::
@@ -27,12 +27,11 @@ Single Rooms are available for booking at a rate of €107 per night. Reservatio
 :::
 :::
 
-
 #### Ibis Grenoble Centre Bastille
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM B** at *Victor Hugo* to *Bibliothèques Universitaires*
-- Website: [https://all.accor.com/hotel/0612/index.en.shtml](https://all.accor.com/hotel/0612/index.en.shtml)
+- Website: <https://all.accor.com/hotel/0612/index.en.shtml>
 - Phone: +33 4 76 47 48 49 
 - Email: [H0612@accor.com](mailto:H0612@accor.com)
 :::
@@ -47,11 +46,11 @@ Single Rooms are available for booking at a rate of €107 per night. Reservatio
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM B** at *Victor Hugo* to *Bibliothèques Universitaires*
-- Website: [https://www.hotel-angleterre-grenoble.com](https://www.hotel-angleterre-grenoble.com)
+- Website: <https://www.hotel-angleterre-grenoble.com>
 - Phone: +33 4 38 88 40 40
 - Email: [reservations@hotel-angleterre-grenoble.com](mailto:reservations@hotel-angleterre-grenoble.com)
 
-::: {.callout-note title="Details to use the code *CERE25*" collapse="true"}
+::: {.callout-important title="Details to use the code *CERE25*" collapse="true"}
 Single Rooms are available for booking at a rate of €103 per night and Double Rooms at a rate of €123. Bookings must be made directly with the hotel (by phone or email) before May 1, 2025. Free cancellation until noon on the day of arrival.
 :::
 :::
@@ -66,11 +65,11 @@ Single Rooms are available for booking at a rate of €103 per night and Double 
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM B** at *Victor Hugo* to *Bibliothèques Universitaires*
-- Website: [https://www.residhotel.com/residence/residhotel-grenoble-grenette/](https://www.residhotel.com/residence/residhotel-grenoble-grenette/)
+- Website: <https://www.residhotel.com/residence/residhotel-grenoble-grenette>
 - Phone: +33 4 76 94 45 45
 - Email: [reservation@residhotel.com](mailto:reservation@residhotel.com)
 
-::: {.callout-note title="Details to use the code *CAMP-CERE2025*" collapse="true"}
+::: {.callout-important title="Details to use the code *CAMP-CERE2025*" collapse="true"}
 Single, Double, and Twin Rooms are available for booking with a 20% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email).
 :::
 :::
@@ -81,17 +80,36 @@ Single, Double, and Twin Rooms are available for booking with a 20% reduction of
 :::
 :::
 
+#### The Originals Résidence Grenoble Université
+::: columns
+::: {.column width="60%"}
+- Take **TRAM C** at *Neyrpic-Belledonne* to *Bibliothèques Universitaires*
+- Website: <https://www.theoriginalshotels.com/hotels/grenoble-universite>
+- Phone: +33 4 38 38 17 00
+- Email: [H3810@theoriginalshotels.com](mailto:H3810@theoriginalshotels.com)
+
+::: {.callout-important title="Details to use the code *CERE25*" collapse="true"}
+Single, Double, and Twin Rooms are available at a rate of €117 per night. Bookings must be made directly with the hotel (by phone or email). Free cancellation until 6:00 pm on the day of booking.
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/originals_hotel.jpg)
+:::
+:::
+
 ## ⭐⭐⭐⭐ Hotels in Grenoble City Center
 
 #### Rocky Pop
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
-- Website: [https://www.rockypop.com/en/grenoble/grenoble-hotel/](https://www.rockypop.com/en/grenoble/grenoble-hotel/)
+- Website: <https://www.rockypop.com/en/grenoble/grenoble-hotel>
 - Phone: +33 4 58 00 82 28
 - Email: [grenoble@rockypop.com](mailto:grenoble@rockypop.com)
 
-::: {.callout-note title="Details to use the code *CERE2025*" collapse="true"}
+::: {.callout-important title="Details to use the code *CERE25*" collapse="true"}
 Single, Double, and Twin Rooms are available for booking with a 15% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email). Cancellation conditions depend on the chosen option.
 :::
 :::
@@ -106,7 +124,7 @@ Single, Double, and Twin Rooms are available for booking with a 15% reduction of
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM B** at *Hubert Dubedout - Maison du Tourisme* to *Bibliothèques Universitaires*
-- Website: [https://www.grand-hotel-grenoble.com/](https://www.grand-hotel-grenoble.com/)
+- Website: <https://www.grand-hotel-grenoble.com>
 - Phone: +33 4 76 51 22 59
 - Email: [contact@grand-hotel-grenoble.fr](mailto:contact@grand-hotel-grenoble.fr)
 :::
@@ -121,7 +139,7 @@ Single, Double, and Twin Rooms are available for booking with a 15% reduction of
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
-- Website: [https://all.accor.com/hotel/9350/index.fr.shtml](https://all.accor.com/hotel/9350/index.fr.shtml)
+- Website: <https://all.accor.com/hotel/9350/index.fr.shtml>
 - Phone: +33 4 76 85 81 23
 - Email: [H9350@accor.com](mailto:H9350@accor.com)
 :::
@@ -136,7 +154,7 @@ Single, Double, and Twin Rooms are available for booking with a 15% reduction of
 ::: columns
 ::: {.column width="60%"}
 - Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
-- Website: [https://all.accor.com/hotel/0652/index.en.shtml](https://all.accor.com/hotel/0652/index.en.shtml)
+- Website: <https://all.accor.com/hotel/0652/index.en.shtml>
 - Phone: +33 4 76 87 88 41
 - Email: [H0652@accor.com](mailto:H0652@accor.com)
 :::
@@ -144,6 +162,25 @@ Single, Double, and Twin Rooms are available for booking with a 15% reduction of
 :::
 ::: {.column width="35%"}
 ![](../images/mercure_hotel.jpg)
+:::
+:::
+
+#### Okko Hôtel
+::: columns
+::: {.column width="60%"}
+- Take **TRAM C** at *Gustave Rivet* to *Bibliothèques Universitaires*
+- Website: <https://www.okkohotels.com/fr/page/grenoble/okko-hotels-grenoble-jardin-hoche-hotel-4-etoiles-centre-grenoble.24897.html>
+- Phone: +33 4 85 19 00 10 
+- Email: [grenoble3801@okkohotels.com](mailto:grenoble3801@okkohotels.com)
+
+::: {.callout-important title="Details to use the code *CERE25*" collapse="true"}
+Single Rooms are available for booking at a rate of €126 per night and Double Rooms at a rate of €136. Bookings must be made directly with the hotel (by phone or email). Modifiable and cancellable free of charge until 6:00 pm on the day of arrival.
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/okko_hotel.jpg)
 :::
 :::
 

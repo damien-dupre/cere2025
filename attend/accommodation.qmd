@@ -4,6 +4,8 @@ title: Accomodation
 
 While the campus of Université Grenoble Alpes, and therefore the conference location, is outside the city center, we recommend staying in the city center and to go to the conference venue by Tram (15-20min journey, see [Venue](venue.qmd)).
 
+Some of these hotels are offering a special rate for attendees. Please check the dropdown information and use the appropriate code, **CERE25** or **CAMP-CERE2025**, depending on the hotel.
+
 ## ⭐⭐⭐ Hotels in Grenoble City Center
 
 #### Hôtel de l'Europe
@@ -14,6 +16,9 @@ While the campus of Université Grenoble Alpes, and therefore the conference loc
 - Phone: +33 4 76 46 16 94
 - Email: [contact@hoteleurope.fr](mailto:contact@hoteleurope.fr)
 
+::: {.callout-note title="Details to use the code *CERE25*" collapse="true"}
+Single Rooms are available for booking at a rate of €107 per night. Reservations must be made directly with the hotel via phone or email. Cancellation conditions vary depending on the selected option.
+:::
 :::
 ::: {.column width="5%"}
 :::
@@ -45,6 +50,10 @@ While the campus of Université Grenoble Alpes, and therefore the conference loc
 - Website: [https://www.hotel-angleterre-grenoble.com](https://www.hotel-angleterre-grenoble.com)
 - Phone: +33 4 38 88 40 40
 - Email: [reservations@hotel-angleterre-grenoble.com](mailto:reservations@hotel-angleterre-grenoble.com)
+
+::: {.callout-note title="Details to use the code *CERE25*" collapse="true"}
+Single Rooms are available for booking at a rate of €103 per night and Double Rooms at a rate of €123. Bookings must be made directly with the hotel (by phone or email) before May 1, 2025. Free cancellation until noon on the day of arrival.
+:::
 :::
 ::: {.column width="5%"}
 :::
@@ -60,6 +69,10 @@ While the campus of Université Grenoble Alpes, and therefore the conference loc
 - Website: [https://www.residhotel.com/residence/residhotel-grenoble-grenette/](https://www.residhotel.com/residence/residhotel-grenoble-grenette/)
 - Phone: +33 4 76 94 45 45
 - Email: [reservation@residhotel.com](mailto:reservation@residhotel.com)
+
+::: {.callout-note title="Details to use the code *CAMP-CERE2025*" collapse="true"}
+Single, Double, and Twin Rooms are available for booking with a 20% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email).
+:::
 :::
 ::: {.column width="5%"}
 :::
@@ -69,6 +82,25 @@ While the campus of Université Grenoble Alpes, and therefore the conference loc
 :::
 
 ## ⭐⭐⭐⭐ Hotels in Grenoble City Center
+
+#### Rocky Pop
+::: columns
+::: {.column width="60%"}
+- Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
+- Website: [https://www.rockypop.com/en/grenoble/grenoble-hotel/](https://www.rockypop.com/en/grenoble/grenoble-hotel/)
+- Phone: +33 4 58 00 82 28
+- Email: [grenoble@rockypop.com](mailto:grenoble@rockypop.com)
+
+::: {.callout-note title="Details to use the code *CERE2025*" collapse="true"}
+Single, Double, and Twin Rooms are available for booking with a 15% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email). Cancellation conditions depend on the chosen option.
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/rocky_hotel.jpg)
+:::
+:::
 
 #### Le Grand Hôtel de Grenoble, BW Premier Collection
 ::: columns
@@ -82,21 +114,6 @@ While the campus of Université Grenoble Alpes, and therefore the conference loc
 :::
 ::: {.column width="35%"}
 ![](../images/grand_hotel.jpg)
-:::
-:::
-
-#### Rocky Pop
-::: columns
-::: {.column width="60%"}
-- Take **TRAM C** at *Chavant* to *Bibliothèques Universitaires*
-- Website: [https://www.rockypop.com/en/grenoble/grenoble-hotel/](https://www.rockypop.com/en/grenoble/grenoble-hotel/)
-- Phone: +33 4 58 00 82 28
-- Email: [grenoble@rockypop.com](mailto:grenoble@rockypop.com)
-:::
-::: {.column width="5%"}
-:::
-::: {.column width="35%"}
-![](../images/rocky_hotel.jpg)
 :::
 :::
 

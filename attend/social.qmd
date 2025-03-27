@@ -19,7 +19,12 @@ Every year, the French National Day resounds with music and fireworks across the
 
 ::: columns
 ::: {.column width="60%"}
-On Tuesday July 15, join us for an unforgettable Welcome Reception at the historic **Bastille of Grenoble**, perched high above the city with stunning views of the Alps. **Arrive by cable car** and enjoy local delicacies, fine wines, and engaging conversations in this iconic setting. Surrounded by the Bastille’s **ancient fortifications**, it’s the perfect opportunity to connect with fellow delegates and set the tone for the conference ahead.
+On Tuesday July 15, join us for an unforgettable Welcome Reception at the historic **Bastille of Grenoble**, perched high above the city with stunning views of the Alps. **Arrive by cable car** and enjoy local delicacies, fine wines, and engaging conversations in this iconic setting. 
+
+::: {.callout-important title="Warning: Limited Number of Places Available"}
+When registering for the conference, please indicate whether you will be attending the Welcome Reception. **Places are LIMITED** and will be allocated on a **first-registered, first-served** basis.
+:::
+
 :::
 ::: {.column width="5%"}
 :::
@@ -32,7 +37,12 @@ On Tuesday July 15, join us for an unforgettable Welcome Reception at the histor
 
 ::: columns
 ::: {.column width="60%"}
-Between the Welcome Reception and the Gala Dinner, Wednesday evening will be left free for attendees. However, we are pleased to propose an **optional city tour** in collaboration with the Grenoble Office du Tourisme. Please note that this tour is not included in the conference fees and requires separate booking.
+Between the Welcome Reception and the Gala Dinner, Wednesday evening will be left free for attendees. However, we are pleased to propose an **optional city tour** in collaboration with the Grenoble Office du Tourisme. 
+
+::: {.callout-important title="Warning: Not Part of the Conference"}
+Please be aware that **this tour is NOT included** in the conference fees and **must be booked separately**.
+:::
+
 :::
 ::: {.column width="5%"}
 :::

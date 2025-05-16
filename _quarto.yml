@@ -6,7 +6,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Important** - The submission portal is now **closed**, decisions will be sent by **April 30**!"
+    content: "**Important** - **Remember to [register by clicking here](https://uga.azur-colloque.fr/inscription/en/232/inscription)**, Early Bird rates only available until May 31"
     type: info
     position: below-navbar
   site-url: https://www.cere2025.com/
@@ -29,8 +29,12 @@ website:
             href: keynotes/jose-miguel_fernandez-dols.qmd
           - text: "Prof. Steve Heine"
             href: keynotes/steven_heine.qmd
-      - text: "Submission Guidelines"
-        href: submission/index.qmd
+      - text: "Instructions for Presenters"
+        menu: 
+          - text: "Symposium, Oral, Poster, and Data Workshop"
+            href: submission/index.qmd
+          - text: "Submission Guidelines"
+            href: submission/guidelines.qmd
       # - text: "Submission"
       #   menu: 
       #     - text: "Submission Guidelines"
@@ -55,6 +59,7 @@ website:
             href: attend/social.qmd
       - text: "Organisation"
         href: people/index.qmd
+      - href: faq.qmd
   page-footer:
     background: "#2A2E46"
     left: "![](https://www.univ-grenoble-alpes.fr/uas/SITEUI/UGA_LOGO_PAGE_INTERIEURE/logo_epe_blanc_sans_marges.svg){width=150px}"

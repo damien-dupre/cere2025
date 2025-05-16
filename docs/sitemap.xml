@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cere2025.com/submission/index.html</loc>
-    <lastmod>2025-01-24T13:12:01.582Z</lastmod>
+    <lastmod>2025-05-16T09:38:58.288Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/program/index.html</loc>
-    <lastmod>2024-07-26T08:42:58.000Z</lastmod>
+    <loc>https://www.cere2025.com/submission/guidelines.html</loc>
+    <lastmod>2025-05-16T09:27:11.054Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/people/index.html</loc>
-    <lastmod>2024-10-21T08:22:16.000Z</lastmod>
+    <loc>https://www.cere2025.com/program/committee.html</loc>
+    <lastmod>2024-12-02T12:41:51.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/faq.html</loc>
+    <lastmod>2025-05-16T09:22:33.616Z</lastmod>
   </url>
   <url>
     <loc>https://www.cere2025.com/attend/accommodation.html</loc>
@@ -34,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.cere2025.com/index.html</loc>
-    <lastmod>2025-02-20T12:53:12.664Z</lastmod>
+    <lastmod>2025-05-16T09:08:44.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cere2025.com/attend/social.html</loc>
@@ -42,11 +46,15 @@
   </url>
   <url>
     <loc>https://www.cere2025.com/attend/registration.html</loc>
-    <lastmod>2025-01-30T16:31:18.655Z</lastmod>
+    <lastmod>2025-05-16T09:08:28.510Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/program/committee.html</loc>
-    <lastmod>2024-12-02T12:41:51.000Z</lastmod>
+    <loc>https://www.cere2025.com/people/index.html</loc>
+    <lastmod>2024-10-21T08:22:16.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/program/index.html</loc>
+    <lastmod>2024-07-26T08:42:58.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cere2025.com/submission/tutorial.html</loc>

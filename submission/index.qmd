@@ -1,86 +1,38 @@
 ---
-title: Submission Guidelines
+title: Instructions for Presenters
 ---
 
-If you would like to present your research at #CERE2025, submissions will be accepted for the following categories:
+## Symposium and Oral Presentations
 
-- [Abstract for an oral presentation](#oral_poster) that describes an individual research project;
-- [Abstract for a poster presentation](#oral_poster) that describes an individual research project. Scientific research ideas and designs, without yet having data, could be submitted as poster presentations;
-- [Abstracts for a symposium](#symposium) that consist of four to five oral presentations on a single research theme;
-- [Abstract for a data workshop](#data_workshop) that consists in the presentation of the transformations and statistical analysis of emotion-related data which should last between 45 and 60 minutes.
+For those giving Oral Presentations, you will be afforded a 12-minute slot for your talk and two minutes for any audience questions.
 
-As #CERE2025 is an in-person conference, we expect **all presenters to attend the conference to present in person**.
+Speakers can present using the computers in the rooms or their own laptops, and we will provide audio. In all rooms in the conference, the projection systems are in the 16:9 format.
 
-In order to encourage a diversity of speakers and research perspectives, #CERE2025 limits participants to **one oral presentation per first author**. Attendees can be listed as a co-author on multiple presentations, and speakers can also participate separately in symposia as a discussant.
+Symposia will be moderated by the symposium organizers. Individual talks sessions will be assigned a moderator. Moderators will be communicated in the CERE2025 program in the next weeks. For oral presentations, please make sure to contact your session moderator before your scheduled session. You may be asked to send your slides in advance.
 
-All submissions must be **written in English and will be subject to double-blind peer review** by an international scientific committee. In order to facilitate the review process, submissions should indicate one or more keywords that describe the work. A list of keywords can be found below.
+## Posters
 
-The conference will be an opportunity to promote unpublished scientific research on emotions. These will therefore be preferred to proposals for papers on data and/or theoretical reflections that have already been published (this does not apply to proposals for data workshops). Proposals for papers on scientific research that does not deal with emotions, or that promote political or commercial issues with the aim of influencing scientific research, will be rejected by the Scientific Committee.
+You are strongly encouraged to set up posters in the morning before the first conference session. You are welcome to leave your poster up till the end of the day. The following are the guidelines for poster presentations:
 
-The scientific committee will attach particular importance to the scientific quality of the work, the presentation of original data and, in the case of symposia, the homogeneity of the various papers. All abstracts must clearly articulate the aim of the study or theoretical work and outline the outcomes. For empirical research, it is essential to detail the sample, experimental conditions (if applicable), types of stimuli, and results.
+- Poster size is limited to 121cm x 121cm (4 x 4 ft, A0 format maximum). Landscape and portrait layouts are both supported. We will provide posterboards and stationery for attaching your poster.
 
-::: {.callout-note title="FAQ"}
-- References are not included in the word count for any type of submission but they can be added after the abstract.
-- All submissions, including Symposia, should be anonymous to ensure fairness in the review process.
-:::
+- Your poster must contain the abstract title and the name(s) of the poster author(s).
 
-## Abstract for an Oral or a Poster Presentation {#oral_poster}
+- QR codes may be included on posters and handouts so long as the code does not lead to a website or materials promoting or marketing a company or product
 
-The first author should submit abstracts. Abstracts must include the name and affiliation of all co-authors. They must also have a **title no longer than 15 words, and an abstract no longer than 300 words**. The abstract should be anonymized in order to avoid revealing either the authors' identities or institutions.
+- You should bear in mind that your illustrations will be viewed from distances of 3 feet or more. All lettering should be sized accordingly.
 
-Accepted abstracts will be included in the conference program. Those selected for oral presentations will be given **12 minutes for the presentation, followed by two minutes for questions**. Posters will be displayed during designated sessions and will remain up for one day. If multiple posters from the same team or on related topics are submitted, a request can be made to the organisers to have them displayed on the same day.
+## Poster Printing Services
 
-## Abstracts for a Symposium {#symposium}
+You can find some local poster printing services below. Please contact them directly to purchase posters.
 
-A Symposium consists of a number of presenters discussing a common topic or theme in a manner that brings new insights to the subject. Submissions are welcome from scholars in all relevant disciplines for symposia of up to four talks and one discussant or five talks without a discussant. Submissions that include multiple disciplines are particularly encouraged in order to facilitate cross-disciplinary exchange. **Each presenter in a symposium will be allocated 12 minutes plus two minutes for questions**. Symposia presentations can involve co-authors, who will be listed in the printed program.
+### Corep
 
-In order to propose a symposium, the lead proposer will need the name and affiliation of the symposium presenters, co-authors, and discussant, if one is used. They will also need **a symposium abstract no longer than 300 words explaining why the talks should be linked, and each presenter's abstract, which should be a maximum of 300 words**. An individual can present only once at the conference as first-author but can be a co-author or discussant on multiple submissions.
+- About 5 minutes’ walk from the conference venue
+- Website: https://www.corep.fr/agence/corep-grenoble-campus/
+- Phone: +33 (0)4 76 15 10 56
+- Email: [grenoble.campus@corep.fr](mailto:grenoble.campus@corep.fr)
+- Address: 1113, rue des Universités 38610 - GIERES
+- Opening hours: 9am-6pm Monday to Friday, closed Saturdays and Sundays but take online orders at https://www.corep-online.fr/
+- Turnaround time: Typically same day for a poster, but can be next day in busy periods
 
-## Abstract for a Data Workshop {#data_workshop}
-
-A data workshop aims to provide a detailed presentation on the transformation and statistical analysis of emotion-related data. This workshop should last **between 45 and 60 minutes**, allowing for in-depth exploration of methodologies, data handling, and analyses. Preference will be given to analyses using an open-source programming language, and data already accessible in public repositories.
-
-A data workshop abstract must include the name and affiliation of all co-authors. They must also have a **title no longer than 15 words, and an abstract no longer than 300 words**. The abstract should be anonymised in order to avoid revealing either the authors' identities or institutions.
-
-If you have any questions, please contact us at [CERE2025@univ-grenoble-alpes.fr](mailto:cere2025@univ-grenoble-alpes.fr).
-
-## Submission Keywords {#SubmissionKeywords}
-
-In order to facilitate the review process, please indicate the topic of your submission using one or more of the keywords below. They will be used to match your submission to potential reviewers.
-
-| Keywords                           |
-|------------------------------------|
-| Affective computing                |
-| Affective dynamics                 |
-| Aging                              |
-| Animal/Comparative                 |
-| Anthropology                       |
-| Cognition                          |
-| Child and adolescent development   |
-| Clinical/Psychopathology           |
-| Communication/Mass media           |
-| Culture                            |
-| Decision-making/Consumer choice    |
-| Embodiment                         |
-| Emotion Regulation                 |
-| Emotion theory                     |
-| Empathy (interpersonal)            |
-| Evolutionary                       |
-| History                            |
-| Law                                |
-| Learning/Education                 |
-| Morality                           |
-| Neuroscience                       |
-| Nonverbal expression/communication |
-| Personality/Individual differences |
-| Philosophy                         |
-| Positive emotion                   |
-| Psychophysiology                   |
-| Questionnaire Development          |
-| Research Methods                   |
-| Sociology                          |
-| Social Networks                    |
-| Specific Emotions                  |
-| Work                               |
-
-: List of Keywords

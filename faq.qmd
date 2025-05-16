@@ -1,0 +1,19 @@
+---
+title: FAQ
+---
+
+::: {.callout-note title="Are there fundings or grants available to attend CERE2025?"}
+As we aimed to keep registration fees as low as possible, unfortunately there is no funding or grant available to support attendance at CERE2025.
+:::
+
+::: {.callout-note title="Is it possible to have an acceptance letter for my VISA application?"}
+Yes, acceptance letter are available upon request to the organisation committee at [CERE2025@univ-grenoble-alpes.fr](mailto:cere2025@univ-grenoble-alpes.fr).
+:::
+
+::: {.callout-note title="Can I bring a +1 to the Gala Dinner?"}
+Yes, Additional Gala Dinner tickets can be purchased online on the registration portal It can be added to your conference registration or done separately. See more information on [registration portal](https://uga.azur-colloque.fr/inscription/en/232/inscription).
+:::
+
+::: {.callout-note title="Can I do my presentation online?"}
+No, CERE2025 is a fully in person conference.
+:::

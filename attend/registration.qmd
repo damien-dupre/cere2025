@@ -15,9 +15,10 @@ To register for **#CERE2025**, [access the registration portal here](https://uga
 library(DT)
 tibble::tribble(
           ~type, ~early, ~full, ~on_site,
-     "Standard", "€280", "€360",  "€460",
-      "Economy", "€160", "€200",  "€300",
-  "Gala Dinner",  "€60", "€100",    "NA"
+     "Standard Rate", "€280", "€360",  "€460",
+      "Economy/'ETUDIANT'", "€160", "€200",  "€300",
+  "Gala Dinner",  "€60", "€100",    "NA",
+  "Additional Gala Dinner",  "€100", "€100",    "NA"
   ) |> 
   datatable(
       colnames = c("Type", "Early Bird", "Full", "On-Site"),
@@ -35,7 +36,10 @@ tibble::tribble(
 
 <br>
 
-- Discounted Economy rates are available for students and postdoctoral researchers.
-- Early Bird rates are valid until 31 May, followed by Full rates until 14 July. On-Site rates will apply from 15 July onwards.
-- Please note that the Gala Dinner is not included in either Economy or Standard conference registrations and must be purchased separately. Due to organisational constraints, Gala Dinner tickets will not be available for purchase after 1 July.
-- Unfortunately, no funding opportunity is available for #CERE2025
+- Discounted Economy 'ETUDIANT' rates are available for students and postdoctoral researchers.
+- **Early Bird rates are valid until 31 May**, followed by Full rates until 14 July. On-Site rates will apply from 15 July onwards.
+- The Welcome Reception is included in the registration of both Economy 'ETUDIANT' or Standard rates but is **limited to the first 180 persons selecting the option.**
+- Please note that the Gala Dinner is not included in either Economy 'ETUDIANT' or Standard conference registrations and must be purchased separately. 
+- Due to organisational constraints, **Gala Dinner tickets will not be available for purchase after 1 July.**
+- Unfortunately, **no funding opportunity is available for #CERE2025**
+- No refund available after June 15, 2025.

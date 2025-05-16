@@ -38,6 +38,7 @@ tibble::tribble(
 
 - Discounted Economy 'ETUDIANT' rates are available for students and postdoctoral researchers.
 - **Early Bird rates are valid until 31 May**, followed by Full rates until 14 July. On-Site rates will apply from 15 July onwards.
+- Lunch and Coffee Breaks are included in all the Conference Registration Fees.
 - The Welcome Reception is included in the registration of both Economy 'ETUDIANT' or Standard rates but is **limited to the first 180 persons selecting the option.**
 - Please note that the Gala Dinner is not included in either Economy 'ETUDIANT' or Standard conference registrations and must be purchased separately. 
 - Due to organisational constraints, **Gala Dinner tickets will not be available for purchase after 1 July.**

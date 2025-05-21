@@ -57,6 +57,8 @@ website:
             href: attend/accommodation.qmd
           - text: "Social Events"
             href: attend/social.qmd
+          - text: "Transportation"
+            href: attend/transportation.qmd
       - text: "Organisation"
         href: people/index.qmd
       - href: faq.qmd

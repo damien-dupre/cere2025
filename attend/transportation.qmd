@@ -1,0 +1,18 @@
+---
+pagetitle: Transportation in Grenoble (20% off)
+---
+
+**The venue is directly accessible from the city centre via tram lines B and C**. Attendees will be provided with a tram ticket valid for the duration of the conference.
+
+![](../images/tram_lines.png)
+<center>
+[Credit: Chris Neuherz, transitdiagrams [`r emo::ji("link")`](https://www.instagram.com/transitdiagrams/)]{style="font-size: 50%"}
+</center>
+
+Instead of buying individual public transportation tickets, use the **G-PASS Business**. This is a smartphone compatible ticket solution for travelling on all bus and tram lines in Grenoble and the surrounding area.
+
+The G-PASS Business also includes additional discount offers (leisure, tourism, coworking, etc.).
+
+You can buy your pass online at <https://business.grenoblealpespass.com> and get 20% off with the code **GPASS-CERE25**.
+
+[![](https://business.grenoblealpespass.com/img/logo.png)](https://business.grenoblealpespass.com)

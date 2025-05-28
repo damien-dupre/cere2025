@@ -19,6 +19,8 @@ website:
     right:
       - text: "Program"
         menu: 
+          - text: "Overview"
+            href: program/index.qmd
           - text: "Committee"
             href: program/committee.qmd
       - text: "Keynotes"

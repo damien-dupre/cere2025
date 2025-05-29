@@ -2,11 +2,9 @@
 pagetitle: Home
 ---
 
-::: {.column-screen style="text-align: center;"}
-# #CERE2025<br>10th Conference of the Consortium of European Research on Emotion
+# [#CERE2025<br>10th Conference of the Consortium of European Research on Emotion]{.column-screen style="text-align: center;"}
 
-![](images/grenobleCERE2025.png)
-:::
+![](images/grenobleCERE2025.png){.column-screen-inset fig-align="center"}
 
 ## About the Conference
 

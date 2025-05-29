@@ -32,11 +32,7 @@ website:
           - text: "Prof. Steve Heine"
             href: keynotes/steven_heine.qmd
       - text: "Instructions for Presenters"
-        menu: 
-          - text: "Symposium, Oral, Poster, and Data Workshop"
-            href: submission/index.qmd
-          - text: "Submission Guidelines"
-            href: submission/guidelines.qmd
+        href: submission/index.qmd
       # - text: "Submission"
       #   menu: 
       #     - text: "Submission Guidelines"

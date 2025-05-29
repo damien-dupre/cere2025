@@ -2,7 +2,7 @@
 pagetitle: Transportation in Grenoble (20% off)
 ---
 
-**The venue is directly accessible from the city centre via tram lines B and C**. Attendees will be provided with a tram ticket valid for the duration of the conference.
+**The venue is directly accessible from the city centre via tram lines B and C**. 
 
 ![](../images/tram_lines.png)
 <center>

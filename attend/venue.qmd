@@ -46,7 +46,7 @@ Finally, the Auvergne-Rhône-Alpes motorway network is the most densely populate
 
 Upon arrival in Grenoble, we recommend that attendees stay in the city centre (see [Accommodation](accommodation.qmd)) and use the tram to travel to and from the conference venue on campus.
 
-**The venue is directly accessible from the city centre via tram lines B and C**. Attendees will be provided with a tram ticket valid for the duration of the conference.
+**The venue is directly accessible from the city centre via tram lines B and C**. 
 
 ![](../images/tram_lines.png)
 <center>

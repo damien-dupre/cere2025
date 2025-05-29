@@ -57,6 +57,9 @@ Our aim with this new feature is to give every poster presenter the full attenti
   <source src="../assets/poster_group.mp4" type="video/mp4" />
 </video>
 ```
+<center>
+[Sequence generated with Gemini]{style="font-size: 50%"}
+</center>
 :::
 
 ::::

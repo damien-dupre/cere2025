@@ -44,4 +44,4 @@ tibble::tribble(
 - Due to organisational constraints, **Gala Dinner tickets will not be available for purchase after 1 July.**
 - Unfortunately, **no funding opportunity is available for #CERE2025**
 - No refund available after June 15, 2025.
-- The conference is open to any person interested in emotion science.
+- The **conference is open to any person interested in emotion science**.

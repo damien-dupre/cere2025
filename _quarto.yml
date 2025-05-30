@@ -71,6 +71,8 @@ website:
         icon: globe
       - href: https://x.com/CERE_Emotion
         icon: twitter-x
+      - href: https://www.instagram.com/CERE_Emotion/
+        icon: instagram
       
 format:
   html:

@@ -2,6 +2,10 @@
 title: FAQ
 ---
 
+::: {.callout-note title="Can I attend CERE2025 if I'm not presenting?"}
+Yes, the conference is open to everyone as long as you Register [here](https://uga.azur-colloque.fr/inscription/en/232/inscription).
+:::
+
 ::: {.callout-note title="Are there fundings or grants available to attend CERE2025?"}
 As we aimed to keep registration fees as low as possible, unfortunately there is no funding or grant available to support attendance at CERE2025.
 :::

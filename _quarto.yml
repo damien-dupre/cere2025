@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Important** - **Remember to [register by clicking here](https://uga.azur-colloque.fr/inscription/en/232/inscription)**, Early Bird rates only available until May 31"
-    type: info
-    position: below-navbar
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Important** - **Remember to [register by clicking here](https://uga.azur-colloque.fr/inscription/en/232/inscription)**, Early Bird rates only available until May 31"
+  #   type: info
+  #   position: below-navbar
   site-url: https://www.cere2025.com/
   title: "CERE2025 - 10th Conference of the Consortium of European Research on Emotion"
   favicon: images/favicon.png
@@ -47,6 +47,7 @@ website:
             href: attend/registration.qmd
           - text: "Log In the Registration Portal"
             href: https://uga.azur-colloque.fr/inscription/en/232/inscription
+            target: _blank
       - text: "Attend"
         menu: 
           - text: "Venue"
@@ -60,6 +61,13 @@ website:
       - text: "Organisation"
         href: people/index.qmd
       - href: faq.qmd
+    tools:
+      - href: https://x.com/CERE_Emotion
+        icon: twitter-x
+        target: _blank
+      - href: https://www.instagram.com/CERE_Emotion/
+        icon: instagram
+        target: _blank
   page-footer:
     background: "#2A2E46"
     left: "![](https://www.univ-grenoble-alpes.fr/uas/SITEUI/UGA_LOGO_PAGE_INTERIEURE/logo_epe_blanc_sans_marges.svg){width=150px}"

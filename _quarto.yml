@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  # announcement: 
-  #   icon: info-circle
-  #   dismissable: true
-  #   content: "**Important** - **Remember to [register by clicking here](https://uga.azur-colloque.fr/inscription/en/232/inscription)**, Early Bird rates only available until May 31"
-  #   type: info
-  #   position: below-navbar
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "A new version of the program is available [here](https://www.cere2025.com/program/) (June 23rd)"
+    type: info
+    position: below-navbar
   site-url: https://www.cere2025.com/
   title: "CERE2025 - 10th Conference of the Consortium of European Research on Emotion"
   favicon: images/favicon.png

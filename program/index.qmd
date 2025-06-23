@@ -2,8 +2,11 @@
 pagetitle: Programm
 ---
 
+If your web browser is compatible, you can see the program below or else you can also [{{< fa download >}} download the Program here](../assets/cere2025_program_20250623.pdf){.btn .btn-primary}
+
 ```{=html}
-<object data="../assets/cere2025_program_20250528.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
-    <p> Your web browser does not support PDF plugins, <a href="../assets/cere2025_program_20250528.pdf"> but you can click here to download the PDF file.</a></p>
+<object data="../assets/cere2025_program_20250623.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p> Your web browser does not support PDF plugins, <a href="../assets/cere2025_program_20250623.pdf"> but you can click here to download the PDF file.</a></p>
 </object>
 ```
+

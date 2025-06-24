@@ -21,8 +21,6 @@ website:
         menu: 
           - text: "Overview"
             href: program/index.qmd
-          - text: "Committee"
-            href: program/committee.qmd
       - text: "Keynotes"
         menu: 
           - text: "Prof. Agnes Moors"
@@ -58,8 +56,12 @@ website:
             href: attend/social.qmd
           - text: "Transportation"
             href: attend/transportation.qmd
-      - text: "Organisation"
-        href: people/index.qmd
+      - text: "People"
+        menu:
+          - text: "Organising Committee"
+            href: people/index.qmd
+          - text: "Scientific Committee"
+            href: program/committee.qmd
       - href: faq.qmd
     tools:
       - href: https://x.com/CERE_Emotion

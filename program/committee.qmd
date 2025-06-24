@@ -1,5 +1,5 @@
 ---
-title: Organisation Committee
+title: Scientific Committee
 execute: 
   echo: false
   message: false
@@ -46,17 +46,6 @@ list_committee <-
   ) |> 
   read_sheet()
 ```
- 
-## Scientific Committee
-
-```{r}
-list_committee |> 
-  filter(role == "Scientific Committee") |> 
-  select(-role) |> 
-  overview_table()
-```
-
-## Abstract Review Committee
 
 ```{r}
 list_committee |> 

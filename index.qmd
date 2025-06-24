@@ -22,9 +22,22 @@ Don't miss this chance to immerse yourself in the vibrant academic community and
 
 ## Event Sponsors
 
-<center>
+::: columns 
+::: {.column width="30%"}
+![](images/logo_3.jpg)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="30%"}
+![](images/logo_2.png)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="30%"}
 ![](images/logo_1.png)
-</center>
+:::
+:::
+
 
 ## Contact Us
 

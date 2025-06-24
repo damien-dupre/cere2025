@@ -31,24 +31,28 @@ Exact address: [**77 Rue des Universités, 38400 Saint-Martin-d'Hères, France**
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d721.4765656055997!2d5.770447924710981!3d45.18994630258095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af5001fd00b7b%3A0x58a659bb50ef3079!2sPierre%20Mend%C3%A8s%20France%20(pmf)!5e0!3m2!1sen!2sie!4v1729696863469!5m2!1sen!2sie" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-## Getting there
+## Once on Campus
 
-**Three international airports are located less than 90 minutes from Grenoble**: Lyon Saint-Exupéry, Grenoble Alpes Isère and Geneva. In total, more than 200 direct destinations are accessible.
+::: columns
+::: {.column width="60%"}
+To reach the **Pierre Mendès France** building (a.k.a **"Galerie des Amphis"**) from **the TRAM Station “Bibliothèques Universitaires”**, exit the tram and face the shops. Then, turn left and begin walking straight ahead along the tram tracks.
 
-With up to 10 direct Grenoble-Paris round trips by high-speed TGV train, and with the Lyon Part-Dieu hub 1hr15mins away, **the rail offer from Grenoble is also very attractive**. Ideally located in the city centre, Grenoble railway station is perfectly connected to the city's bus and tram network. 
+Continue on this path as it runs alongside the tram tracks.
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/venue_1.png)
+:::
+:::
 
-Finally, the Auvergne-Rhône-Alpes motorway network is the most densely populated area after Île-de-France. Thanks to the A41, A48, A49 and A51 motorways, **Grenoble is easily connected to Lyon, the Rhone Valley, Switzerland and Italy**.  
-
-![](../images/grenoble_access.png)
-<center>
-[Credit: Grenoble Alpes Tourisme [`r emo::ji("link")`](https://www.grenoble-tourisme.com)]{style="font-size: 50%"}
-</center>
-
-Upon arrival in Grenoble, we recommend that attendees stay in the city centre (see [Accommodation](accommodation.qmd)) and use the tram to travel to and from the conference venue on campus.
-
-**The venue is directly accessible from the city centre via tram lines B and C**. 
-
-![](../images/tram_lines.png)
-<center>
-[Credit: Chris Neuherz, transitdiagrams [`r emo::ji("link")`](https://www.instagram.com/transitdiagrams/)]{style="font-size: 50%"}
-</center>
+::: columns
+::: {.column width="60%"}
+When the path curves to the left, follow it. This will lead you directly to the **Pierre Mendès France** building.
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="35%"}
+![](../images/venue_2.png)
+:::
+:::

@@ -1,0 +1,60 @@
+---
+title: "July 17"
+execute: 
+  echo: false
+format: 
+  html:
+    page-layout: full
+---
+
+```{r}
+#| include: false
+
+source(here::here("assets/computations_talks.R"), local = knitr::knit_global())
+```
+
+```{r results='asis'}
+program_events("Thursday 17th July", 1:4)
+```
+
+```{r}
+program_table("Parallel Session 4")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 5:6)
+```
+
+```{r}
+program_table("Parallel Session 5")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 7)
+```
+
+```{r}
+tags$a(class = "btn btn-default", href = "../poster_session_2.html", target = "_blank", "List and Abstracts")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 8:9)
+```
+
+```{r}
+program_table("Parallel Session 6")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 10)
+```
+
+##### 19:00 Gala Dinner - Stades des Alpes

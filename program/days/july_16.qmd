@@ -1,0 +1,53 @@
+---
+title: "July 16"
+execute: 
+  echo: false
+format: 
+  html:
+    page-layout: full
+---
+
+```{r}
+#| include: false
+
+source(here::here("assets/computations_talks.R"), local = knitr::knit_global())
+```
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 1:5)
+```
+
+```{r}
+program_table("Parallel Session 1")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 6:7)
+```
+
+```{r}
+program_table("Parallel Session 2")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 8)
+```
+
+```{r}
+tags$a(class = "btn btn-default", href = "../poster_session_1.html", target = "_blank", "List and Abstracts")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 9:10)
+```
+
+```{r}
+program_table("Parallel Session 3")
+```
+

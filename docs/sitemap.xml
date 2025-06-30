@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.cere2025.com/submission/index.html</loc>
-    <lastmod>2025-05-29T13:14:24.102Z</lastmod>
+    <loc>https://www.cere2025.com/submission/tutorial.html</loc>
+    <lastmod>2025-02-15T20:49:19.954Z</lastmod>
   </url>
   <url>
     <loc>https://www.cere2025.com/submission/guidelines.html</loc>
     <lastmod>2025-05-16T09:27:11.054Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/program/committee.html</loc>
-    <lastmod>2025-06-24T11:27:12.108Z</lastmod>
+    <loc>https://www.cere2025.com/program/poster_session_2.html</loc>
+    <lastmod>2025-06-30T09:46:52.869Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/faq.html</loc>
-    <lastmod>2025-05-30T10:08:34.396Z</lastmod>
+    <loc>https://www.cere2025.com/program/index.html</loc>
+    <lastmod>2025-06-30T09:46:48.467Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/attend/registration.html</loc>
-    <lastmod>2025-05-30T10:05:18.177Z</lastmod>
+    <loc>https://www.cere2025.com/program/days/july_17.html</loc>
+    <lastmod>2025-06-30T09:45:07.709Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/attend/social.html</loc>
-    <lastmod>2025-06-24T09:43:18.463Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cere2025.com/attend/venue.html</loc>
-    <lastmod>2025-06-24T09:35:48.625Z</lastmod>
+    <loc>https://www.cere2025.com/people/index.html</loc>
+    <lastmod>2024-10-21T08:22:16.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cere2025.com/keynotes/steven_heine.html</loc>
@@ -37,16 +33,16 @@
     <lastmod>2024-10-25T09:42:22.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/keynotes/jose-miguel_fernandez-dols.html</loc>
-    <lastmod>2024-10-22T12:42:23.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cere2025.com/index.html</loc>
-    <lastmod>2025-06-24T12:45:20.526Z</lastmod>
+    <loc>https://www.cere2025.com/faq.html</loc>
+    <lastmod>2025-05-30T10:08:34.396Z</lastmod>
   </url>
   <url>
     <loc>https://www.cere2025.com/attend/transportation.html</loc>
     <lastmod>2025-05-29T13:42:19.925Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/attend/registration.html</loc>
+    <lastmod>2025-05-30T10:05:18.177Z</lastmod>
   </url>
   <url>
     <loc>https://www.cere2025.com/attend/accommodation.html</loc>
@@ -57,15 +53,43 @@
     <lastmod>2025-06-24T09:23:11.092Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/people/index.html</loc>
-    <lastmod>2024-10-21T08:22:16.000Z</lastmod>
+    <loc>https://www.cere2025.com/attend/social.html</loc>
+    <lastmod>2025-06-24T09:43:18.463Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/program/index.html</loc>
-    <lastmod>2025-06-23T10:40:51.362Z</lastmod>
+    <loc>https://www.cere2025.com/attend/venue.html</loc>
+    <lastmod>2025-06-24T09:35:48.625Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cere2025.com/submission/tutorial.html</loc>
-    <lastmod>2025-02-15T20:49:19.954Z</lastmod>
+    <loc>https://www.cere2025.com/index.html</loc>
+    <lastmod>2025-06-24T14:47:00.348Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/keynotes/jose-miguel_fernandez-dols.html</loc>
+    <lastmod>2024-10-22T12:42:23.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/people/committee.html</loc>
+    <lastmod>2025-06-24T11:27:12.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/program/days/july_16.html</loc>
+    <lastmod>2025-06-30T09:44:55.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/program/days/july_18.html</loc>
+    <lastmod>2025-06-30T09:45:06.180Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/program/poster_session_1.html</loc>
+    <lastmod>2025-06-30T09:46:52.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/program/poster_session_3.html</loc>
+    <lastmod>2025-06-30T09:46:52.870Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cere2025.com/submission/index.html</loc>
+    <lastmod>2025-05-29T13:14:24.102Z</lastmod>
   </url>
 </urlset>

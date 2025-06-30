@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!internal/"
+  pre-render: internal/poster_processing.R
 
 website:
   announcement:
@@ -21,6 +25,9 @@ website:
         menu: 
           - text: "Overview"
             href: program/index.qmd
+          - href: program/days/july_16.qmd
+          - href: program/days/july_17.qmd
+          - href: program/days/july_18.qmd
       - text: "Keynotes"
         menu: 
           - text: "Prof. Agnes Moors"
@@ -61,7 +68,7 @@ website:
           - text: "Organising Committee"
             href: people/index.qmd
           - text: "Scientific Committee"
-            href: program/committee.qmd
+            href: people/committee.qmd
       - href: faq.qmd
     tools:
       - href: https://x.com/CERE_Emotion

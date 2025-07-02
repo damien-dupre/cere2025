@@ -1,0 +1,183 @@
+---
+title: "Parallel Session 5: T4"
+execute: 
+  echo: false
+  
+format: 
+  html:
+    page-layout: full
+---
+
+
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(tidyverse)
+library(DT)
+
+# data -------------------------------------------------------------------------
+source(here::here("internal/computation_talks.R"), local = knitr::knit_global())
+
+session_track <- parallel_sessions |>
+  filter(txt == "Parallel Session 5", Track == "T4")
+
+session_track_coms <- session_track |> 
+  filter(time != "title")
+
+session_track_details <- session_track |> 
+  filter(time == "title") |> 
+  mutate(
+    time = paste(min(session_track_coms$time), " - ", max(session_track_coms$time)),
+    Type = value |> 
+      str_extract("^(Symposium|Data Workshop)") |> 
+      coalesce("Talks"),
+    value = str_remove(value, "^(Data Workshop - |Symposium: |Symposium )")
+  )
+```
+
+```{r}
+#| eval: !expr 'session_track_details$Type == "Talks"'
+
+session_track_details |> 
+  select(Session = txt, Track, Time = time, Type, Title = value) |> 
+  t() |> 
+  as.data.frame() |> 
+  rownames_to_column() |>
+  datatable(
+    colnames = NULL,
+    rownames = FALSE,
+    extensions = 'Responsive',
+    options = list(
+      responsive = list(details = list(target =  1)),
+      dom = 't',
+      pageLength = -1,
+      ordering = FALSE
+      )
+    ) |>
+  # formatStyle(colnames(t(session_track_details)), fontSize = '100%') |>
+  formatStyle("rowname", color = '#eeeeee', backgroundColor = '#E84E0F', fontWeight = 'bold')
+
+session_track_coms |> 
+  left_join(submissions, by = join_by(nb)) |>
+  select(Communication = value, Time = time, Abstract = abstract) |>
+  pivot_longer(!Communication) |> 
+  filter(value != "Discussion") |> 
+  datatable(
+    colnames = NULL,
+    rownames = FALSE,
+    fillContainer = FALSE,
+    extensions = c('Responsive', 'RowGroup'),
+    options = list(
+      scrollX = TRUE,
+      responsive = list(details = list(target =  c(1,2))),
+      dom = 't',
+      pageLength = -1,
+      ordering = FALSE,
+      rowGroup = list(dataSrc = 0),
+      columnDefs = list(
+        list(width = '50px', targets = 1),
+        list(width = '300px', targets = 2),
+        list(visible = FALSE, targets = 0)
+      )
+    )
+  )
+```
+
+```{r}
+#| eval: !expr 'session_track_details$Type == "Symposium"'
+
+symposium_sessions <- 
+  googlesheets4::read_sheet(
+    "https://docs.google.com/spreadsheets/d/1B6v-YUSdZk5qMmzsy_Dt9Q1va7g89D83nO305Rnwl_w/edit?usp=drive_link",
+    col_types = "c"
+  ) |> 
+  select(time, txt, Track, abstract)
+
+session_track_details |> 
+  left_join(
+    symposium_sessions |> 
+      filter(time == "title") |> 
+      select(-time), 
+    by = join_by(txt, Track)
+  ) |> 
+  select(Session = txt, Track, Time = time, Type, Title = value, Abstract = abstract) |> 
+  t() |> 
+  as.data.frame() |> 
+  rownames_to_column() |>
+  datatable(
+    colnames = NULL,
+    rownames = FALSE,
+    extensions = 'Responsive',
+    options = list(
+      responsive = list(details = list(target =  1)),
+      dom = 't',
+      pageLength = -1,
+      ordering = FALSE
+      )
+    ) |>
+  # formatStyle(colnames(t(session_track_details)), fontSize = '100%') |>
+  formatStyle("rowname", color = '#eeeeee', backgroundColor = '#E84E0F', fontWeight = 'bold')
+
+session_track_coms |>
+  left_join(symposium_sessions, by = join_by(time, txt, Track)) |> 
+  select(Communication = value, Time = time, Abstract = abstract) |>
+  pivot_longer(!Communication) |> 
+  filter(value != "Discussion") |> 
+  datatable(
+    colnames = NULL,
+    rownames = FALSE,
+    fillContainer = FALSE,
+    extensions = c('Responsive', 'RowGroup'),
+    options = list(
+      scrollX = TRUE,
+      responsive = list(details = list(target =  c(1,2))),
+      dom = 't',
+      pageLength = -1,
+      ordering = FALSE,
+      rowGroup = list(dataSrc = 0),
+      columnDefs = list(
+        list(width = '50px', targets = 1),
+        list(width = '300px', targets = 2),
+        list(visible = FALSE, targets = 0)
+      )
+    )
+  )
+```
+
+```{r}
+#| eval: !expr 'session_track_details$Type == "Data Workshop"'
+
+symposium_sessions <- 
+  googlesheets4::read_sheet(
+    "https://docs.google.com/spreadsheets/d/1B6v-YUSdZk5qMmzsy_Dt9Q1va7g89D83nO305Rnwl_w/edit?usp=drive_link",
+    col_types = "c"
+  ) |> 
+  select(time, txt, Track, abstract)
+
+session_track_details |> 
+  left_join(
+    symposium_sessions |> 
+      filter(time == "title") |> 
+      select(-time), 
+    by = join_by(txt, Track)
+  ) |> 
+  mutate(time = "11.15 - 12.15") |> 
+  select(Session = txt, Track, Time = time, Type, Title = value, Abstract = abstract) |> 
+  t() |> 
+  as.data.frame() |> 
+  rownames_to_column() |>
+  datatable(
+    colnames = NULL,
+    rownames = FALSE,
+    extensions = 'Responsive',
+    options = list(
+      responsive = list(details = list(target =  1)),
+      dom = 't',
+      pageLength = -1,
+      ordering = FALSE
+      )
+    ) |>
+  # formatStyle(colnames(t(session_track_details)), fontSize = '100%') |>
+  formatStyle("rowname", color = '#eeeeee', backgroundColor = '#E84E0F', fontWeight = 'bold')
+```

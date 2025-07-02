@@ -4,7 +4,7 @@ project:
   render:
     - "*.qmd"
     - "!internal/"
-  pre-render: internal/poster_processing.R
+  pre-render: internal/computation_pages.R
 
 website:
   announcement:

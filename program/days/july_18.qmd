@@ -10,7 +10,7 @@ format:
 ```{r}
 #| include: false
 
-source(here::here("assets/computations_talks.R"), local = knitr::knit_global())
+source(here::here("internal/computation_days.R"), local = knitr::knit_global())
 ```
 
 ```{r results='asis'}

@@ -1,0 +1,45 @@
+---
+title: "`r session`"
+execute: 
+  echo: false
+  
+format: 
+  html:
+    page-layout: full
+---
+
+Abstract available when rows are expended:
+
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(reactable)
+
+# data -------------------------------------------------------------------------
+# source(here::here("internal/computation_posters.R"), local = knitr::knit_global())
+
+df <- posters |>
+  dplyr::filter(day == "session") |>
+  dplyr::select(Nb = nb, Title = title, Authors = authors, Abstract = abstract)
+```
+
+```{r}
+reactable(
+  df,
+  pagination = FALSE,
+  highlight = TRUE,
+  searchable = TRUE,
+  columns = list(
+    Nb = colDef(maxWidth = 50),
+    Title = colDef(minWidth = 400),
+    Authors = colDef(minWidth = 200),
+    Abstract = colDef(show = FALSE)
+  ),
+  details = function(index) {
+    htmltools::div(
+      htmltools::tags$p(paste(df[index, "Abstract"], collapse = "\n"))
+    )
+  }
+  )
+```

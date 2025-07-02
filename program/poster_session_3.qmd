@@ -14,16 +14,14 @@ Abstract available when rows are expended:
 #| include: false
 
 # libraries --------------------------------------------------------------------
-library(tidyverse)
 library(reactable)
-library(here)
 
 # data -------------------------------------------------------------------------
-source(here("assets/computations_posters.R"), local = knitr::knit_global())
+source(here::here("internal/computation_posters.R"), local = knitr::knit_global())
 
 df <- posters |>
-  filter(day == "Poster Session 3") |>
-  select(Nb = nb, Title = title, Authors = authors, Abstract = abstract)
+  dplyr::filter(day == "Poster Session 3") |>
+  dplyr::select(Nb = nb, Title = title, Authors = authors, Abstract = abstract)
 ```
 
 ```{r}
@@ -40,8 +38,7 @@ reactable(
   ),
   details = function(index) {
     htmltools::div(
-      htmltools::tags$p(paste(df[index, "Abstract"], collapse = "
-"))
+      htmltools::tags$p(paste(df[index, "Abstract"], collapse = "\n"))
     )
   }
   )

@@ -2,6 +2,7 @@
 title: "Parallel Session 4: T2"
 execute: 
   echo: false
+  warning: false
   
 format: 
   html:

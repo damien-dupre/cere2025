@@ -21,7 +21,7 @@ source(here::here("internal/computation_posters.R"), local = knitr::knit_global(
 
 df <- posters |>
   dplyr::filter(day == "{{session}}") |>
-  dplyr::select(Nb = nb, Title = title, Authors = authors, Abstract = abstract)
+  dplyr::select(Title = title, Authors = authors, Abstract = abstract, Group = group)
 ```
 
 ```{r}
@@ -30,16 +30,24 @@ reactable(
   pagination = FALSE,
   highlight = TRUE,
   searchable = TRUE,
+  groupBy = "Group",
+  defaultExpanded = TRUE,
   columns = list(
-    Nb = colDef(maxWidth = 50),
+    Group = colDef(minWidth = 200),
     Title = colDef(minWidth = 400),
     Authors = colDef(minWidth = 200),
-    Abstract = colDef(show = FALSE)
-  ),
-  details = function(index) {
-    htmltools::div(
-      htmltools::tags$p(paste(df[index, "Abstract"], collapse = "\n"))
+    # Abstract = colDef(show = FALSE),
+    Abstract = colDef(
+      name = "",
+      sortable = FALSE,
+      cell = function() htmltools::tags$button("Show Abstract")
     )
-  }
-  )
+  ),
+  onClick = JS("function(rowInfo, column) {window.alert(rowInfo.values['Abstract'])}"),
+  rowStyle = JS("function(rowInfo) {
+    if (rowInfo.subRows.length) {
+      return { borderBottom: '3px solid #E84E0F' }
+    }
+  }")
+)
 ```

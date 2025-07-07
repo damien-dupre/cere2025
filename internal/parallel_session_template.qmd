@@ -2,6 +2,7 @@
 title: "{{session}}: {{track}}"
 execute: 
   echo: false
+  warning: false
   
 format: 
   html:

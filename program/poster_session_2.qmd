@@ -8,7 +8,7 @@ format:
     page-layout: full
 ---
 
-Abstract available when rows are expended:
+Abstracts available when clicking on "Show Abstract" buttons:
 
 ```{r}
 #| include: false

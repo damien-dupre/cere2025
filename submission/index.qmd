@@ -6,7 +6,15 @@ title: Instructions for Presenters
 
 For those giving Oral Presentations, you will be afforded a **12-minute slot for your talk and 2 minutes for any audience questions**.
 
-Speakers can present using the computers in the rooms or their own laptops, and we will provide audio. In all rooms in the conference, the projection systems are in the 16:9 format.
+All presentations will be uploaded onto a computer provided by Grenoble Alpes University and will be deleted at the end of each day.
+
+::: {.callout-important}
+Please bring your **presentation on a USB stick**, along with a PDF version as a backup in case your original file format encounters issues.
+
+We kindly ask you to **arrive 15 minutes before the start of your session to upload your presentation**. A volunteer assigned to your room will be there to assist you.
+:::
+
+In all rooms in the conference, the projection systems are in the 16:9 format.
 
 Symposia will be moderated by the symposium organizers. Individual talks sessions will be assigned a moderator. Moderators are indicated in the [CERE2025 program](../program/index.qmd). For oral presentations, please **make sure to contact your session moderator** before your scheduled session. You may be asked to send your slides in advance.
 

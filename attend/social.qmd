@@ -21,7 +21,7 @@ The fireworks will be launched from the Bastille at 10pm. A band will be playing
 
 ::: columns
 ::: {.column width="60%"}
-On Tuesday July 15, join us for an unforgettable Welcome Reception at the historic **Bastille of Grenoble**, perched high above the city with stunning views of the Alps. **Arrive by cable car** between 5pm and 7pm and enjoy local delicacies, fine wines, and engaging conversations in this iconic setting until late. Please remember the last cable car down is at 11.30pm.
+On Tuesday July 15, join us for an unforgettable Welcome Reception at the historic **Bastille of Grenoble**, perched high above the city with stunning views of the Alps. We kindly ask you to **arrive between 5pm and 6pm**, so that everyone can be at the top by 7pm when the reception begins. Please remember the last cable car down is at 11.30pm.
 
 ::: {.callout-important title="Limited Number of Places Available"}
 When registering for the conference, please indicate whether you will be attending the Welcome Reception. **Places are LIMITED** and will be allocated on a **first-registered, first-served** basis.
@@ -62,6 +62,10 @@ You can buy your pass online at <https://business.grenoblealpespass.com> and get
 ::: columns
 ::: {.column width="60%"}
 On Thursday July 17, we are pleased to invite you to the Gala Dinner, held at the prestigious **Stade des Alpes**. This modern venue, set against the **stunning backdrop of the Alps**, offers a stylish and spacious setting for an evening of fine dining and celebration. Join us for a night of culinary excellence and networking at the remarkable Stade des Alpes!
+
+To get there, go to the "Hôtel de Ville" tram station, which is served by Tram Line C and bus lines C1 and C4. From the station, you will easily spot the Stade des Alpes, head in its direction.
+
+You should enter through Hall Nord, located in the North Stand between staircases D1 and D2. Volunteers will be present on site to guide you.
 :::
 ::: {.column width="5%"}
 :::

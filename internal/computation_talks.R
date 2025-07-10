@@ -6,7 +6,7 @@ library(googlesheets4)
 parallel_sessions <- 
   # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |> 
   googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1adLAs3GNl0Ww7LTrAeGMjWlAycwF6bk2s_c4bBuQeDg/edit?usp=drive_link",
+    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
     range = "A:F",
     col_types = "c"
   ) |> 
@@ -44,15 +44,15 @@ submissions <-
 
 # temp <- parallel_sessions
 # 
-# temp_title <- temp |> 
-#   filter(time == "title", str_starts(value, "^(Symposium|Data Workshop)")) |> 
+# temp_title <- temp |>
+#   filter(time == "title", str_starts(value, "^(Symposium|Data Workshop)")) |>
 #   left_join(submissions, by = join_by(nb))
 # 
-# temp_coms <- temp |> 
-#   filter(time != "title") |> 
-#   select(-nb) |> 
+# temp_coms <- temp |>
+#   filter(time != "title") |>
+#   select(-nb) |>
 #   right_join(
-#     select(temp_title, txt, Track, Session = value, nb, abstract), 
-#     by = join_by(txt, Track)) |> 
-#   bind_rows(temp_title) |> 
+#     select(temp_title, txt, Track, Session = value, nb, abstract),
+#     by = join_by(txt, Track)) |>
+#   bind_rows(temp_title) |>
 #   write_csv("symposium_abstracts.csv")

@@ -13,7 +13,7 @@ submissions <-
 posters <- 
   # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |> 
   googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1adLAs3GNl0Ww7LTrAeGMjWlAycwF6bk2s_c4bBuQeDg/edit?usp=drive_link",
+    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
     range = "A:F",
     col_types = "cccccc"
   ) |> 
@@ -23,13 +23,17 @@ posters <-
     title = x2,
     authors = x5
   ) |> 
-  mutate(group = if_else(row_number() < which(nb == "Poster groups’ presentations")[1], NA_character_, nb)) |> 
-  drop_na(group) |> 
   mutate(
-    group = if_else(str_starts(group, "6"), NA_character_, group),
-    day = paste("Poster Session", cumsum(if_else(str_detect(nb,"Poster"), 1, 0)))
+    temp = case_when(
+      str_starts(nb, "Poster groups") ~ "poster",
+      str_starts(nb, "Thursday") | str_starts(nb, "Friday") ~ "talk",
+      .default = NA_character_),
+    day = paste("Poster Session", cumsum(case_when(temp == "poster" ~ 1, .default = 0))),
+    group = if_else(str_starts(nb, "6"), NA_character_, nb)
   ) |> 
+  fill(temp, .direction = "down") |> 
   fill(group, .direction = "down") |> 
-  remove_empty("cols") |> 
+  filter(temp == "poster") |> 
   drop_na(title) |> 
+  remove_empty("cols") |> 
   left_join(submissions, by = join_by(nb))

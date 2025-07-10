@@ -8,7 +8,7 @@ library(janitor)
 program_overview <- 
   # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:2)) |> 
   googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1adLAs3GNl0Ww7LTrAeGMjWlAycwF6bk2s_c4bBuQeDg/edit?usp=drive_link",
+    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
     range = "A:B",
     col_types = "cc"
   ) |>
@@ -40,7 +40,7 @@ program_overview <-
 parallel_sessions <- 
   # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |> 
   googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1adLAs3GNl0Ww7LTrAeGMjWlAycwF6bk2s_c4bBuQeDg/edit?usp=drive_link",
+    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
     range = "A:F",
     col_types = "cccccc"
   ) |>

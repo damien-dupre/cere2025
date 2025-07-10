@@ -10,7 +10,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "A new version of the program is available [here](https://www.cere2025.com/program/) (July 4th)"
+    content: "A new version of the program is available [here](https://www.cere2025.com/program/) (July 10th)"
     type: info
     position: below-navbar
   site-url: https://www.cere2025.com/

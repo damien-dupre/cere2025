@@ -25,7 +25,7 @@ parallel_sessions <-
   ) |>
   select(time = cere2025_program_overview, T1 = x2, T2 = x3, T3 = x4, T4 = x5, T5 = x6, day, txt) |> 
   pivot_longer(-c(time, day, txt), names_to = "Track") |> 
-  filter(value != "Room:") |> 
+  filter(!str_starts(value, "Room")) |> 
   mutate(
     time = ifelse(is.na(time), "title", time),
     nb = str_extract(value, "^[0-9]+"),

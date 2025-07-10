@@ -81,7 +81,8 @@ program_table <- function(parallel_session) {
     filter(txt == parallel_session) |> 
     select(time = cere2025_program_overview, T1 = x2, T2 = x3, T3 = x4, T4 = x5, T5 = x6) |> 
     pivot_longer(-time, names_to = "Track") |> 
-    filter(value != "Room:") |> 
+    filter(!str_starts(value, "Room")) |> 
+    # filter(value != "Room:") |> 
     mutate(
       time = ifelse(is.na(time), "title", time),
       value = if_else(str_detect(value, "^[0-9]"), str_sub(value, 8), value)

@@ -7,6 +7,8 @@ pagetitle: Social Events
 ::: columns
 ::: {.column width="60%"}
 Every year, the French National Day resounds with music and fireworks across the nation. In Grenoble, **the sky will light up on 14 July**, bringing smiles to both young and old. Arrive a day early to enjoy the celebrations happening not only in Grenoble but throughout cities across France.
+
+The fireworks will be launched from the Bastille at 10pm. A band will be playing from 6pm, [see more information here](https://www.grenoble.fr/agenda/4729/1009-bal-du-14-juillet-au-fort-de-la-bastille.htm).
 :::
 ::: {.column width="5%"}
 :::
@@ -19,7 +21,7 @@ Every year, the French National Day resounds with music and fireworks across the
 
 ::: columns
 ::: {.column width="60%"}
-On Tuesday July 15, join us for an unforgettable Welcome Reception at the historic **Bastille of Grenoble**, perched high above the city with stunning views of the Alps. **Arrive by cable car** and enjoy local delicacies, fine wines, and engaging conversations in this iconic setting. 
+On Tuesday July 15, join us for an unforgettable Welcome Reception at the historic **Bastille of Grenoble**, perched high above the city with stunning views of the Alps. **Arrive by cable car** between 5pm and 7pm and enjoy local delicacies, fine wines, and engaging conversations in this iconic setting until late. Please remember the last cable car down is at 11.30pm.
 
 ::: {.callout-important title="Limited Number of Places Available"}
 When registering for the conference, please indicate whether you will be attending the Welcome Reception. **Places are LIMITED** and will be allocated on a **first-registered, first-served** basis.
@@ -40,6 +42,8 @@ When registering for the conference, please indicate whether you will be attendi
 Between the Welcome Reception and the Gala Dinner, Wednesday evening will be free for attendees to enjoy at their leisure.
 
 You might take this opportunity to go to the Bastille (especially if you missed the Welcome Reception), explore the Grenoble Museum, or simply stroll through the city. Both the Bastille and the museum are free to access with the GPASS. The GPASS also offers discounts on various other activities and in selected shops—perfect if you'd like to bring home some local products.
+
+In addition, between Wednesday the 16th and Sunday the 20th, a free music festival will take place in the city centre from 7 pm each evening, [here is the programme](https://www.grenoble.fr/951-programmation-2025.htm). What better way to end the day than with international music acts.
 
 ::: {.callout-note title="How to get the GPASS?"}
 You can buy your pass online at <https://business.grenoblealpespass.com> and get 20% off with the code **GPASS-CERE25**.

@@ -80,22 +80,33 @@ program_table <- function(parallel_session) {
   data_program <- parallel_sessions |> 
     filter(txt == parallel_session) |> 
     select(time = cere2025_program_overview, T1 = x2, T2 = x3, T3 = x4, T4 = x5, T5 = x6) |> 
-    pivot_longer(-time, names_to = "Track") |> 
+    pivot_longer(-time, names_to = "Track")
+  
+  data_room <- data_program |> 
+    filter(str_starts(value, "Room")) |> 
+    mutate(Room = value |> 
+             str_remove("Room: ") |> 
+             str_to_title()
+    ) |> 
+    select(Track, Room)
+  
+  data_program <- data_program |> 
     filter(!str_starts(value, "Room")) |> 
     mutate(
       time = ifelse(is.na(time), "title", time),
       value = if_else(str_detect(value, "^[0-9]"), str_sub(value, 8), value)
-    )
+    ) |> 
+    left_join(data_room, by = join_by(Track))
   
   data_program_names <- data_program |> 
     filter(time == "title") |> 
     separate(value, c("Parallel Sessions", "Chair"), sep = " Chair: ") |> 
     mutate(Link = glue::glue("../{snakecase::to_any_case(parallel_session)}_{Track}.html")) |> 
-    select(-time)
+    select(-time, -Track)
   
   data_program_table <- data_program |> 
     filter(time != "title") |> 
-    left_join(data_program_names, by = join_by(Track)) |> 
+    left_join(data_program_names, by = join_by(Room)) |> 
     rename(Time = time, Communications = value)
   
   htmltools::browsable(

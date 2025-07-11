@@ -319,7 +319,7 @@
     "href": "program/days/july_18.html",
     "title": "July 18",
     "section": "",
-    "text": "09:00-09:30 ⏰ Registration \n\n\n09:30-10:30 🎤️ Keynote 3: José-Miguel Fernández-Dols \n\n\n10:30-11:00 ☕ Coffee break \n\n\n11:00-12:15 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:15-13:15 🥙 Lunch \n\n\n13:15-14:30 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:35-15:35 📜 Poster session (24 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:35-16:05 ☕ Coffee break \n\n\n16:05-17:20 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n17:30-18:00 🎤 Farewells"
+    "text": "09:00-09:30 ⏰ Registration \n\n\n09:30-10:30 🎤️ Keynote 3: José-Miguel Fernández-Dols \n\n\n10:30-11:00 ☕ Coffee break \n\n\n11:00-12:15 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:15-13:15 🥙 Lunch \n\n\n13:15-14:30 💬 Parallel Session \n\n\nWarning in left_join(filter(data_program, time != \"title\"), data_program_names, : Detected an unexpected many-to-many relationship between `x` and `y`.\nℹ Row 1 of `x` matches multiple rows in `y`.\nℹ Row 1 of `y` matches multiple rows in `x`.\nℹ If a many-to-many relationship is expected, set `relationship =\n  \"many-to-many\"` to silence this warning.\n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:35-15:35 📜 Poster session (24 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:35-16:05 ☕ Coffee break \n\n\n16:05-17:20 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n17:30-18:00 🎤 Farewells"
   },
   {
     "objectID": "program/poster_session_1.html",

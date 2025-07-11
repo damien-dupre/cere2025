@@ -82,7 +82,6 @@ program_table <- function(parallel_session) {
     select(time = cere2025_program_overview, T1 = x2, T2 = x3, T3 = x4, T4 = x5, T5 = x6) |> 
     pivot_longer(-time, names_to = "Track") |> 
     filter(!str_starts(value, "Room")) |> 
-    # filter(value != "Room:") |> 
     mutate(
       time = ifelse(is.na(time), "title", time),
       value = if_else(str_detect(value, "^[0-9]"), str_sub(value, 8), value)
@@ -90,15 +89,14 @@ program_table <- function(parallel_session) {
   
   data_program_names <- data_program |> 
     filter(time == "title") |> 
-    select(Track, `Parallel Sessions` = value) |> 
-    mutate(Link = glue::glue("../{snakecase::to_any_case(parallel_session)}_{Track}.html"))
+    separate(value, c("Parallel Sessions", "Chair"), sep = " Chair: ") |> 
+    mutate(Link = glue::glue("../{snakecase::to_any_case(parallel_session)}_{Track}.html")) |> 
+    select(-time)
   
   data_program_table <- data_program |> 
     filter(time != "title") |> 
     left_join(data_program_names, by = join_by(Track)) |> 
     rename(Time = time, Communications = value)
-  
-  data_index <- unique(data_program_table[, c("Parallel Sessions", "Link")])
   
   htmltools::browsable(
     tagList(
@@ -108,19 +106,20 @@ program_table <- function(parallel_session) {
       ),
       
       reactable(
-        data_index, 
+        data_program_names, 
         elementId = snakecase::to_any_case(parallel_session),
         bordered = TRUE, 
         striped = TRUE, 
         highlight = TRUE,
         columns = list(
-          `Parallel Sessions` = colDef(minWidth = 600),
+          `Parallel Sessions` = colDef(minWidth = 500),
+          Chair = colDef(minWidth = 200),
           Link = colDef(maxWidth = 125, cell = function(value, index) {
             htmltools::tags$a(class = "btn btn-default", href = value, target = "_blank", "Abstracts")
           })
         ),
         details = function(index) {
-          data_source <- data_program_table[data_program_table$`Parallel Sessions` == data_index$`Parallel Sessions`[index], ] |>
+          data_source <- data_program_table[data_program_table$`Parallel Sessions` == data_program_names$`Parallel Sessions`[index], ] |>
             select(Time, Communications)
           htmltools::div(
             style = "padding: 1rem",

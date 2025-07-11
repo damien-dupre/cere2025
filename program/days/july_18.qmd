@@ -2,6 +2,7 @@
 title: "July 18"
 execute: 
   echo: false
+  warning: false
 format: 
   html:
     page-layout: full

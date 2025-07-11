@@ -95,18 +95,18 @@ program_table <- function(parallel_session) {
     mutate(
       time = ifelse(is.na(time), "title", time),
       value = if_else(str_detect(value, "^[0-9]"), str_sub(value, 8), value)
-    ) |> 
-    left_join(data_room, by = join_by(Track))
+    )
   
   data_program_names <- data_program |> 
     filter(time == "title") |> 
     separate(value, c("Parallel Sessions", "Chair"), sep = " Chair: ") |> 
+    left_join(data_room, by = join_by(Track)) |> 
     mutate(Link = glue::glue("../{snakecase::to_any_case(parallel_session)}_{Track}.html")) |> 
-    select(-time, -Track)
+    select(-time)
   
   data_program_table <- data_program |> 
     filter(time != "title") |> 
-    left_join(data_program_names, by = join_by(Room)) |> 
+    left_join(data_program_names, by = join_by(Track)) |> 
     rename(Time = time, Communications = value)
   
   htmltools::browsable(
@@ -117,7 +117,7 @@ program_table <- function(parallel_session) {
       ),
       
       reactable(
-        data_program_names, 
+        select(data_program_names, -Track), 
         elementId = snakecase::to_any_case(parallel_session),
         bordered = TRUE, 
         striped = TRUE, 

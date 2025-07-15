@@ -10,7 +10,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "A new version of the program is available [here](https://www.cere2025.com/program/) (July 10th)"
+    content: "A new version of the program is available [here](https://www.cere2025.com/program/) (July 15th)"
     type: info
     position: below-navbar
   site-url: https://www.cere2025.com/
@@ -28,6 +28,8 @@ website:
           - href: program/days/july_16.qmd
           - href: program/days/july_17.qmd
           - href: program/days/july_18.qmd
+          - text: "Book of Abstracts"
+            target: _blank
       - text: "Keynotes"
         menu: 
           - text: "Prof. Agnes Moors"

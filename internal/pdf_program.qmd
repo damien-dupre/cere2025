@@ -1,0 +1,688 @@
+---
+title: "CERE 2025 Program"
+format: 
+  pdf: 
+    block-headings: false
+    toc: true
+    toc-depth: 2
+
+execute: 
+  echo: false
+  warning: false
+
+header-includes:
+  - \usepackage{array}
+  - \usepackage{sectsty} \allsectionsfont{\centering}
+  - \setkomafont{section}{\normalfont\Huge\bfseries}
+  - \usepackage[default,scale=0.95]{opensans}
+  - \renewcommand\seriesdefault{l}
+  - \renewcommand\mddefault{l}
+  - \renewcommand\bfdefault{sb}% or \renewcommand\bfdefault{m}
+  - \usepackage{fancyhdr}
+  - \usepackage{graphicx}
+  - \usepackage{eso-pic}
+  - \usepackage{tikz}
+  - \AtBeginDocument{\thispagestyle{empty}\begin{tikzpicture}[remember picture,overlay]
+          \node at (current page.south) [yshift=6cm] {\includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{../images/CERE2025_profile.png}};
+          \node at (current page.center) [yshift=5cm] [anchor=north,yshift=-2cm] {\Huge\textbf{10th Conference of the Consortium of}};
+          \node at (current page.center) [yshift=4cm] [anchor=north,yshift=-2cm] {\Huge\textbf{European Research on Emotion}};
+          \node at (current page.south) [yshift=5cm] [anchor=north,yshift=-2cm] {\normalsize\textbf{16 - 18 July 2025}};
+          \end{tikzpicture}\clearpage}
+---
+
+```{r}
+#| include: false
+
+# libraries --------------------------------------------------------------------
+library(googlesheets4)
+library(tidyverse)
+library(flextable)
+library(knitr)
+library(kableExtra)
+library(officer)
+library(janitor)
+
+# data -------------------------------------------------------------------------
+submissions <- 
+  read_csv("~/Desktop/CERE2025/submissions.csv") |>
+  # googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1aIncHFZ6uTmb0Lz4Wvm9um1CrNjz5W4imuCkK-F5CRs/edit?usp=drive_link") |> 
+  clean_names() |> 
+  select(nb = docid, abstract) |> 
+  mutate(nb = as.character(nb))
+
+program_overview <- 
+  read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:2)) |>
+  # googlesheets4::read_sheet(
+  #   "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
+  #   range = "A:B",
+  #   col_types = "cc"
+  # ) |>
+  clean_names() |> 
+  mutate(
+    day = if_else(str_detect(cere2025_program_overview, "^[0-9]"), NA_character_, cere2025_program_overview),
+    time = if_else(str_detect(cere2025_program_overview, "-"), cere2025_program_overview, NA_character_),
+    what = if_else(row_number() > which(x2 == "Farewells")[1], NA_character_, x2),
+    what = if_else(str_starts(what, "Amphi 1: Keynote Speaker"), paste(what, lead(what)), what),
+    what = if_else(str_starts(what, "per speaker"), "Parallel Session", what),
+  ) |> 
+  fill(day, .direction = "down") |> 
+  select(day, time, what) |> 
+  drop_na(what, time)
+
+parallel_sessions <- 
+  read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |> 
+  # googlesheets4::read_sheet(
+  #   "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
+  #   range = "A:F",
+  #   col_types = "cccccc"
+  # ) |>
+  clean_names() |> 
+  mutate(
+    day = if_else(str_detect(cere2025_program_overview, "^[0-9]"), NA_character_, cere2025_program_overview)) |> 
+  fill(day, .direction = "down") |> 
+  drop_na(x3) |> 
+  mutate(txt = ifelse(str_detect(x2,"Room"), 1, 0)) |> 
+  mutate(txt = paste("Parallel Session", cumsum(txt))) |> 
+  add_row(
+    cere2025_program_overview = "11.15", 
+    x5 = "609342 Data Workshop - Damien Dupré - Identifying Correct or Incorrect Emotion Recognition from Facial Expression Time",
+    day = "Wednesday 16th July",
+    txt = "Parallel Session 2"
+  )
+
+posters <- 
+  read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |>
+  # googlesheets4::read_sheet(
+  #   "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
+  #   range = "A:F",
+  #   col_types = "cccccc"
+  # ) |> 
+  clean_names() |> 
+  rename(
+    nb = cere2025_program_overview,
+    title = x2,
+    authors = x5
+  ) |> 
+  mutate(
+    nb = case_match(
+      nb, 
+      "618447" ~ "Emotions in Daily Life: Interpersonal Perspectives Across Contexts and Cultures - Chair: Davide Pirrone",
+      "618540" ~ "In sync or not: What are the correlates of physiological synchronicity? - Chair: Hedwig Eisenbarth",
+      .default = nb
+    ),
+    temp = case_when(
+      str_starts(nb, "Poster groups") ~ "poster",
+      str_starts(nb, "Thursday") | str_starts(nb, "Friday") ~ "talk",
+      .default = NA_character_
+    ),
+    day = paste("Poster Session", cumsum(case_when(temp == "poster" ~ 1, .default = 0))),
+    group = if_else(str_starts(nb, "6"), NA_character_, nb)
+  ) |> 
+  fill(temp, .direction = "down") |> 
+  fill(group, .direction = "down") |> 
+  filter(temp == "poster") |> 
+  drop_na(authors) |> 
+  remove_empty("cols") |> 
+  left_join(submissions, by = join_by(nb))
+
+
+# function ---------------------------------------------------------------------
+program_events <- function(program_day, program_rows) {
+  program_overview |> 
+    filter(day == program_day) |> 
+    slice(program_rows) |> 
+    mutate(
+      level = "#####", # "-"
+      jump = "<br>",
+      jump2 = "<br><br>"
+    ) |> 
+    select(level, time, what, jump) |> 
+    unite("line", 1:4, sep = " ") |> 
+    unlist() |> 
+    cat(sep = "\n")
+}
+
+program_table <- function(parallel_session) {
+  
+  data_program <- parallel_sessions |> 
+    filter(txt == parallel_session) |> 
+    select(time = cere2025_program_overview, T1 = x2, T2 = x3, T3 = x4, T4 = x5, T5 = x6) |> 
+    pivot_longer(-time, names_to = "Track")
+  
+  data_room <- data_program |> 
+    filter(str_starts(value, "Room")) |> 
+    mutate(Room = value |> 
+             str_remove("Room: ") |> 
+             str_to_title()
+    ) |> 
+    select(Track, Room)
+  
+  data_program <- data_program |> 
+    filter(!str_starts(value, "Room")) |> 
+    mutate(
+      time = ifelse(is.na(time), "title", time),
+      value = if_else(str_detect(value, "^[0-9]"), str_sub(value, 8), value)
+    )
+  
+  data_program_names <- data_program |> 
+    filter(time == "title") |> 
+    separate(value, c("Parallel Sessions", "Chair"), sep = " Chair: ") |> 
+    left_join(data_room, by = join_by(Track)) |> 
+    mutate(Link = glue::glue("../{snakecase::to_any_case(parallel_session)}_{Track}.html")) |> 
+    select(-time)
+  
+  data_program_table <- data_program |> 
+    filter(time != "title") |> 
+    left_join(data_program_names, by = join_by(Track)) |> 
+    rename(Time = time, Communications = value)
+  
+  data_program_table |> 
+    arrange(Track, Time) |> 
+    select(Time, Communications, `Parallel Sessions`) |> 
+    as_grouped_data(groups = "Parallel Sessions") |> 
+    as_flextable(hide_grouplabel = TRUE) |> 
+    width(j = 1, width = 0.5, unit = "in") |>
+    width(j = 2, width = 5.5, unit = "in") |> 
+    bg(j = 1, i = ~ !is.na(`Parallel Sessions`), bg = "#EFEFEF", part = "body") |> 
+    bold(j = 1, i = ~ !is.na(`Parallel Sessions`), bold = TRUE, part = "body" )
+}
+
+```
+
+\newpage
+
+# Acknowledgements
+
+We would like to thank the researchers who have accepted to be part of the scientific committee:
+
+Céline Baeyens (Université Grenoble Alpes), Aurélie Campagne (Université Grenoble Alpes), Carlos Crivelli (De Montfort University), Agneta Fischer (Universiteit van Amsterdam), Jonathan Ginzburg (Université Paris Cité), Aurélien Graton (Université Paris Cité), Delphine Grynberg (Université de Lille), Ursula Hess (Humboldt-Universität zu Berlin), Pascal Hot (Université Savoie Mont Blanc), Rachael Jack (University of Glasgow), Arvid Kappas (Constructor University), Silvia Krauth-Gruber (Université Paris Cité), Mariska Kret (Universiteit Leiden), Eva Krumhuber (London’s Global University), Petri Laukka (Uppsala Universitet & Stockholms Universitet), Gert-Jan Lelieveld (Universiteit Leiden), Mélody Maillez (Université Paris Cité), Gary Mckeown (Queen’s University Belfast), Batja Mesquita (Katholieke Universiteit Leuven), Manuel Jesús Ruiz Muñoz (Universidad de Sevilla), Catherine Pelachaud (Université Sorbonne), François Ric (Université de Bordeaux), Magda Rychlowska (Queen’s University Belfast), David Sander (Université de Genève), Julia Saße (University of Applied Sciences Ansbach), Disa Sauter (Universiteit van Amsterdam), Joulia Smortchkova (Université Grenoble Alpes), Inmaculada Valor (Universidad de Granada), Gualtiero Volpe (Università di Genova),
+
+\newpage
+
+# Organisation Committee
+
+**Conference Chair:** Anna Tcherckassof
+**Conference Co-Chair:** Martin Krippl
+**Local Chair:** Elora Perret-Depiaz
+**Website and Communication Chair:** Damien Dupré
+
+\newpage
+
+# Keynote Speakers
+
+### 16 July: Steve Heine (9:45 - 10:45)
+
+Steven J. Heine is Professor of Social and Cultural Psychology and Distinguished University Scholar at the University of British Columbia. After receiving his PhD from the University of British Columbia in 1996, he had visiting positions at Kyoto University and Tokyo University, and was on the faculty at the University of Pennsylvania before returning to British Columbia. He has authored the best-selling textbook in its field, entitled “Cultural Psychology,” and has written two trade book called “Start Making Sense” (2025) and “DNA is not Destiny” (2017). Heine has received numerous international awards and is a fellow of the Royal Society of Canada. 
+
+Heine’s research focuses on a few topics that converge on how people come to understand themselves and their worlds. In particular, he is most known for his work in cultural psychology where he has explored the key role that culture plays in shaping people’s psychological worlds. More recently he has explored the concept of cultural fit and how people tend to have greater well-being and health when their behaviors and self-concept are more aligned with the surrounding culture. He has also conducted research exploring how people make meaning in the face of meaninglessness, and how people rely on essentialist biases when they make sense of genetic concepts.
+
+### 17 July: Agnes Moors (09:30 - 10:30)
+
+Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods.
+
+### 18 July: José-Miguel Fernández-Dols (09:30 - 10:30)
+
+José-Miguel Fernández-Dols is an Emeritus Professor of Psychology at the Autonoma University of Madrid. His research focuses on facial expression and everyday conceptions of emotion. In the case of facial expression he is interested in the role of context and the observational description of non-posed expressions of emotion. In the case of everyday knowledge of emotions he is interested in the concepts of emotion in different cultures, as well as their interaction with social norms, social justice, and moral behavior in general.
+
+
+\newpage
+
+# Conference Locations
+
+Located in the heart of a **remarkable environment** with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d'Hères, is recognized as **one of the most beautiful in France**, with its 3,000 trees, cultural and sports facilities and unique architecture. 
+
+![](../images/uga_montage.png)
+<center>
+[Credit: Université Grenoble Alpes [`r emo::ji("link")`](https://www.univ-grenoble-alpes.fr/)]{style="font-size: 50%"}
+</center>
+
+All talks and keynotes will take place in the building **Pierre Mendès France**, located **near the TRAM Station “Bibliothèques Universitaires”**. This area, designed for teaching large groups, features several recently renovated auditoriums.
+
+Exact address: [**77 Rue des Universités, 38400 Saint-Martin-d'Hères, France**](https://maps.app.goo.gl/eKEgayCZ77hwmmjW7)
+
+\newpage
+
+# Instructions for Presenters
+
+## Symposium and Oral Presentations
+
+For those giving Oral Presentations, you will be afforded a **12-minute slot for your talk and 2 minutes for any audience questions**.
+
+All presentations will be uploaded onto a computer provided by Grenoble Alpes University and will be deleted at the end of each day.
+
+::: {.callout-important}
+Please bring your **presentation on a USB stick**, along with a PDF version as a backup in case your original file format encounters issues.
+
+We kindly ask you to **arrive 15 minutes before the start of your session to upload your presentation**. A volunteer assigned to your room will be there to assist you.
+
+If you really need to, **you may use your own laptop, but make sure to bring your adapter**. Lecture halls are equipped with HDMI cables.
+:::
+
+In all rooms in the conference, the projection systems are in the 16:9 format.
+
+Symposia will be moderated by the symposium organizers. Individual talks sessions will be assigned a moderator. Moderators are indicated in the [CERE2025 program](../program/index.qmd). For oral presentations, please **make sure to contact your session moderator** before your scheduled session. You may be asked to send your slides in advance.
+
+## Posters and Poster Group Presentation
+
+You are strongly encouraged to **set up posters in the morning before the first conference session**. You are welcome to leave your poster up till the end of the day. The following are the guidelines for poster presentations:
+
+- Poster size is limited to 84.1 x 118.9 cm (**A0 format maximum**). **Only portrait layouts are supported**. We will provide posterboards and stationery for attaching your poster.
+
+- Your poster must contain the abstract title and the name(s) of the poster author(s).
+
+- QR codes may be included on posters and handouts so long as the code does not lead to a website or materials promoting or marketing a company or product
+
+- You should bear in mind that your illustrations will be viewed from distances of 3 feet or more. All lettering should be sized accordingly.
+
+### Poster Printing Services
+
+If you plan to print your poster after arriving in Grenoble, here’s how to proceed.
+
+1. **Send your poster in PDF format** and at the correct size to the following email address: [grenoble.campus@corep.fr](mailto:grenoble.campus@corep.fr)
+
+Be sure to specify the size **A0 portrait** and the type of paper you want.
+
+You can choose between two paper types:
+
+- Paper 180g matte ("papier 180g mat" in French)
+- Paper 200g glossy ("papier 200g brillant" in French)
+- Eco fabric ("Tissu éco" in French) more affordable, with a slightly textured ("grainy") surface
+- Foldable fabric ("Tissu pliable in French) can be folded instead of rolled; also has a slightly textured surface
+
+2. If your file is correctly formatted and in PDF, they can print it on the same day you place the order.
+
+Please note that the print shop is about a **15-minute walk** from the conference venue. Between July 15th and July 18th, it will be open from 9.30am to 5.30pm.
+
+#### Corep
+
+- About 15 minutes’ walk from the conference venue
+- Website: https://www.corep.fr/fr/agence/corep-saint-martin-dheres/
+- Phone: +33 (0)4 76 51 23 05
+- Email: [grenoble.campus@corep.fr](mailto:grenoble.campus@corep.fr)
+- Address: 2, rue du Tour de l'Eau Z.I. Champ Roman 38400 St-Martin-d-Heres
+- Opening hours: 9.30am-5.30pm Monday to Friday, closed Saturdays and Sundays as well as July 14th (Bastille Day)
+
+### Poster Group Presentation
+
+For this edition of CERE, we are introducing a new format for poster presentations, which we are calling the **"Poster Group Presentations"**. Posters will be grouped thematically and displayed side by side. At the start of each Poster Session, **each presenter in the group will have 5 minutes to present their work in front of their poster, one after the other**. Presenters within each group are free to decide amongst themselves the order in which they will speak. Once the short presentations are complete, the usual informal discussions can begin.
+
+Participation in this new format is encouraged but **entirely optional**. If you would prefer not to take part, feel free to let the other presenters of your group know it.
+
+Our aim with this new feature is to give every poster presenter the full attention of the CERE attendees and the recognition their work deserves. We hope you will support and enjoy this addition to the program.
+
+\newpage
+
+\vspace*{\fill}
+
+# Main Conference Overview
+<!-- \begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{../images/CERE2025_profile.png} \end{center} -->
+
+\vspace*{\fill}
+
+\newpage
+
+### 16 July
+
+```{r}
+program_overview |> 
+  filter(day == "Wednesday 16th July") |> 
+  select(-day) |> 
+  kbl(booktabs = T, col.names = NULL, linesep = "") |> 
+  kable_styling(full_width = T, font_size = 10, latex_options = c("striped", "hold_position")) |> 
+  column_spec(1, width = "1in") |> 
+  column_spec(2, width = "3in")
+```
+
+### 17 July
+
+```{r}
+program_overview |> 
+  filter(day == "Thursday 17th July") |> 
+  select(-day) |> 
+  add_row(time = "Evening", what = "CERE2025 Gala Dinner") |> 
+  kbl(booktabs = T, col.names = NULL, linesep = "") |> 
+  kable_styling(full_width = T, font_size = 10, latex_options = c("striped", "hold_position")) |> 
+  column_spec(1, width = "1in") |> 
+  column_spec(2, width = "3in")
+```
+
+### 18 July
+
+```{r}
+program_overview |> 
+  filter(day == "Friday 18th July") |> 
+  select(-day) |> 
+  kbl(booktabs = T, col.names = NULL, linesep = "") |> 
+  kable_styling(full_width = T, font_size = 10, latex_options = c("striped", "hold_position")) |> 
+  column_spec(1, width = "1in") |> 
+  column_spec(2, width = "3in")
+```
+
+\newpage
+
+\vspace*{\fill}
+
+# Main Conference Detailed
+<!-- \begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{../images/CERE2025_profile.png} \end{center} -->
+
+\vspace*{\fill}
+
+\newpage
+
+## 16 July
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 1:5)
+```
+
+```{r}
+program_table("Parallel Session 1")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 6:7)
+```
+
+```{r}
+program_table("Parallel Session 2")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 8)
+```
+
+
+```{r}
+posters |>
+  filter(day == "Poster Session 1") |>
+  arrange(group) |>
+  select(Title = title, Authors = authors, group) |>
+  as_grouped_data(groups = "group") |>
+  as_flextable(hide_grouplabel = TRUE) |>
+  width(j = 1, width = 4, unit = "in") |>
+  width(j = 2, width = 2, unit = "in") |>
+  bg(j = 1, i = ~ !is.na(group), bg = "#EFEFEF", part = "body") |>
+  bold(j = 1, i = ~ !is.na(group), bold = TRUE, part = "body" )
+  # theme_zebra(
+  #   odd_header = "transparent",
+  #   odd_body = "#EFEFEF",
+  #   even_header = "transparent",
+  #   even_body = "transparent"
+  # )
+```
+
+```{r results='asis'}
+program_events("Wednesday 16th July", 9:10)
+```
+
+```{r}
+program_table("Parallel Session 3")
+```
+
+\newpage
+
+## 17 July
+
+
+```{r results='asis'}
+program_events("Thursday 17th July", 1:4)
+```
+
+```{r}
+program_table("Parallel Session 4")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 5:6)
+```
+
+```{r}
+program_table("Parallel Session 5")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 7)
+```
+
+```{r}
+posters |>
+  filter(day == "Poster Session 2") |>
+  arrange(group) |>
+  select(Title = title, Authors = authors, group) |>
+  as_grouped_data(groups = "group") |>
+  as_flextable(hide_grouplabel = TRUE) |>
+  width(j = 1, width = 4, unit = "in") |>
+  width(j = 2, width = 2, unit = "in") |>
+  bg(j = 1, i = ~ !is.na(group), bg = "#EFEFEF", part = "body") |>
+  bold(j = 1, i = ~ !is.na(group), bold = TRUE, part = "body" )
+  # theme_zebra(
+  #   odd_header = "transparent",
+  #   odd_body = "#EFEFEF",
+  #   even_header = "transparent",
+  #   even_body = "transparent"
+  # )
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 8:9)
+```
+
+```{r}
+program_table("Parallel Session 6")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Thursday 17th July", 10)
+```
+
+##### 19:00 Gala Dinner - Stades des Alpes
+
+We are pleased to invite you to the Gala Dinner, held at the prestigious **Stade des Alpes**. This modern venue, set against the **stunning backdrop of the Alps**, offers a stylish and spacious setting for an evening of fine dining and celebration. Join us for a night of culinary excellence and networking at the remarkable Stade des Alpes!
+
+To get there, go to the "Hôtel de Ville" tram station, which is served by Tram Line C and bus lines C1 and C4. From the station, you will easily spot the Stade des Alpes, head in its direction.
+
+You should enter through Hall Nord, located in the North Stand between staircases D1 and D2. Volunteers will be present on site to guide you.
+
+\newpage
+
+## 18 July
+
+```{r results='asis'}
+program_events("Friday 18th July", 1:4)
+```
+
+```{r}
+program_table("Parallel Session 7")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Friday 18th July", 5:6)
+```
+
+```{r}
+program_table("Parallel Session 8")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Friday 18th July", 7)
+```
+
+```{r}
+posters |>
+  filter(day == "Poster Session 3") |>
+  arrange(group) |>
+  select(Title = title, Authors = authors, group) |>
+  as_grouped_data(groups = "group") |>
+  as_flextable(hide_grouplabel = TRUE) |>
+  width(j = 1, width = 4, unit = "in") |>
+  width(j = 2, width = 2, unit = "in") |>
+  bg(j = 1, i = ~ !is.na(group), bg = "#EFEFEF", part = "body") |>
+  bold(j = 1, i = ~ !is.na(group), bold = TRUE, part = "body" )
+  # theme_zebra(
+  #   odd_header = "transparent",
+  #   odd_body = "#EFEFEF",
+  #   even_header = "transparent",
+  #   even_body = "transparent"
+  # )
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Friday 18th July", 8:9)
+```
+
+```{r}
+program_table("Parallel Session 9")
+```
+
+<br>
+
+```{r results='asis'}
+program_events("Friday 18th July", 10)
+```
+
+\newpage
+
+\vspace*{\fill}
+
+# Symposium Abstracts
+<!-- \begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio]{../images/CERE2025_profile.png} \end{center} -->
+
+\vspace*{\fill}
+
+\newpage
+
+```{r, echo=FALSE, results='asis'}
+symposium_sessions <- 
+  googlesheets4::read_sheet(
+    "https://docs.google.com/spreadsheets/d/1gOfi6wCk5beKGZW2y_2JTsTNWCaq2lZOBI2gcG_89QU/edit?usp=drive_link",
+    col_types = "c"
+  ) |> 
+  select(txt, Track) |>
+  distinct() |>
+  arrange(txt, Track)
+
+res <- map2(
+  symposium_sessions$txt, symposium_sessions$Track,
+  ~knitr::knit_child(
+    here::here("internal/pdf_template.qmd"),
+    envir = environment(),
+    quiet = TRUE
+  )
+)
+cat(unlist(res), sep = '\n')
+```
+
+\newpage
+
+\vspace*{\fill}
+
+# Talks Abstracts
+<!-- \begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio../images/CERE2025_profile.png} \end{center} -->
+
+\vspace*{\fill}
+
+\newpage
+
+```{r, echo=FALSE, results='asis'}
+sessions <- parallel_sessions |>
+  filter(str_starts(txt, "Parallel")) |>
+  select(txt, time = cere2025_program_overview, T1 = x2, T2 = x3, T3 = x4, T4 = x5, T5 = x6) |>
+  pivot_longer(-c(txt, time), names_to = "Track") |>
+  distinct(txt, Track) |>
+  rename(session = txt, track = Track)
+
+res <- map2(
+  sessions$session, sessions$track,
+  ~knitr::knit_child(
+    here::here("internal/pdf_template.qmd"),
+    envir = environment(),
+    quiet = TRUE
+  )
+)
+
+cat(unlist(res), sep = '\n')
+```
+
+\newpage
+
+\vspace*{\fill}
+
+# Poster Abstracts
+<!-- \begin{center} \includegraphics[width=0.25\paperwidth,height=0.25\paperheight,keepaspectratio../images/CERE2025_profile.png} \end{center} -->
+
+\vspace*{\fill}
+
+\newpage
+
+```{r, echo=FALSE, results='asis'}
+posters <- 
+  # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |> 
+  googlesheets4::read_sheet(
+    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
+    range = "A:F",
+    col_types = "cccccc"
+  ) |> 
+  clean_names() |> 
+  rename(
+    nb = cere2025_program_overview,
+    title = x2,
+    authors = x5
+  ) |> 
+  mutate(
+    nb = case_match(
+      nb, 
+      "618447" ~ "Emotions in Daily Life: Interpersonal Perspectives Across Contexts and Cultures - Chair: Davide Pirrone",
+      "618540" ~ "In sync or not: What are the correlates of physiological synchronicity? - Chair: Hedwig Eisenbarth",
+      .default = nb
+    ),
+    temp = case_when(
+      str_starts(nb, "Poster groups") ~ "poster",
+      str_starts(nb, "Thursday") | str_starts(nb, "Friday") ~ "talk",
+      .default = NA_character_
+    ),
+    day = paste("Poster Session", cumsum(case_when(temp == "poster" ~ 1, .default = 0))),
+    group = if_else(str_starts(nb, "6"), NA_character_, nb)
+  ) |> 
+  fill(temp, .direction = "down") |> 
+  fill(group, .direction = "down") |> 
+  filter(temp == "poster") |> 
+  drop_na(authors) |> 
+  remove_empty("cols") |> 
+  left_join(submissions, by = join_by(nb)) |> 
+  mutate(
+    Title = glue::glue("__{title}__"),
+    Authors = glue::glue("__{authors}__") |>
+      str_replace_all("[*]" , ""),
+    Abstract = abstract |>
+      str_replace_all("[\r\n]" , "") |>
+      str_replace_all("[*]" , "")
+  ) |>
+  select(Title, Authors, Abstract) |> 
+  mutate(` ` = "\\") |>
+  pivot_longer(everything()) |>
+  mutate(
+    name = if_else(value != "\\", paste0(name, ":"), name),
+    jump = "\\"
+  ) |>
+  unite("line", 1:3, sep = " ")  |>
+  unlist() |>
+  cat(sep = "\n")
+```

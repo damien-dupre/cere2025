@@ -1,5 +1,5 @@
 ---
-title: "Parallel Session 2: T4"
+title: "Parallel Session 8: T4"
 execute: 
   echo: false
   warning: false
@@ -21,7 +21,7 @@ library(DT)
 source(here::here("internal/computation_talks.R"), local = knitr::knit_global())
 
 session_track <- parallel_sessions |>
-  filter(txt == "Parallel Session 2", Track == "T4")
+  filter(txt == "Parallel Session 8", Track == "T4")
 
 session_track_coms <- session_track |> 
   filter(time != "title")

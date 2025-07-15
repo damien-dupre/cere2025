@@ -91,130 +91,74 @@
     "text": "Abstracts available when clicking on “Show Abstract” buttons:"
   },
   {
-    "objectID": "program/index.html",
-    "href": "program/index.html",
+    "objectID": "program/days/july_18.html",
+    "href": "program/days/july_18.html",
+    "title": "July 18",
+    "section": "",
+    "text": "09:00-09:30 ⏰ Registration \n\n\n09:30-10:30 🎤️ Keynote 3: José-Miguel Fernández-Dols \n\n\n10:30-11:00 ☕ Coffee break \n\n\n11:00-12:15 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:15-13:15 🥙 Lunch \n\n\n13:15-14:30 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:35-15:35 📜 Poster session (23 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:35-16:05 ☕ Coffee break \n\n\n16:05-17:20 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n17:30-18:00 🎤 Farewells"
+  },
+  {
+    "objectID": "program/days/july_16.html",
+    "href": "program/days/july_16.html",
+    "title": "July 16",
+    "section": "",
+    "text": "8:30-09:30 ⏰ Registration & poster set up (and coffee ;-) \n\n\n09:30-9:45 🎤 Opening remarks \n\n\n9:45-10:45 🎤️ Keynote 1: Steven Heine \n\n\n10:45-11:15 ☕ Coffee break \n\n\n11:15-12:30 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:30-13:30 🥙 Lunch \n\n\n13:30-14:45 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:50-15:50 📜 Poster session (28 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:50-16:20 ☕ Coffee break \n\n\n16:20-17:35 💬 Parallel Session \n\n\nExpand/collapse all"
+  },
+  {
+    "objectID": "keynotes/jose-miguel_fernandez-dols.html",
+    "href": "keynotes/jose-miguel_fernandez-dols.html",
+    "title": "José-Miguel Fernández-Dols",
+    "section": "",
+    "text": "José-Miguel Fernández-Dols is an Emeritus Professor of Psychology at the Autonoma University of Madrid. His research focuses on facial expression and everyday conceptions of emotion. In the case of facial expression he is interested in the role of context and the observational description of non-posed expressions of emotion. In the case of everyday knowledge of emotions he is interested in the concepts of emotion in different cultures, as well as their interaction with social norms, social justice, and moral behavior in general."
+  },
+  {
+    "objectID": "keynotes/jose-miguel_fernandez-dols.html#bio",
+    "href": "keynotes/jose-miguel_fernandez-dols.html#bio",
+    "title": "José-Miguel Fernández-Dols",
+    "section": "",
+    "text": "José-Miguel Fernández-Dols is an Emeritus Professor of Psychology at the Autonoma University of Madrid. His research focuses on facial expression and everyday conceptions of emotion. In the case of facial expression he is interested in the role of context and the observational description of non-posed expressions of emotion. In the case of everyday knowledge of emotions he is interested in the concepts of emotion in different cultures, as well as their interaction with social norms, social justice, and moral behavior in general."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "section": "",
+    "text": "We are thrilled to announce that the 2025 Conference of the Consortium of European Research on Emotion (CERE) will be held in-person from July 16 to 18 in the beautiful city of Grenoble, France!\nJoin us at the main campus of Université Grenoble Alpes for CERE2025, an unparalleled opportunity to connect with international colleagues, showcase your research, and engage with cutting-edge developments in emotion research. Explore a diverse array of disciplines, including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology, and sociology.\nDon’t miss this chance to immerse yourself in the vibrant academic community and stunning surroundings of Grenoble. Mark your calendars and prepare for an inspiring conference experience!\n\n\n\n\nSubmission system closed\nDecisions sent by email\nMain conference: July 16-18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you have any questions about CERE2025, please contact the Conference Chairs at CERE2025@univ-grenoble-alpes.fr."
+  },
+  {
+    "objectID": "index.html#about-the-conference",
+    "href": "index.html#about-the-conference",
+    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "section": "",
+    "text": "We are thrilled to announce that the 2025 Conference of the Consortium of European Research on Emotion (CERE) will be held in-person from July 16 to 18 in the beautiful city of Grenoble, France!\nJoin us at the main campus of Université Grenoble Alpes for CERE2025, an unparalleled opportunity to connect with international colleagues, showcase your research, and engage with cutting-edge developments in emotion research. Explore a diverse array of disciplines, including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology, and sociology.\nDon’t miss this chance to immerse yourself in the vibrant academic community and stunning surroundings of Grenoble. Mark your calendars and prepare for an inspiring conference experience!"
+  },
+  {
+    "objectID": "index.html#important-dates",
+    "href": "index.html#important-dates",
+    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "section": "",
+    "text": "Submission system closed\nDecisions sent by email\nMain conference: July 16-18, 2025"
+  },
+  {
+    "objectID": "index.html#contact-us",
+    "href": "index.html#contact-us",
+    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "section": "",
+    "text": "If you have any questions about CERE2025, please contact the Conference Chairs at CERE2025@univ-grenoble-alpes.fr."
+  },
+  {
+    "objectID": "attend/venue.html#université-grenoble-alpes",
+    "href": "attend/venue.html#université-grenoble-alpes",
     "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "",
-    "text": "Download the Program here or see below:\n\n     Your web browser does not support PDF plugins,  but you can click here to download the PDF file."
+    "section": "Université Grenoble Alpes",
+    "text": "Université Grenoble Alpes\nLocated in the heart of a remarkable environment with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d’Hères, is recognized as one of the most beautiful in France, with its 3,000 trees, cultural and sports facilities and unique architecture.\n\n\n\nCredit: Université Grenoble Alpes 🔗\n\n\nAll talks and keynotes will take place in the building Pierre Mendès France, located near the TRAM Station “Bibliothèques Universitaires”. This area, designed for teaching large groups, features several recently renovated auditoriums.\nExact address: 77 Rue des Universités, 38400 Saint-Martin-d’Hères, France"
   },
   {
-    "objectID": "program/days/july_17.html",
-    "href": "program/days/july_17.html",
-    "title": "July 17",
-    "section": "",
-    "text": "09:00-09:30 ⏰ Registration & poster set up \n\n\n09:30-10:30 🎤️ Keynote 2: Agnes Moors \n\n\n10:30-11:00 ☕ Coffee break \n\n\n11:00-12:15 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:15-13:15 🥙 Lunch \n\n\n13:15-14:30 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:35-15:35 📜 Poster session (23 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:35-16:05 ☕ Coffee break \n\n\n16:05-17:20 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n17:30-18:30 🎤 CERE’s Executive Committee Business Meeting \n\n\n19:00 Gala Dinner - Stades des Alpes"
-  },
-  {
-    "objectID": "people/index.html#conference-chair-and-co-chair",
-    "href": "people/index.html#conference-chair-and-co-chair",
+    "objectID": "attend/venue.html#once-on-campus",
+    "href": "attend/venue.html#once-on-campus",
     "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "Conference Chair and Co-Chair",
-    "text": "Conference Chair and Co-Chair\n\n    \n        \n        Anna Tcherkassof\n        \n        \n        MartinKrippl"
-  },
-  {
-    "objectID": "people/index.html#local-chair",
-    "href": "people/index.html#local-chair",
-    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "Local Chair",
-    "text": "Local Chair\n\n    \n        \n        Elora Perret-Depiaz"
-  },
-  {
-    "objectID": "people/index.html#website-and-communication-chair",
-    "href": "people/index.html#website-and-communication-chair",
-    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "Website and Communication Chair",
-    "text": "Website and Communication Chair\n\n    \n        \n        Damien Dupré"
-  },
-  {
-    "objectID": "people/index.html#administrative-manager",
-    "href": "people/index.html#administrative-manager",
-    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "Administrative Manager",
-    "text": "Administrative Manager\n\n    \n        \n        Anne Chabaud"
-  },
-  {
-    "objectID": "keynotes/steven_heine.html",
-    "href": "keynotes/steven_heine.html",
-    "title": "Steve Heine",
-    "section": "",
-    "text": "Steven J. Heine is Professor of Social and Cultural Psychology and Distinguished University Scholar at the University of British Columbia. After receiving his PhD from the University of British Columbia in 1996, he had visiting positions at Kyoto University and Tokyo University, and was on the faculty at the University of Pennsylvania before returning to British Columbia. He has authored the best-selling textbook in its field, entitled “Cultural Psychology,” and has written two trade book called “Start Making Sense” (2025) and “DNA is not Destiny” (2017). Heine has received numerous international awards and is a fellow of the Royal Society of Canada.\nHeine’s research focuses on a few topics that converge on how people come to understand themselves and their worlds. In particular, he is most known for his work in cultural psychology where he has explored the key role that culture plays in shaping people’s psychological worlds. More recently he has explored the concept of cultural fit and how people tend to have greater well-being and health when their behaviors and self-concept are more aligned with the surrounding culture. He has also conducted research exploring how people make meaning in the face of meaninglessness, and how people rely on essentialist biases when they make sense of genetic concepts."
-  },
-  {
-    "objectID": "keynotes/steven_heine.html#bio",
-    "href": "keynotes/steven_heine.html#bio",
-    "title": "Steve Heine",
-    "section": "",
-    "text": "Steven J. Heine is Professor of Social and Cultural Psychology and Distinguished University Scholar at the University of British Columbia. After receiving his PhD from the University of British Columbia in 1996, he had visiting positions at Kyoto University and Tokyo University, and was on the faculty at the University of Pennsylvania before returning to British Columbia. He has authored the best-selling textbook in its field, entitled “Cultural Psychology,” and has written two trade book called “Start Making Sense” (2025) and “DNA is not Destiny” (2017). Heine has received numerous international awards and is a fellow of the Royal Society of Canada.\nHeine’s research focuses on a few topics that converge on how people come to understand themselves and their worlds. In particular, he is most known for his work in cultural psychology where he has explored the key role that culture plays in shaping people’s psychological worlds. More recently he has explored the concept of cultural fit and how people tend to have greater well-being and health when their behaviors and self-concept are more aligned with the surrounding culture. He has also conducted research exploring how people make meaning in the face of meaninglessness, and how people rely on essentialist biases when they make sense of genetic concepts."
-  },
-  {
-    "objectID": "keynotes/agnes_moors.html",
-    "href": "keynotes/agnes_moors.html",
-    "title": "Agnes Moors",
-    "section": "",
-    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods."
-  },
-  {
-    "objectID": "keynotes/agnes_moors.html#bio",
-    "href": "keynotes/agnes_moors.html#bio",
-    "title": "Agnes Moors",
-    "section": "",
-    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods."
-  },
-  {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "Can I attend CERE2025 if I’m not presenting?\n\n\n\nYes, the conference is open to everyone as long as you Register here.\n\n\n\n\n\n\n\n\nAre there fundings or grants available to attend CERE2025?\n\n\n\nAs we aimed to keep registration fees as low as possible, unfortunately there is no funding or grant available to support attendance at CERE2025.\n\n\n\n\n\n\n\n\nIs it possible to have an acceptance letter for my VISA application?\n\n\n\nYes, acceptance letter are available upon request to the organisation committee at CERE2025@univ-grenoble-alpes.fr.\n\n\n\n\n\n\n\n\nCan I bring a +1 to the Gala Dinner?\n\n\n\nYes, Additional Gala Dinner tickets can be purchased online on the registration portal It can be added to your conference registration or done separately. See more information on registration portal.\n\n\n\n\n\n\n\n\nCan I do my presentation online?\n\n\n\nNo, CERE2025 is a fully in person conference."
-  },
-  {
-    "objectID": "attend/transportation.html",
-    "href": "attend/transportation.html",
-    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "",
-    "text": "The venue is directly accessible from the city centre via tram lines B and C.\n\n\nCredit: Chris Neuherz, transitdiagrams r emo::ji(\"link\")\n\nInstead of buying individual public transportation tickets, use the G-PASS Business. This is a smartphone compatible ticket solution for travelling on all bus and tram lines in Grenoble and the surrounding area.\nThe G-PASS Business also includes additional discount offers (leisure, tourism, coworking, etc.).\nYou can buy your pass online at https://business.grenoblealpespass.com and get 20% off with the code GPASS-CERE25."
-  },
-  {
-    "objectID": "attend/registration.html",
-    "href": "attend/registration.html",
-    "title": "Registration Information",
-    "section": "",
-    "text": "To register for #CERE2025, access the registration portal here."
-  },
-  {
-    "objectID": "attend/registration.html#conference-registration-fees-in-euro",
-    "href": "attend/registration.html#conference-registration-fees-in-euro",
-    "title": "Registration Information",
-    "section": "Conference Registration Fees (in EURO)",
-    "text": "Conference Registration Fees (in EURO)\n\n\n\n\n\n\n\n\nDiscounted Economy/‘ETUDIANT’ rates are available for students, doctoral students, and postdoctoral researchers.\nEarly Bird rates are valid until 31 May, followed by Full rates until 14 July. On-Site rates will apply from 15 July onwards.\nLunch and Coffee Breaks are included in all the Conference Registration Fees.\nThe Welcome Reception is included in the registration of both Economy/‘ETUDIANT’ or Standard rates but is limited to the first 180 persons selecting the option.\nPlease note that the Gala Dinner is not included in either Economy ‘ETUDIANT’ or Standard conference registrations and must be purchased separately.\nDue to organisational constraints, Gala Dinner tickets will not be available for purchase after 1 July.\nUnfortunately, no funding opportunity is available for #CERE2025\nNo refund available after June 15, 2025.\nThe conference is open to any person interested in emotion science."
-  },
-  {
-    "objectID": "attend/accommodation.html",
-    "href": "attend/accommodation.html",
-    "title": "Accomodation",
-    "section": "",
-    "text": "While the campus of Université Grenoble Alpes, and therefore the conference location, is outside the city center, we recommend staying in the city center and to go to the conference venue by Tram (15-20min journey, see Venue).\nSome of these hotels are offering a special rate for attendees. Please check the dropdown information and use the appropriate code, CERE25 or CAMP-CERE2025, depending on the hotel."
-  },
-  {
-    "objectID": "attend/accommodation.html#hotels-in-grenoble-city-center",
-    "href": "attend/accommodation.html#hotels-in-grenoble-city-center",
-    "title": "Accomodation",
-    "section": "⭐⭐⭐ Hotels in Grenoble City Center",
-    "text": "⭐⭐⭐ Hotels in Grenoble City Center\n\nHôtel de l’Europe\n\n\n\nTake TRAM B at Hubert Dubedout - Maison du Tourisme to Bibliothèques Universitaires\nWebsite: https://www.hoteleurope.fr\nPhone: +33 4 76 46 16 94\nEmail: contact@hoteleurope.fr\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle Rooms are available for booking at a rate of €107 per night. Reservations must be made directly with the hotel via phone or email. Cancellation conditions vary depending on the selected option.\n\n\n\n\n\n\n\n\n\n\n\nIbis Grenoble Centre Bastille\n\n\n\nTake TRAM B at Victor Hugo to Bibliothèques Universitaires\nWebsite: https://all.accor.com/hotel/0612/index.en.shtml\nPhone: +33 4 76 47 48 49\nEmail: H0612@accor.com\n\n\n\n\n\n\n\n\n\nHôtel d’Angleterre Grenoble Hyper-Centre\n\n\n\nTake TRAM B at Victor Hugo to Bibliothèques Universitaires\nWebsite: https://www.hotel-angleterre-grenoble.com\nPhone: +33 4 38 88 40 40\nEmail: reservations@hotel-angleterre-grenoble.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle Rooms are available for booking at a rate of €103 per night and Double Rooms at a rate of €123. Bookings must be made directly with the hotel (by phone or email) before May 1, 2025. Free cancellation until noon on the day of arrival.\n\n\n\n\n\n\n\n\n\n\n\nResidhotel Grenette\n\n\n\nTake TRAM B at Victor Hugo to Bibliothèques Universitaires\nWebsite: https://www.residhotel.com/residence/residhotel-grenoble-grenette\nPhone: +33 4 76 94 45 45\nEmail: reservation@residhotel.com\n\n\n\n\n\n\n\nDetails to use the code CAMP-CERE2025\n\n\n\n\n\nSingle, Double, and Twin Rooms are available for booking with a 20% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email).\n\n\n\n\n\n\n\n\n\n\n\nThe Originals Résidence Grenoble Université\n\n\n\nTake TRAM C at Neyrpic-Belledonne to Bibliothèques Universitaires\nWebsite: https://www.theoriginalshotels.com/hotels/grenoble-universite\nPhone: +33 4 38 38 17 00\nEmail: H3810@theoriginalshotels.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle, Double, and Twin Rooms are available at a rate of €117 per night. Bookings must be made directly with the hotel (by phone or email). Free cancellation until 6:00 pm on the day of booking."
-  },
-  {
-    "objectID": "attend/accommodation.html#hotels-in-grenoble-city-center-1",
-    "href": "attend/accommodation.html#hotels-in-grenoble-city-center-1",
-    "title": "Accomodation",
-    "section": "⭐⭐⭐⭐ Hotels in Grenoble City Center",
-    "text": "⭐⭐⭐⭐ Hotels in Grenoble City Center\n\nRocky Pop\n\n\n\nTake TRAM C at Chavant to Bibliothèques Universitaires\nWebsite: https://www.rockypop.com/en/grenoble/grenoble-hotel\nPhone: +33 4 58 00 82 28\nEmail: grenoble@rockypop.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle, Double, and Twin Rooms are available for booking with a 15% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email). Cancellation conditions depend on the chosen option.\n\n\n\n\n\n\n\n\n\n\n\nLe Grand Hôtel de Grenoble, BW Premier Collection\n\n\n\nTake TRAM B at Hubert Dubedout - Maison du Tourisme to Bibliothèques Universitaires\nWebsite: https://www.grand-hotel-grenoble.com\nPhone: +33 4 76 51 22 59\nEmail: contact@grand-hotel-grenoble.fr\n\n\n\n\n\n\n\n\n\nPark Hôtel Grenoble - MGallery\n\n\n\nTake TRAM C at Chavant to Bibliothèques Universitaires\nWebsite: https://all.accor.com/hotel/9350/index.fr.shtml\nPhone: +33 4 76 85 81 23\nEmail: H9350@accor.com\n\n\n\n\n\n\n\n\n\nHôtel Mercure Grenoble Centre Alpotel\n\n\n\nTake TRAM C at Chavant to Bibliothèques Universitaires\nWebsite: https://all.accor.com/hotel/0652/index.en.shtml\nPhone: +33 4 76 87 88 41\nEmail: H0652@accor.com\n\n\n\n\n\n\n\n\n\nOkko Hôtel\n\n\n\nTake TRAM C at Gustave Rivet to Bibliothèques Universitaires\nWebsite: https://www.okkohotels.com/fr/page/grenoble/okko-hotels-grenoble-jardin-hoche-hotel-4-etoiles-centre-grenoble.24897.html\nPhone: +33 4 85 19 00 10\nEmail: grenoble3801@okkohotels.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle Rooms are available for booking at a rate of €126 per night and Double Rooms at a rate of €136. Bookings must be made directly with the hotel (by phone or email). Modifiable and cancellable free of charge until 6:00 pm on the day of arrival.\n\n\n\n\n\n\n\n\n\nGrenoble has a large range of hotels, hostels, and other accommodation, here is a website listing all opportunities. Click here to access the website grenoble-tourisme.com"
-  },
-  {
-    "objectID": "attend/location.html",
-    "href": "attend/location.html",
-    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "",
-    "text": "Three international airports are located less than 90 minutes from Grenoble: Lyon Saint-Exupéry, Grenoble Alpes Isère and Geneva. In total, more than 200 direct destinations are accessible.\nWith up to 10 direct Grenoble-Paris round trips by high-speed TGV train, and with the Lyon Part-Dieu hub 1hr15mins away, the rail offer from Grenoble is also very attractive. Ideally located in the city centre, Grenoble railway station is perfectly connected to the city’s bus and tram network.\nFinally, the Auvergne-Rhône-Alpes motorway network is the most densely populated area after Île-de-France. Thanks to the A41, A48, A49 and A51 motorways, Grenoble is easily connected to Lyon, the Rhone Valley, Switzerland and Italy.\n\n\nCredit: Grenoble Alpes Tourisme r emo::ji(\"link\")\n\nUpon arrival in Grenoble, we recommend that attendees stay in the city centre (see Accommodation) and use the tram to travel to and from the conference venue on campus."
+    "section": "Once on Campus",
+    "text": "Once on Campus\n\n\nTo reach the Pierre Mendès France building (a.k.a “Galerie des Amphis”) from the TRAM Station “Bibliothèques Universitaires”, exit the tram and face the shops. Then, turn left and begin walking straight ahead along the tram tracks.\nContinue on this path as it runs alongside the tram tracks.\n\n\n\n\n\n\n\n\nWhen the path curves to the left, follow it. This will lead you directly to the Pierre Mendès France building."
   },
   {
     "objectID": "attend/social.html",
@@ -252,74 +196,130 @@
     "text": "Gala Dinner\n\n\nOn Thursday July 17, we are pleased to invite you to the Gala Dinner, held at the prestigious Stade des Alpes. This modern venue, set against the stunning backdrop of the Alps, offers a stylish and spacious setting for an evening of fine dining and celebration. Join us for a night of culinary excellence and networking at the remarkable Stade des Alpes!\nTo get there, go to the “Hôtel de Ville” tram station, which is served by Tram Line C and bus lines C1 and C4. From the station, you will easily spot the Stade des Alpes, head in its direction.\nYou should enter through Hall Nord, located in the North Stand between staircases D1 and D2. Volunteers will be present on site to guide you."
   },
   {
-    "objectID": "attend/venue.html#université-grenoble-alpes",
-    "href": "attend/venue.html#université-grenoble-alpes",
+    "objectID": "attend/location.html",
+    "href": "attend/location.html",
     "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "Université Grenoble Alpes",
-    "text": "Université Grenoble Alpes\nLocated in the heart of a remarkable environment with 3 mountain ranges (Belledonne, Chartreuse and Vercors), Université Grenoble Alpes is situated on several sites in the Grenoble metropolitan area (Grenoble Alpes Métropole). The main campus, located in the districts of Gières and Saint-Martin-d’Hères, is recognized as one of the most beautiful in France, with its 3,000 trees, cultural and sports facilities and unique architecture.\n\n\n\nCredit: Université Grenoble Alpes 🔗\n\n\nAll talks and keynotes will take place in the building Pierre Mendès France, located near the TRAM Station “Bibliothèques Universitaires”. This area, designed for teaching large groups, features several recently renovated auditoriums.\nExact address: 77 Rue des Universités, 38400 Saint-Martin-d’Hères, France"
+    "section": "",
+    "text": "Three international airports are located less than 90 minutes from Grenoble: Lyon Saint-Exupéry, Grenoble Alpes Isère and Geneva. In total, more than 200 direct destinations are accessible.\nWith up to 10 direct Grenoble-Paris round trips by high-speed TGV train, and with the Lyon Part-Dieu hub 1hr15mins away, the rail offer from Grenoble is also very attractive. Ideally located in the city centre, Grenoble railway station is perfectly connected to the city’s bus and tram network.\nFinally, the Auvergne-Rhône-Alpes motorway network is the most densely populated area after Île-de-France. Thanks to the A41, A48, A49 and A51 motorways, Grenoble is easily connected to Lyon, the Rhone Valley, Switzerland and Italy.\n\n\nCredit: Grenoble Alpes Tourisme r emo::ji(\"link\")\n\nUpon arrival in Grenoble, we recommend that attendees stay in the city centre (see Accommodation) and use the tram to travel to and from the conference venue on campus."
   },
   {
-    "objectID": "attend/venue.html#once-on-campus",
-    "href": "attend/venue.html#once-on-campus",
+    "objectID": "attend/accommodation.html",
+    "href": "attend/accommodation.html",
+    "title": "Accomodation",
+    "section": "",
+    "text": "While the campus of Université Grenoble Alpes, and therefore the conference location, is outside the city center, we recommend staying in the city center and to go to the conference venue by Tram (15-20min journey, see Venue).\nSome of these hotels are offering a special rate for attendees. Please check the dropdown information and use the appropriate code, CERE25 or CAMP-CERE2025, depending on the hotel."
+  },
+  {
+    "objectID": "attend/accommodation.html#hotels-in-grenoble-city-center",
+    "href": "attend/accommodation.html#hotels-in-grenoble-city-center",
+    "title": "Accomodation",
+    "section": "⭐⭐⭐ Hotels in Grenoble City Center",
+    "text": "⭐⭐⭐ Hotels in Grenoble City Center\n\nHôtel de l’Europe\n\n\n\nTake TRAM B at Hubert Dubedout - Maison du Tourisme to Bibliothèques Universitaires\nWebsite: https://www.hoteleurope.fr\nPhone: +33 4 76 46 16 94\nEmail: contact@hoteleurope.fr\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle Rooms are available for booking at a rate of €107 per night. Reservations must be made directly with the hotel via phone or email. Cancellation conditions vary depending on the selected option.\n\n\n\n\n\n\n\n\n\n\n\nIbis Grenoble Centre Bastille\n\n\n\nTake TRAM B at Victor Hugo to Bibliothèques Universitaires\nWebsite: https://all.accor.com/hotel/0612/index.en.shtml\nPhone: +33 4 76 47 48 49\nEmail: H0612@accor.com\n\n\n\n\n\n\n\n\n\nHôtel d’Angleterre Grenoble Hyper-Centre\n\n\n\nTake TRAM B at Victor Hugo to Bibliothèques Universitaires\nWebsite: https://www.hotel-angleterre-grenoble.com\nPhone: +33 4 38 88 40 40\nEmail: reservations@hotel-angleterre-grenoble.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle Rooms are available for booking at a rate of €103 per night and Double Rooms at a rate of €123. Bookings must be made directly with the hotel (by phone or email) before May 1, 2025. Free cancellation until noon on the day of arrival.\n\n\n\n\n\n\n\n\n\n\n\nResidhotel Grenette\n\n\n\nTake TRAM B at Victor Hugo to Bibliothèques Universitaires\nWebsite: https://www.residhotel.com/residence/residhotel-grenoble-grenette\nPhone: +33 4 76 94 45 45\nEmail: reservation@residhotel.com\n\n\n\n\n\n\n\nDetails to use the code CAMP-CERE2025\n\n\n\n\n\nSingle, Double, and Twin Rooms are available for booking with a 20% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email).\n\n\n\n\n\n\n\n\n\n\n\nThe Originals Résidence Grenoble Université\n\n\n\nTake TRAM C at Neyrpic-Belledonne to Bibliothèques Universitaires\nWebsite: https://www.theoriginalshotels.com/hotels/grenoble-universite\nPhone: +33 4 38 38 17 00\nEmail: H3810@theoriginalshotels.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle, Double, and Twin Rooms are available at a rate of €117 per night. Bookings must be made directly with the hotel (by phone or email). Free cancellation until 6:00 pm on the day of booking."
+  },
+  {
+    "objectID": "attend/accommodation.html#hotels-in-grenoble-city-center-1",
+    "href": "attend/accommodation.html#hotels-in-grenoble-city-center-1",
+    "title": "Accomodation",
+    "section": "⭐⭐⭐⭐ Hotels in Grenoble City Center",
+    "text": "⭐⭐⭐⭐ Hotels in Grenoble City Center\n\nRocky Pop\n\n\n\nTake TRAM C at Chavant to Bibliothèques Universitaires\nWebsite: https://www.rockypop.com/en/grenoble/grenoble-hotel\nPhone: +33 4 58 00 82 28\nEmail: grenoble@rockypop.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle, Double, and Twin Rooms are available for booking with a 15% reduction of the original rate. Bookings must be made directly with the hotel (by phone or email). Cancellation conditions depend on the chosen option.\n\n\n\n\n\n\n\n\n\n\n\nLe Grand Hôtel de Grenoble, BW Premier Collection\n\n\n\nTake TRAM B at Hubert Dubedout - Maison du Tourisme to Bibliothèques Universitaires\nWebsite: https://www.grand-hotel-grenoble.com\nPhone: +33 4 76 51 22 59\nEmail: contact@grand-hotel-grenoble.fr\n\n\n\n\n\n\n\n\n\nPark Hôtel Grenoble - MGallery\n\n\n\nTake TRAM C at Chavant to Bibliothèques Universitaires\nWebsite: https://all.accor.com/hotel/9350/index.fr.shtml\nPhone: +33 4 76 85 81 23\nEmail: H9350@accor.com\n\n\n\n\n\n\n\n\n\nHôtel Mercure Grenoble Centre Alpotel\n\n\n\nTake TRAM C at Chavant to Bibliothèques Universitaires\nWebsite: https://all.accor.com/hotel/0652/index.en.shtml\nPhone: +33 4 76 87 88 41\nEmail: H0652@accor.com\n\n\n\n\n\n\n\n\n\nOkko Hôtel\n\n\n\nTake TRAM C at Gustave Rivet to Bibliothèques Universitaires\nWebsite: https://www.okkohotels.com/fr/page/grenoble/okko-hotels-grenoble-jardin-hoche-hotel-4-etoiles-centre-grenoble.24897.html\nPhone: +33 4 85 19 00 10\nEmail: grenoble3801@okkohotels.com\n\n\n\n\n\n\n\nDetails to use the code CERE25\n\n\n\n\n\nSingle Rooms are available for booking at a rate of €126 per night and Double Rooms at a rate of €136. Bookings must be made directly with the hotel (by phone or email). Modifiable and cancellable free of charge until 6:00 pm on the day of arrival.\n\n\n\n\n\n\n\n\n\nGrenoble has a large range of hotels, hostels, and other accommodation, here is a website listing all opportunities. Click here to access the website grenoble-tourisme.com"
+  },
+  {
+    "objectID": "attend/registration.html",
+    "href": "attend/registration.html",
+    "title": "Registration Information",
+    "section": "",
+    "text": "To register for #CERE2025, access the registration portal here."
+  },
+  {
+    "objectID": "attend/registration.html#conference-registration-fees-in-euro",
+    "href": "attend/registration.html#conference-registration-fees-in-euro",
+    "title": "Registration Information",
+    "section": "Conference Registration Fees (in EURO)",
+    "text": "Conference Registration Fees (in EURO)\n\n\n\n\n\n\n\n\nDiscounted Economy/‘ETUDIANT’ rates are available for students, doctoral students, and postdoctoral researchers.\nEarly Bird rates are valid until 31 May, followed by Full rates until 14 July. On-Site rates will apply from 15 July onwards.\nLunch and Coffee Breaks are included in all the Conference Registration Fees.\nThe Welcome Reception is included in the registration of both Economy/‘ETUDIANT’ or Standard rates but is limited to the first 180 persons selecting the option.\nPlease note that the Gala Dinner is not included in either Economy ‘ETUDIANT’ or Standard conference registrations and must be purchased separately.\nDue to organisational constraints, Gala Dinner tickets will not be available for purchase after 1 July.\nUnfortunately, no funding opportunity is available for #CERE2025\nNo refund available after June 15, 2025.\nThe conference is open to any person interested in emotion science."
+  },
+  {
+    "objectID": "attend/transportation.html",
+    "href": "attend/transportation.html",
     "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
-    "section": "Once on Campus",
-    "text": "Once on Campus\n\n\nTo reach the Pierre Mendès France building (a.k.a “Galerie des Amphis”) from the TRAM Station “Bibliothèques Universitaires”, exit the tram and face the shops. Then, turn left and begin walking straight ahead along the tram tracks.\nContinue on this path as it runs alongside the tram tracks.\n\n\n\n\n\n\n\n\nWhen the path curves to the left, follow it. This will lead you directly to the Pierre Mendès France building."
+    "section": "",
+    "text": "The venue is directly accessible from the city centre via tram lines B and C.\n\n\nCredit: Chris Neuherz, transitdiagrams r emo::ji(\"link\")\n\nInstead of buying individual public transportation tickets, use the G-PASS Business. This is a smartphone compatible ticket solution for travelling on all bus and tram lines in Grenoble and the surrounding area.\nThe G-PASS Business also includes additional discount offers (leisure, tourism, coworking, etc.).\nYou can buy your pass online at https://business.grenoblealpespass.com and get 20% off with the code GPASS-CERE25."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "We are thrilled to announce that the 2025 Conference of the Consortium of European Research on Emotion (CERE) will be held in-person from July 16 to 18 in the beautiful city of Grenoble, France!\nJoin us at the main campus of Université Grenoble Alpes for CERE2025, an unparalleled opportunity to connect with international colleagues, showcase your research, and engage with cutting-edge developments in emotion research. Explore a diverse array of disciplines, including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology, and sociology.\nDon’t miss this chance to immerse yourself in the vibrant academic community and stunning surroundings of Grenoble. Mark your calendars and prepare for an inspiring conference experience!\n\n\n\n\nSubmission system closed\nDecisions sent by email\nMain conference: July 16-18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you have any questions about CERE2025, please contact the Conference Chairs at CERE2025@univ-grenoble-alpes.fr."
+    "text": "Can I attend CERE2025 if I’m not presenting?\n\n\n\nYes, the conference is open to everyone as long as you Register here.\n\n\n\n\n\n\n\n\nAre there fundings or grants available to attend CERE2025?\n\n\n\nAs we aimed to keep registration fees as low as possible, unfortunately there is no funding or grant available to support attendance at CERE2025.\n\n\n\n\n\n\n\n\nIs it possible to have an acceptance letter for my VISA application?\n\n\n\nYes, acceptance letter are available upon request to the organisation committee at CERE2025@univ-grenoble-alpes.fr.\n\n\n\n\n\n\n\n\nCan I bring a +1 to the Gala Dinner?\n\n\n\nYes, Additional Gala Dinner tickets can be purchased online on the registration portal It can be added to your conference registration or done separately. See more information on registration portal.\n\n\n\n\n\n\n\n\nCan I do my presentation online?\n\n\n\nNo, CERE2025 is a fully in person conference."
   },
   {
-    "objectID": "index.html#about-the-conference",
-    "href": "index.html#about-the-conference",
-    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "objectID": "keynotes/agnes_moors.html",
+    "href": "keynotes/agnes_moors.html",
+    "title": "Agnes Moors",
     "section": "",
-    "text": "We are thrilled to announce that the 2025 Conference of the Consortium of European Research on Emotion (CERE) will be held in-person from July 16 to 18 in the beautiful city of Grenoble, France!\nJoin us at the main campus of Université Grenoble Alpes for CERE2025, an unparalleled opportunity to connect with international colleagues, showcase your research, and engage with cutting-edge developments in emotion research. Explore a diverse array of disciplines, including affective computing, anthropology, art and design, education, history, linguistics, neuroscience, philosophy, psychology, and sociology.\nDon’t miss this chance to immerse yourself in the vibrant academic community and stunning surroundings of Grenoble. Mark your calendars and prepare for an inspiring conference experience!"
+    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods."
   },
   {
-    "objectID": "index.html#important-dates",
-    "href": "index.html#important-dates",
-    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "objectID": "keynotes/agnes_moors.html#bio",
+    "href": "keynotes/agnes_moors.html#bio",
+    "title": "Agnes Moors",
     "section": "",
-    "text": "Submission system closed\nDecisions sent by email\nMain conference: July 16-18, 2025"
+    "text": "Agnes Moors is Full Professor at KU Leuven and Associate Member of the Swiss Center for Affective Sciences. She combines theoretical work informed by philosophy with empirical research. Her theoretical work focuses on the comparison of emotion theories, the conceptual analysis of automaticity, the critical analysis of dual-process models, and the development of a goal-directed model for behaviour causation. Her empirical work examines the role of goal-directed processes in emotional and (seemingly) maladaptive behaviour in daily life and psychopathology using state of the art experimental behavioural and neuroscientific methods."
   },
   {
-    "objectID": "index.html#contact-us",
-    "href": "index.html#contact-us",
-    "title": "#CERE202510th Conference of the Consortium of European Research on Emotion",
+    "objectID": "keynotes/steven_heine.html",
+    "href": "keynotes/steven_heine.html",
+    "title": "Steve Heine",
     "section": "",
-    "text": "If you have any questions about CERE2025, please contact the Conference Chairs at CERE2025@univ-grenoble-alpes.fr."
+    "text": "Steven J. Heine is Professor of Social and Cultural Psychology and Distinguished University Scholar at the University of British Columbia. After receiving his PhD from the University of British Columbia in 1996, he had visiting positions at Kyoto University and Tokyo University, and was on the faculty at the University of Pennsylvania before returning to British Columbia. He has authored the best-selling textbook in its field, entitled “Cultural Psychology,” and has written two trade book called “Start Making Sense” (2025) and “DNA is not Destiny” (2017). Heine has received numerous international awards and is a fellow of the Royal Society of Canada.\nHeine’s research focuses on a few topics that converge on how people come to understand themselves and their worlds. In particular, he is most known for his work in cultural psychology where he has explored the key role that culture plays in shaping people’s psychological worlds. More recently he has explored the concept of cultural fit and how people tend to have greater well-being and health when their behaviors and self-concept are more aligned with the surrounding culture. He has also conducted research exploring how people make meaning in the face of meaninglessness, and how people rely on essentialist biases when they make sense of genetic concepts."
   },
   {
-    "objectID": "keynotes/jose-miguel_fernandez-dols.html",
-    "href": "keynotes/jose-miguel_fernandez-dols.html",
-    "title": "José-Miguel Fernández-Dols",
+    "objectID": "keynotes/steven_heine.html#bio",
+    "href": "keynotes/steven_heine.html#bio",
+    "title": "Steve Heine",
     "section": "",
-    "text": "José-Miguel Fernández-Dols is an Emeritus Professor of Psychology at the Autonoma University of Madrid. His research focuses on facial expression and everyday conceptions of emotion. In the case of facial expression he is interested in the role of context and the observational description of non-posed expressions of emotion. In the case of everyday knowledge of emotions he is interested in the concepts of emotion in different cultures, as well as their interaction with social norms, social justice, and moral behavior in general."
+    "text": "Steven J. Heine is Professor of Social and Cultural Psychology and Distinguished University Scholar at the University of British Columbia. After receiving his PhD from the University of British Columbia in 1996, he had visiting positions at Kyoto University and Tokyo University, and was on the faculty at the University of Pennsylvania before returning to British Columbia. He has authored the best-selling textbook in its field, entitled “Cultural Psychology,” and has written two trade book called “Start Making Sense” (2025) and “DNA is not Destiny” (2017). Heine has received numerous international awards and is a fellow of the Royal Society of Canada.\nHeine’s research focuses on a few topics that converge on how people come to understand themselves and their worlds. In particular, he is most known for his work in cultural psychology where he has explored the key role that culture plays in shaping people’s psychological worlds. More recently he has explored the concept of cultural fit and how people tend to have greater well-being and health when their behaviors and self-concept are more aligned with the surrounding culture. He has also conducted research exploring how people make meaning in the face of meaninglessness, and how people rely on essentialist biases when they make sense of genetic concepts."
   },
   {
-    "objectID": "keynotes/jose-miguel_fernandez-dols.html#bio",
-    "href": "keynotes/jose-miguel_fernandez-dols.html#bio",
-    "title": "José-Miguel Fernández-Dols",
-    "section": "",
-    "text": "José-Miguel Fernández-Dols is an Emeritus Professor of Psychology at the Autonoma University of Madrid. His research focuses on facial expression and everyday conceptions of emotion. In the case of facial expression he is interested in the role of context and the observational description of non-posed expressions of emotion. In the case of everyday knowledge of emotions he is interested in the concepts of emotion in different cultures, as well as their interaction with social norms, social justice, and moral behavior in general."
+    "objectID": "people/index.html#conference-chair-and-co-chair",
+    "href": "people/index.html#conference-chair-and-co-chair",
+    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
+    "section": "Conference Chair and Co-Chair",
+    "text": "Conference Chair and Co-Chair\n\n    \n        \n        Anna Tcherkassof\n        \n        \n        MartinKrippl"
   },
   {
-    "objectID": "program/days/july_16.html",
-    "href": "program/days/july_16.html",
-    "title": "July 16",
-    "section": "",
-    "text": "8:30-09:30 ⏰ Registration & poster set up (and coffee ;-) \n\n\n09:30-9:45 🎤 Opening remarks \n\n\n9:45-10:45 🎤️ Keynote 1: Steven Heine \n\n\n10:45-11:15 ☕ Coffee break \n\n\n11:15-12:30 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:30-13:30 🥙 Lunch \n\n\n13:30-14:45 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:50-15:50 📜 Poster session (27 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:50-16:20 ☕ Coffee break \n\n\n16:20-17:35 💬 Parallel Session \n\n\nExpand/collapse all"
+    "objectID": "people/index.html#local-chair",
+    "href": "people/index.html#local-chair",
+    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
+    "section": "Local Chair",
+    "text": "Local Chair\n\n    \n        \n        Elora Perret-Depiaz"
   },
   {
-    "objectID": "program/days/july_18.html",
-    "href": "program/days/july_18.html",
-    "title": "July 18",
+    "objectID": "people/index.html#website-and-communication-chair",
+    "href": "people/index.html#website-and-communication-chair",
+    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
+    "section": "Website and Communication Chair",
+    "text": "Website and Communication Chair\n\n    \n        \n        Damien Dupré"
+  },
+  {
+    "objectID": "people/index.html#administrative-manager",
+    "href": "people/index.html#administrative-manager",
+    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
+    "section": "Administrative Manager",
+    "text": "Administrative Manager\n\n    \n        \n        Anne Chabaud"
+  },
+  {
+    "objectID": "program/days/july_17.html",
+    "href": "program/days/july_17.html",
+    "title": "July 17",
     "section": "",
-    "text": "09:00-09:30 ⏰ Registration \n\n\n09:30-10:30 🎤️ Keynote 3: José-Miguel Fernández-Dols \n\n\n10:30-11:00 ☕ Coffee break \n\n\n11:00-12:15 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:15-13:15 🥙 Lunch \n\n\n13:15-14:30 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:35-15:35 📜 Poster session (24 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:35-16:05 ☕ Coffee break \n\n\n16:05-17:20 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n17:30-18:00 🎤 Farewells"
+    "text": "09:00-09:30 ⏰ Registration & poster set up \n\n\n09:30-10:30 🎤️ Keynote 2: Agnes Moors \n\n\n10:30-11:00 ☕ Coffee break \n\n\n11:00-12:15 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n12:15-13:15 🥙 Lunch \n\n\n13:15-14:30 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n14:35-15:35 📜 Poster session (23 posters) \n\n\nList and Abstracts\n\n\n\n\n\n15:35-16:05 ☕ Coffee break \n\n\n16:05-17:20 💬 Parallel Session \n\n\nExpand/collapse all\n\n\n\n\n\n\n\n17:30-18:30 🎤 CERE’s Business Meeting in room: amphi 6 \n\n\n19:00 Gala Dinner - Stades des Alpes"
+  },
+  {
+    "objectID": "program/index.html",
+    "href": "program/index.html",
+    "title": "CERE2025 - 10th Conference of the Consortium of European Research on Emotion",
+    "section": "",
+    "text": "Download the Program here or see below:\n\n     Your web browser does not support PDF plugins,  but you can click here to download the PDF file."
   },
   {
     "objectID": "program/poster_session_1.html",

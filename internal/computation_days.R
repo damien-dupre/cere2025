@@ -6,12 +6,12 @@ library(janitor)
 
 # data -------------------------------------------------------------------------
 program_overview <- 
-  # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:2)) |> 
-  googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
-    range = "A:B",
-    col_types = "cc"
-  ) |>
+  read_csv(here::here("assets/cere_program.csv"), col_select = c(1:2)) |>
+  # googlesheets4::read_sheet(
+  #   "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
+  #   range = "A:B",
+  #   col_types = "cc"
+  # ) |>
   clean_names() |> 
   mutate(
     day = if_else(str_detect(cere2025_program_overview, "^[0-9]"), NA_character_, cere2025_program_overview),
@@ -38,12 +38,12 @@ program_overview <-
   drop_na(what, time)
 
 parallel_sessions <- 
-  # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |> 
-  googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
-    range = "A:F",
-    col_types = "cccccc"
-  ) |>
+  read_csv(here::here("assets/cere_program.csv"), col_select = c(1:6)) |>
+  # googlesheets4::read_sheet(
+  #   "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
+  #   range = "A:F",
+  #   col_types = "cccccc"
+  # ) |>
   clean_names() |> 
   mutate(
     day = if_else(str_detect(cere2025_program_overview, "^[0-9]"), NA_character_, cere2025_program_overview)) |> 

@@ -11,12 +11,12 @@ submissions <-
   mutate(nb = as.character(nb))
 
 posters <- 
-  # read_csv("~/Desktop/cere2025_program.csv", col_select = c(1:6)) |> 
-  googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
-    range = "A:F",
-    col_types = "cccccc"
-  ) |> 
+  read_csv(here::here("assets/cere_program.csv"), col_select = c(1:6)) |>
+  # googlesheets4::read_sheet(
+  #   "https://docs.google.com/spreadsheets/d/1fWzjjaZC3wEy434IXi7y8IQkUarYu60JlxSBxliEfKE/edit?usp=drive_link",
+  #   range = "A:F",
+  #   col_types = "cccccc"
+  # ) |> 
   clean_names() |> 
   rename(
     nb = cere2025_program_overview,

@@ -29,6 +29,7 @@ website:
           - href: program/days/july_17.qmd
           - href: program/days/july_18.qmd
           - text: "Book of Abstracts"
+            href: internal/pdf_program.pdf
             target: _blank
       - text: "Keynotes"
         menu: 

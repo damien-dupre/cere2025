@@ -37,7 +37,7 @@ website:
             href: keynotes/agnes_moors.qmd
           - text: "Prof. José-Miguel Fernández-Dols"
             href: keynotes/jose-miguel_fernandez-dols.qmd
-          - text: "Prof. Steve Heine"
+          - text: "Prof. Steven Heine"
             href: keynotes/steven_heine.qmd
       - text: "Instructions for Presenters"
         href: submission/index.qmd

@@ -1,5 +1,5 @@
 ---
-title: "Steve Heine"
+title: "Steven Heine"
 image: ../images/steven_heine.png
 about:
   template: trestles

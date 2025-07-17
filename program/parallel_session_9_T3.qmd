@@ -90,7 +90,7 @@ session_track_coms |>
 
 symposium_sessions <- 
   googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1gOfi6wCk5beKGZW2y_2JTsTNWCaq2lZOBI2gcG_89QU/edit?usp=drive_link",
+    "https://docs.google.com/spreadsheets/d/19LbkLxJh2mq2LgIy9GyUScm2m5UANRYg-FwLKhAp3E4/edit?usp=sharing",
     col_types = "c"
   ) |> 
   select(time, txt, Track, abstract)
@@ -151,7 +151,7 @@ session_track_coms |>
 
 symposium_sessions <- 
   googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1gOfi6wCk5beKGZW2y_2JTsTNWCaq2lZOBI2gcG_89QU/edit?usp=drive_link",
+    "https://docs.google.com/spreadsheets/d/19LbkLxJh2mq2LgIy9GyUScm2m5UANRYg-FwLKhAp3E4/edit?usp=sharing",
     col_types = "c"
   ) |> 
   select(time, txt, Track, abstract)

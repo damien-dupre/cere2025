@@ -1,5 +1,5 @@
 ---
-title: "CERE 2025 Program"
+title: "CERE 2025 Program and Book of Abstracts"
 format: 
   pdf: 
     block-headings: false
@@ -41,7 +41,6 @@ library(knitr)
 library(kableExtra)
 library(officer)
 library(janitor)
-library(gt)
 
 # data -------------------------------------------------------------------------
 submissions <- 

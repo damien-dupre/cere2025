@@ -2,15 +2,15 @@
 ## `r paste(.x,": ",.y)`
 
 ```{r}
-submissions <-
-  # read_csv("~/Desktop/CERE2025/submissions.csv") |>
-  googlesheets4::read_sheet(
-    "https://docs.google.com/spreadsheets/d/1aIncHFZ6uTmb0Lz4Wvm9um1CrNjz5W4imuCkK-F5CRs/edit?usp=drive_link",
-    col_types = "c"
-  ) |>
-  clean_names() |>
-  select(nb = docid, abstract) |>
-  mutate(nb = as.character(nb))
+# submissions <-
+#   # read_csv("~/Desktop/CERE2025/submissions.csv") |>
+#   googlesheets4::read_sheet(
+#     "https://docs.google.com/spreadsheets/d/1aIncHFZ6uTmb0Lz4Wvm9um1CrNjz5W4imuCkK-F5CRs/edit?usp=drive_link",
+#     col_types = "c"
+#   ) |>
+#   clean_names() |>
+#   select(nb = docid, abstract) |>
+#   mutate(nb = as.character(nb))
 
 symposium_sessions <-
   googlesheets4::read_sheet(
@@ -53,7 +53,7 @@ session_track <- parallel_sessions |>
   # filter(txt == "Parallel Session 1", Track == "T5")
 
 session_track_coms <- session_track |>
-  filter(time != "title")
+  filter(time != "title", !str_starts(value, "Discuss"))
 
 session_track_details <- session_track |>
   filter(time == "title") |>
@@ -90,7 +90,7 @@ session_track_details |>
 
 session_track_coms |>
   left_join(submissions, by = join_by(nb)) |>
-  select(Communication = value, Time = time, Abstract = abstract) |>
+  select(Communication = value, Time = time, Abstract = abstract) |> 
   pivot_longer(!Communication, values_to = "Abstract") |>
   filter(name == "Abstract") |>
   select(-name) |>
@@ -102,7 +102,7 @@ session_track_coms |>
       str_replace_all("[*]" , "")
   ) |>
   mutate(` ` = "\\") |>
-  pivot_longer(everything()) |>
+  pivot_longer(everything()) |> 
   filter(value != "Discussion") |>
   mutate(
     name = if_else(value != "\\", paste0(name, ":"), name),
